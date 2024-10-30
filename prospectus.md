@@ -1,6 +1,6 @@
-# Bombs and Democratic Fury: A Computational and Sociological Analysis of the American World War II Strategic Bombing Campaign
+# Bombs and Popular Fury: A Computational and Sociological Analysis of the American World War II Strategic Bombing Campaign
 
-# Abstract
+# Statement of Purpose
 There are currently two competing narratives on the the shift of strategic bombing from precision to area bombing over the course of the Second World War. One presents it as a natural development from the naivete of precision, or "pinpoint," bombing to a more realistic and battle-tested approach of more generalized area bombing. This we call the "Realist" narrative. The other presents the shift to area bombing as the inevitable result of bellicose military leaders who were willing to do anything to accomplish their objectives and sees precision bombing as a mere public relations front to cover up the true intentions of the bombing campaign. This we call the "Moralist" narrative.
 
 This thesis will attempt to both discredit and synthesize these two narratives. After a brief overview of the literature from both perspectives, we will begin with an analysis of the effectiveness of precision bombing *vis a vis* area bombing. We will utilize raw attack data from the US Strategic Bombing Survey (USSBS) to display the persistance of precision bombing late into the war, diminishing the narrative of a blanket shift to area bombing. Reports from the US Strategic Bombing Survey will substantiate the claim that these late-war precision attacks were the decisive factor in Allied military victory while area bombing and even the land invasion had fairly little (at least economic) effect. We will then back up this *post facto* analysis with the presentation of an *a priori* theory for the effectiveness of precision bombing and the relative ineffectiveness of area bombing.
@@ -124,7 +124,6 @@ A particularly interesting case emerges in Michael Sherry's "The Rise of America
 [^16]: Our sample includes over 60 major works on strategic bombing, representing approximately 30,000 text chunks and 9.8 million words. While not exhaustive, this corpus encompasses most of the seminal works in the field and provides a reasonable representation of the scholarly literature.
 
 [^17]: The analysis of Sherry's work shows a skewness of 0.234 with a p-value of 0.041, indicating a slight but statistically significant lean toward the Realist perspective, despite his reputation for moral critique. This highlights the importance of quantitative analysis in challenging our qualitative impressions of historical texts.
-
 
 ## Research plan
 
@@ -405,8 +404,6 @@ This theoretical framework will help explain why, despite precision bombing's su
 ## List of Tables
 
 # Bibliography
-
-## Primary Sources
 
 ## Primary Sources
 
