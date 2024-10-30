@@ -59,8 +59,7 @@ def process_author_chunks(G, realist_statements, moralist_statements):
                 author_groups[key] = []
             author_groups[key].append((node, data['embedding']))
     
-    # Get embeddings for statements
-    # Note: You'll need to implement this based on how your embeddings are generated
+    # Get embeddings for statements    
     realist_embeddings = np.array([get_embedding(stmt) for stmt in realist_statements])
     moralist_embeddings = np.array([get_embedding(stmt) for stmt in moralist_statements])
     
