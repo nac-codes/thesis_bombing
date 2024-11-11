@@ -109,21 +109,21 @@ def main():
 
         # Realist Statements
         realist_statements = [
-        "The theory of precision bombing was impractical in real wartime conditions due to unanticipated operational challenges and complexities, leading to a departure from pre-war strategic bombing doctrines.",
-        "Precision bombing was largely ineffective due to technological limitations, with a very low percentage of bombs hitting their intended targets even with advanced equipment.",
-        "The belief in unescorted bombers' self-defense capabilities was misguided, leading to significant losses, and daylight precision bombing posed insurmountable challenges in terms of bomber survivability and crew safety.",
-        "Precision bombing required unsustainably large numbers of aircraft and prolonged campaigns, making it impractical and ineffective against resilient enemy economies.",
-        "The catastrophic losses during the Schweinfurt raids highlighted the failure of precision bombing and the flawed belief in unescorted bombers' ability to defend themselves.",
-        "The Schweinfurt raids demonstrated that precision bombing was ineffective and unsustainable due to high attrition rates and inadequate escort capabilities.",
-        "The effectiveness of area bombing with incendiary weapons, as demonstrated in attacks like Hamburg, led to its adoption as a more practical and impactful strategy over precision bombing.",
-        "Technological advancements and proven effectiveness of incendiary area bombing techniques justified the shift from precision to area bombing strategies.",
-        "The shift to area bombing was justified as a response to German initiation of city bombings, setting a precedent for targeting civilian areas.",
-        "In total war, the distinction between military and civilian targets disappears, justifying area bombing to pressure the enemy population and government.",
-        "Industrial workers contributing to the war effort are legitimate targets, making area bombing of industrial cities a justified military strategy.",
-        "Bombing to disrupt industrial capacity and 'dehouse' workers is a legitimate military tactic, and civilian casualties are unfortunate but lawful consequences.",
-        "The effectiveness of area bombing in hastening victory justifies its use over less effective methods, prioritizing military success over moral concerns.",
-        "Civilian innocence is questionable in total war, and strategic bombing is a necessary evil within the greater evil of war itself.",
-        "War naturally escalates to greater brutality; area bombing was an inevitable and justified progression to achieve victory in total war, driven by operational necessity and technological advancements."
+            "The theory of precision bombing was impractical in real wartime conditions due to unanticipated operational challenges and complexities, leading to a departure from pre-war strategic bombing doctrines.",
+            "Precision bombing was largely ineffective due to technological limitations, with a very low percentage of bombs hitting their intended targets even with advanced equipment.",
+            "The belief in unescorted bombers' self-defense capabilities was misguided, leading to significant losses, and daylight precision bombing posed insurmountable challenges in terms of bomber survivability and crew safety.",
+            "Precision bombing required unsustainably large numbers of aircraft and prolonged campaigns, making it impractical and ineffective against resilient enemy economies.",
+            "The catastrophic losses during the Schweinfurt raids highlighted the failure of precision bombing and the flawed belief in unescorted bombers' ability to defend themselves.",
+            "The Schweinfurt raids demonstrated that precision bombing was ineffective and unsustainable due to high attrition rates and inadequate escort capabilities.",
+            "The effectiveness of area bombing with incendiary weapons, as demonstrated in attacks like Hamburg, led to its adoption as a more practical and impactful strategy over precision bombing.",
+            "Technological advancements and proven effectiveness of incendiary area bombing techniques justified the shift from precision to area bombing strategies.",
+            "The shift to area bombing was justified as a response to German initiation of city bombings, setting a precedent for targeting civilian areas.",
+            "In total war, the distinction between military and civilian targets disappears, justifying area bombing to pressure the enemy population and government.",
+            "Industrial workers contributing to the war effort are legitimate targets, making area bombing of industrial cities a justified military strategy.",
+            "Bombing to disrupt industrial capacity and 'dehouse' workers is a legitimate military tactic, and civilian casualties are unfortunate but lawful consequences.",
+            "The effectiveness of area bombing in hastening victory justifies its use over less effective methods, prioritizing military success over moral concerns.",
+            "Civilian innocence is questionable in total war, and strategic bombing is a necessary evil within the greater evil of war itself.",
+            "War naturally escalates to greater brutality; area bombing was an inevitable and justified progression to achieve victory in total war, driven by operational necessity and technological advancements."
         ]
 
         # Moralist Statements
