@@ -1,0 +1,88 @@
+USAAF Category Contributions to Attack Type Proportions
+=============================================
+
+
+Category: AIRCRAFTPRODUCTION
+  Average Mission Weight: 4.9%
+  HE Contribution: 3.2%
+  Incendiary Contribution: 1.6%
+
+Category: AIRFIELDS 
+  Average Mission Weight: 8.0%
+  HE Contribution: 6.3%
+  Incendiary Contribution: 1.0%
+
+Category: CHEMICAL
+  Average Mission Weight: 0.9%
+  HE Contribution: 0.7%
+  Incendiary Contribution: 0.2%
+
+Category: EXPLOSIVES
+  Average Mission Weight: 0.3%
+  HE Contribution: 0.3%
+  Incendiary Contribution: 0.0%
+
+Category: INDUSTRIAL 
+  Average Mission Weight: 9.3%
+  HE Contribution: 7.1%
+  Incendiary Contribution: 2.1%
+
+Category: LIGHTMETALS
+  Average Mission Weight: 0.0%
+  HE Contribution: 0.0%
+  Incendiary Contribution: 0.0%
+
+Category: MANUFACTURING
+  Average Mission Weight: 0.9%
+  HE Contribution: 0.6%
+  Incendiary Contribution: 0.2%
+
+Category: NAVAL
+  Average Mission Weight: 3.2%
+  HE Contribution: 2.7%
+  Incendiary Contribution: 0.5%
+
+Category: OILREFINERIES
+  Average Mission Weight: 6.1%
+  HE Contribution: 5.7%
+  Incendiary Contribution: 0.4%
+
+Category: RADIO
+  Average Mission Weight: 0.0%
+  HE Contribution: 0.0%
+  Incendiary Contribution: 0.0%
+
+Category: RUBBER
+  Average Mission Weight: 1.1%
+  HE Contribution: 1.0%
+  Incendiary Contribution: 0.1%
+
+Category: SUPPLY
+  Average Mission Weight: 0.9%
+  HE Contribution: 0.7%
+  Incendiary Contribution: 0.3%
+
+Category: TACTICAL
+  Average Mission Weight: 2.8%
+  HE Contribution: 2.1%
+  Incendiary Contribution: 0.1%
+
+Category: TRANSPORTATION 
+  Average Mission Weight: 58.5%
+  HE Contribution: 37.3%
+  Incendiary Contribution: 20.9%
+
+Category: UNKOWN
+  Average Mission Weight: 3.7%
+  HE Contribution: 2.9%
+  Incendiary Contribution: 0.7%
+
+Category: UTILITIES
+  Average Mission Weight: 0.6%
+  HE Contribution: 0.5%
+  Incendiary Contribution: 0.1%
+
+Category: WEAPON
+  Average Mission Weight: 1.8%
+  HE Contribution: 1.7%
+  Incendiary Contribution: 0.0%

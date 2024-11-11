@@ -1,0 +1,35 @@
+
+    Statistical Analysis Report
+    =========================
+
+    Overall Mission Statistics:
+    -------------------------
+    Total Missions: 45899
+    RAF Missions: 16340 (35.6%)
+    USAAF Missions: 29559 (64.4%)
+
+    Attack Type Statistics:
+    ---------------------
+    HE Only Attacks: 34668 (75.5%)
+    Incendiary Attacks: 10378 (22.6%)
+
+    Target Type Statistics:
+    ---------------------
+    City Targets: 462 (1.0%)
+    Industrial Areas: 9528 (20.8%)
+
+    Breakdown by Air Force:
+    ---------------------
+    
+RAF Statistics:
+    Total Missions: 16340
+    HE Only: 12299 (75.3%)
+    Incendiary: 4023 (24.6%)
+    City Targets: 330 (2.0%)
+    Industrial Areas: 4655 (28.5%)
+USAAF Statistics:
+    Total Missions: 29559
+    HE Only: 22369 (75.7%)
+    Incendiary: 6355 (21.5%)
+    City Targets: 132 (0.4%)
+    Industrial Areas: 4873 (16.5%)

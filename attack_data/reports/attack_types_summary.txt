@@ -1,0 +1,224 @@
+Attack Types by Target Category Summary
+=====================================
+
+
+Category: LIGHTMETALS
+  Total Missions: 12
+
+  RAF Statistics:
+    Missions: 8 (66.7%)
+    HE Only: 8 (100.0% of RAF)
+    Incendiary: 0 (0.0% of RAF)
+
+  USAAF Statistics:
+    Missions: 4 (33.3%)
+    HE Only: 3 (75.0% of USAAF)
+    Incendiary: 1 (25.0% of USAAF)
+
+Category: RADIO
+  Total Missions: 26
+
+  RAF Statistics:
+    Missions: 24 (92.3%)
+    HE Only: 22 (91.7% of RAF)
+    Incendiary: 2 (8.3% of RAF)
+
+  USAAF Statistics:
+    Missions: 2 (7.7%)
+    HE Only: 2 (100.0% of USAAF)
+    Incendiary: 0 (0.0% of USAAF)
+
+Category: RUBBER
+  Total Missions: 96
+
+  RAF Statistics:
+    Missions: 26 (27.1%)
+    HE Only: 18 (69.2% of RAF)
+    Incendiary: 8 (30.8% of RAF)
+
+  USAAF Statistics:
+    Missions: 70 (72.9%)
+    HE Only: 64 (91.4% of USAAF)
+    Incendiary: 6 (8.6% of USAAF)
+
+Category: EXPLOSIVES
+  Total Missions: 124
+
+  RAF Statistics:
+    Missions: 30 (24.2%)
+    HE Only: 27 (90.0% of RAF)
+    Incendiary: 3 (10.0% of RAF)
+
+  USAAF Statistics:
+    Missions: 94 (75.8%)
+    HE Only: 83 (88.3% of USAAF)
+    Incendiary: 11 (11.7% of USAAF)
+
+Category: MANUFACTURING
+  Total Missions: 203
+
+  RAF Statistics:
+    Missions: 43 (21.2%)
+    HE Only: 39 (90.7% of RAF)
+    Incendiary: 4 (9.3% of RAF)
+
+  USAAF Statistics:
+    Missions: 160 (78.8%)
+    HE Only: 106 (66.2% of USAAF)
+    Incendiary: 52 (32.5% of USAAF)
+
+Category: UTILITIES
+  Total Missions: 324
+
+  RAF Statistics:
+    Missions: 204 (63.0%)
+    HE Only: 171 (83.8% of RAF)
+    Incendiary: 33 (16.2% of RAF)
+
+  USAAF Statistics:
+    Missions: 120 (37.0%)
+    HE Only: 90 (75.0% of USAAF)
+    Incendiary: 28 (23.3% of USAAF)
+
+Category: CHEMICAL
+  Total Missions: 394
+
+  RAF Statistics:
+    Missions: 157 (39.8%)
+    HE Only: 133 (84.7% of RAF)
+    Incendiary: 24 (15.3% of RAF)
+
+  USAAF Statistics:
+    Missions: 237 (60.2%)
+    HE Only: 177 (74.7% of USAAF)
+    Incendiary: 58 (24.5% of USAAF)
+
+Category: SUPPLY
+  Total Missions: 437
+
+  RAF Statistics:
+    Missions: 114 (26.1%)
+    HE Only: 92 (80.7% of RAF)
+    Incendiary: 22 (19.3% of RAF)
+
+  USAAF Statistics:
+    Missions: 323 (73.9%)
+    HE Only: 198 (61.3% of USAAF)
+    Incendiary: 119 (36.8% of USAAF)
+
+Category: WEAPON
+  Total Missions: 744
+
+  RAF Statistics:
+    Missions: 49 (6.6%)
+    HE Only: 48 (98.0% of RAF)
+    Incendiary: 1 (2.0% of RAF)
+
+  USAAF Statistics:
+    Missions: 695 (93.4%)
+    HE Only: 683 (98.3% of USAAF)
+    Incendiary: 11 (1.6% of USAAF)
+
+Category: AIRCRAFTPRODUCTION
+  Total Missions: 1634
+
+  RAF Statistics:
+    Missions: 206 (12.6%)
+    HE Only: 122 (59.2% of RAF)
+    Incendiary: 84 (40.8% of RAF)
+
+  USAAF Statistics:
+    Missions: 1428 (87.4%)
+    HE Only: 812 (56.9% of USAAF)
+    Incendiary: 543 (38.0% of USAAF)
+
+Category: TACTICAL
+  Total Missions: 2190
+
+  RAF Statistics:
+    Missions: 994 (45.4%)
+    HE Only: 830 (83.5% of RAF)
+    Incendiary: 164 (16.5% of RAF)
+
+  USAAF Statistics:
+    Missions: 1196 (54.6%)
+    HE Only: 797 (66.6% of USAAF)
+    Incendiary: 97 (8.1% of USAAF)
+
+Category: UNKOWN
+  Total Missions: 2222
+
+  RAF Statistics:
+    Missions: 1340 (60.3%)
+    HE Only: 979 (73.1% of RAF)
+    Incendiary: 361 (26.9% of RAF)
+
+  USAAF Statistics:
+    Missions: 882 (39.7%)
+    HE Only: 591 (67.0% of USAAF)
+    Incendiary: 289 (32.8% of USAAF)
+
+Category: NAVAL
+  Total Missions: 2995
+
+  RAF Statistics:
+    Missions: 2445 (81.6%)
+    HE Only: 1871 (76.5% of RAF)
+    Incendiary: 571 (23.4% of RAF)
+
+  USAAF Statistics:
+    Missions: 550 (18.4%)
+    HE Only: 471 (85.6% of USAAF)
+    Incendiary: 76 (13.8% of USAAF)
+
+Category: OILREFINERIES
+  Total Missions: 4770
+
+  RAF Statistics:
+    Missions: 940 (19.7%)
+    HE Only: 786 (83.6% of RAF)
+    Incendiary: 153 (16.3% of RAF)
+
+  USAAF Statistics:
+    Missions: 3830 (80.3%)
+    HE Only: 3532 (92.2% of USAAF)
+    Incendiary: 292 (7.6% of USAAF)
+
+Category: AIRFIELDS 
+  Total Missions: 5794
+
+  RAF Statistics:
+    Missions: 2355 (40.6%)
+    HE Only: 1812 (76.9% of RAF)
+    Incendiary: 532 (22.6% of RAF)
+
+  USAAF Statistics:
+    Missions: 3439 (59.4%)
+    HE Only: 2607 (75.8% of USAAF)
+    Incendiary: 517 (15.0% of USAAF)
+
+Category: INDUSTRIAL 
+  Total Missions: 9528
+
+  RAF Statistics:
+    Missions: 4655 (48.9%)
+    HE Only: 3303 (71.0% of RAF)
+    Incendiary: 1349 (29.0% of RAF)
+
+  USAAF Statistics:
+    Missions: 4873 (51.1%)
+    HE Only: 3670 (75.3% of USAAF)
+    Incendiary: 1126 (23.1% of USAAF)
+
+Category: TRANSPORTATION 
+  Total Missions: 14406
+
+  RAF Statistics:
+    Missions: 2750 (19.1%)
+    HE Only: 2038 (74.1% of RAF)
+    Incendiary: 712 (25.9% of RAF)
+
+  USAAF Statistics:
+    Missions: 11656 (80.9%)
+    HE Only: 8483 (72.8% of USAAF)
+    Incendiary: 3129 (26.8% of USAAF)
