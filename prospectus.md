@@ -151,9 +151,9 @@ b) Quantitative analysis of:
 
 This empirical analysis will challenge the conventional narrative of a wholesale shift to area bombing, demonstrating instead a continued commitment to precision bombing throughout the war.[^18]
 
-### 2. Economic Network Simulation
+### 2. Economic Network Model
 
-The second track involves developing a computer simulation to provide theoretical validation of precision bombing's superior effectiveness. The simulation will model:
+The second track involves developing a model in python to provide theoretical validation of precision bombing's superior effectiveness. It will consist of:
 a) A network representation of an industrial economy where:
    - Nodes represent factories, power plants, and transportation hubs
    - Edges represent resource flows and dependencies
@@ -219,6 +219,10 @@ c) William Aylott Orton's work on:
    - Liberal democracy
    - Total war transformation
    - Civilian mobilization
+d) Jason P. Lowery's conception of:
+   - Power Projection Networks
+   - Population-scale hallucinations
+   - Abstraction
 
 This theoretical framework will help explain why, despite precision bombing's superior effectiveness, area bombing remained prevalent.
 
