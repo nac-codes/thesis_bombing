@@ -1,0 +1,258 @@
+Attack Types by Target Category Summary (Tonnage)
+==========================================
+
+
+Category: LIGHTMETALS
+  Total Tonnage: 95.20
+
+  RAF Statistics:
+    Tonnage: 28.00 (29.4% of Total)
+    HE Tonnage: 28.00 (100.0% of RAF)
+    Incendiary Tonnage: 0.00 (0.0% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 67.20 (70.6% of Total)
+    HE Tonnage: 67.00 (99.7% of USAAF)
+    Incendiary Tonnage: 0.20 (0.3% of USAAF)
+    Fragmentation Tonnage: 0.00 (0.0% of USAAF)
+
+Category: RADIO
+  Total Tonnage: 395.10
+
+  RAF Statistics:
+    Tonnage: 211.10 (53.4% of Total)
+    HE Tonnage: 192.05 (91.0% of RAF)
+    Incendiary Tonnage: 19.05 (9.0% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 184.00 (46.6% of Total)
+    HE Tonnage: 184.00 (100.0% of USAAF)
+    Incendiary Tonnage: 0.00 (0.0% of USAAF)
+    Fragmentation Tonnage: 0.00 (0.0% of USAAF)
+
+Category: MANUFACTURING
+  Total Tonnage: 7788.85
+
+  RAF Statistics:
+    Tonnage: 314.08 (4.0% of Total)
+    HE Tonnage: 292.12 (93.0% of RAF)
+    Incendiary Tonnage: 21.96 (7.0% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 7474.76 (96.0% of Total)
+    HE Tonnage: 5936.85 (79.4% of USAAF)
+    Incendiary Tonnage: 1457.87 (19.5% of USAAF)
+    Fragmentation Tonnage: 80.04 (1.1% of USAAF)
+
+Category: RUBBER
+  Total Tonnage: 2072.75
+
+  RAF Statistics:
+    Tonnage: 755.47 (36.4% of Total)
+    HE Tonnage: 682.00 (90.3% of RAF)
+    Incendiary Tonnage: 73.47 (9.7% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 1317.28 (63.6% of Total)
+    HE Tonnage: 1108.50 (84.2% of USAAF)
+    Incendiary Tonnage: 208.78 (15.8% of USAAF)
+    Fragmentation Tonnage: 0.00 (0.0% of USAAF)
+
+Category: EXPLOSIVES
+  Total Tonnage: 7617.42
+
+  RAF Statistics:
+    Tonnage: 1365.90 (17.9% of Total)
+    HE Tonnage: 1287.90 (94.3% of RAF)
+    Incendiary Tonnage: 78.00 (5.7% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 6251.52 (82.1% of Total)
+    HE Tonnage: 6064.07 (97.0% of USAAF)
+    Incendiary Tonnage: 187.45 (3.0% of USAAF)
+    Fragmentation Tonnage: 0.00 (0.0% of USAAF)
+
+Category: UTILITIES
+  Total Tonnage: 5391.99
+
+  RAF Statistics:
+    Tonnage: 2448.39 (45.4% of Total)
+    HE Tonnage: 2272.00 (92.8% of RAF)
+    Incendiary Tonnage: 176.39 (7.2% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 2943.60 (54.6% of Total)
+    HE Tonnage: 2521.80 (85.7% of USAAF)
+    Incendiary Tonnage: 334.80 (11.4% of USAAF)
+    Fragmentation Tonnage: 87.00 (3.0% of USAAF)
+
+Category: WEAPON
+  Total Tonnage: 30672.71
+
+  RAF Statistics:
+    Tonnage: 4836.12 (15.8% of Total)
+    HE Tonnage: 4835.40 (100.0% of RAF)
+    Incendiary Tonnage: 0.72 (0.0% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 25836.59 (84.2% of Total)
+    HE Tonnage: 25651.62 (99.3% of USAAF)
+    Incendiary Tonnage: 130.84 (0.5% of USAAF)
+    Fragmentation Tonnage: 54.12 (0.2% of USAAF)
+
+Category: SUPPLY
+  Total Tonnage: 20268.56
+
+  RAF Statistics:
+    Tonnage: 8919.95 (44.0% of Total)
+    HE Tonnage: 8352.85 (93.6% of RAF)
+    Incendiary Tonnage: 567.10 (6.4% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 11348.61 (56.0% of Total)
+    HE Tonnage: 9389.05 (82.7% of USAAF)
+    Incendiary Tonnage: 1649.45 (14.5% of USAAF)
+    Fragmentation Tonnage: 310.11 (2.7% of USAAF)
+
+Category: AIRCRAFTPRODUCTION
+  Total Tonnage: 79380.28
+
+  RAF Statistics:
+    Tonnage: 9416.62 (11.9% of Total)
+    HE Tonnage: 8069.35 (85.7% of RAF)
+    Incendiary Tonnage: 1346.83 (14.3% of RAF)
+    Fragmentation Tonnage: 0.44 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 69963.66 (88.1% of Total)
+    HE Tonnage: 51407.15 (73.5% of USAAF)
+    Incendiary Tonnage: 15667.26 (22.4% of USAAF)
+    Fragmentation Tonnage: 2889.26 (4.1% of USAAF)
+
+Category: CHEMICAL
+  Total Tonnage: 22826.86
+
+  RAF Statistics:
+    Tonnage: 13270.31 (58.1% of Total)
+    HE Tonnage: 12538.48 (94.5% of RAF)
+    Incendiary Tonnage: 731.84 (5.5% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 9556.55 (41.9% of Total)
+    HE Tonnage: 7872.35 (82.4% of USAAF)
+    Incendiary Tonnage: 1654.21 (17.3% of USAAF)
+    Fragmentation Tonnage: 29.99 (0.3% of USAAF)
+
+Category: AIRFIELDS 
+  Total Tonnage: 151780.46
+
+  RAF Statistics:
+    Tonnage: 27833.21 (18.3% of Total)
+    HE Tonnage: 26091.33 (93.7% of RAF)
+    Incendiary Tonnage: 1269.88 (4.6% of RAF)
+    Fragmentation Tonnage: 472.01 (1.7% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 123947.25 (81.7% of Total)
+    HE Tonnage: 96844.87 (78.1% of USAAF)
+    Incendiary Tonnage: 9362.58 (7.6% of USAAF)
+    Fragmentation Tonnage: 17739.79 (14.3% of USAAF)
+
+Category: NAVAL
+  Total Tonnage: 56395.63
+
+  RAF Statistics:
+    Tonnage: 34991.32 (62.0% of Total)
+    HE Tonnage: 31246.67 (89.3% of RAF)
+    Incendiary Tonnage: 3723.51 (10.6% of RAF)
+    Fragmentation Tonnage: 21.14 (0.1% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 21404.31 (38.0% of Total)
+    HE Tonnage: 18302.76 (85.5% of USAAF)
+    Incendiary Tonnage: 3077.75 (14.4% of USAAF)
+    Fragmentation Tonnage: 23.80 (0.1% of USAAF)
+
+Category: MILITARYINDUSTRY
+  Total Tonnage: 99611.99
+
+  RAF Statistics:
+    Tonnage: 55788.13 (56.0% of Total)
+    HE Tonnage: 45555.74 (81.7% of RAF)
+    Incendiary Tonnage: 10171.39 (18.2% of RAF)
+    Fragmentation Tonnage: 61.00 (0.1% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 43823.87 (44.0% of Total)
+    HE Tonnage: 37643.39 (85.9% of USAAF)
+    Incendiary Tonnage: 5781.48 (13.2% of USAAF)
+    Fragmentation Tonnage: 399.00 (0.9% of USAAF)
+
+Category: TACTICAL
+  Total Tonnage: 117799.76
+
+  RAF Statistics:
+    Tonnage: 74328.48 (63.1% of Total)
+    HE Tonnage: 73863.19 (99.4% of RAF)
+    Incendiary Tonnage: 465.30 (0.6% of RAF)
+    Fragmentation Tonnage: 0.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 43471.28 (36.9% of Total)
+    HE Tonnage: 30926.25 (71.1% of USAAF)
+    Incendiary Tonnage: 1396.61 (3.2% of USAAF)
+    Fragmentation Tonnage: 11148.42 (25.6% of USAAF)
+
+Category: OILREFINERIES
+  Total Tonnage: 254381.69
+
+  RAF Statistics:
+    Tonnage: 91697.08 (36.0% of Total)
+    HE Tonnage: 90673.56 (98.9% of RAF)
+    Incendiary Tonnage: 1013.52 (1.1% of RAF)
+    Fragmentation Tonnage: 10.00 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 162684.61 (64.0% of Total)
+    HE Tonnage: 158027.36 (97.1% of USAAF)
+    Incendiary Tonnage: 4355.63 (2.7% of USAAF)
+    Fragmentation Tonnage: 301.61 (0.2% of USAAF)
+
+Category: TRANSPORTATION 
+  Total Tonnage: 544955.01
+
+  RAF Statistics:
+    Tonnage: 149908.48 (27.5% of Total)
+    HE Tonnage: 143812.18 (95.9% of RAF)
+    Incendiary Tonnage: 6059.27 (4.0% of RAF)
+    Fragmentation Tonnage: 37.02 (0.0% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 395046.54 (72.5% of Total)
+    HE Tonnage: 361195.90 (91.4% of USAAF)
+    Incendiary Tonnage: 32130.25 (8.1% of USAAF)
+    Fragmentation Tonnage: 1720.39 (0.4% of USAAF)
+
+Category: INDUSTRIAL 
+  Total Tonnage: 296376.95
+
+  RAF Statistics:
+    Tonnage: 193510.86 (65.3% of Total)
+    HE Tonnage: 162696.14 (84.1% of RAF)
+    Incendiary Tonnage: 30578.33 (15.8% of RAF)
+    Fragmentation Tonnage: 236.39 (0.1% of RAF)
+
+  USAAF Statistics:
+    Tonnage: 102866.09 (34.7% of Total)
+    HE Tonnage: 84422.35 (82.1% of USAAF)
+    Incendiary Tonnage: 12805.47 (12.4% of USAAF)
+    Fragmentation Tonnage: 5638.27 (5.5% of USAAF)

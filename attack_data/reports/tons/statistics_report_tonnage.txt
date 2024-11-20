@@ -1,0 +1,159 @@
+
+Statistical Analysis Report (Tonnage)
+=====================================
+
+Overall Tonnage Statistics:
+---------------------------
+Total Tonnage Dropped: 1697811.22
+RAF Tonnage: 669623.51 (39.4%)
+USAAF Tonnage: 1028187.71 (60.6%)
+
+Attack Type Statistics:
+-----------------------
+HE Tonnage: 1510054.23 (88.9%)
+Incendiary Tonnage: 146497.18 (8.6%)
+Fragmentation Tonnage: 41259.81 (2.4%)
+
+Target Type Statistics:
+-----------------------
+City Targets Tonnage: 12744.22 (0.8%)
+Industrial Areas Tonnage: 296376.95 (17.5%)
+
+Breakdown by Air Force:
+-----------------------
+
+RAF Statistics:
+    Total Tonnage: 669623.51
+    HE Tonnage: 612488.96 (91.5%)
+    Incendiary Tonnage: 56296.54 (8.4%)
+    Fragmentation Tonnage: 838.00 (0.1%)
+    City Targets Tonnage: 10126.87 (1.5%)
+    Industrial Areas Tonnage: 193510.86 (28.9%)
+USAAF Statistics:
+    Total Tonnage: 1028187.71
+    HE Tonnage: 897565.27 (87.3%)
+    Incendiary Tonnage: 90200.63 (8.8%)
+    Fragmentation Tonnage: 40421.80 (3.9%)
+    City Targets Tonnage: 2617.35 (0.3%)
+    Industrial Areas Tonnage: 102866.09 (10.0%)
+Yearly Tonnage Statistics:
+-----------------------
+
+1940:
+  Total: 375 tons
+  RAF: 145 tons (38.7%)
+  USAAF: 230 tons (61.3%)
+
+1941:
+  Total: 73,085 tons
+  RAF: 44,402 tons (60.8%)
+  USAAF: 28,683 tons (39.2%)
+
+1942:
+  Total: 67,966 tons
+  RAF: 35,485 tons (52.2%)
+  USAAF: 32,480 tons (47.8%)
+
+1943:
+  Total: 135,784 tons
+  RAF: 64,302 tons (47.4%)
+  USAAF: 71,481 tons (52.6%)
+
+1944:
+  Total: 1,025,761 tons
+  RAF: 379,128 tons (37.0%)
+  USAAF: 646,633 tons (63.0%)
+
+1945:
+  Total: 394,837 tons
+  RAF: 146,159 tons (37.0%)
+  USAAF: 248,678 tons (63.0%)
+
+Breakdown by Air Force:
+-----------------------
+
+
+Detailed Air Force Breakdown by Year:
+================================
+
+Overall Totals by Air Force:
+--------------------------
+Air Force 8: 681076.19 tons (40.1%)
+Air Force R: 669623.51 tons (39.4%)
+Air Force 15: 284482.09 tons (16.8%)
+Air Force 9: 51527.52 tons (3.0%)
+Air Force 12: 6041.35 tons (0.4%)
+
+Yearly Breakdown by Air Force:
+--------------------------
+
+Air Force 8:
+  1941: 20570.78 tons (28.1% of 1941 total)
+  1942: 22830.10 tons (33.6% of 1942 total)
+  1943: 51982.47 tons (38.3% of 1943 total)
+  1944: 429943.24 tons (41.9% of 1944 total)
+  1945: 155749.61 tons (39.4% of 1945 total)
+  Total: 681076.20 tons
+
+Air Force R:
+  1940: 145.22 tons (38.7% of 1940 total)
+  1941: 44402.04 tons (60.8% of 1941 total)
+  1942: 35485.75 tons (52.2% of 1942 total)
+  1943: 64302.33 tons (47.4% of 1943 total)
+  1944: 379128.68 tons (37.0% of 1944 total)
+  1945: 146159.49 tons (37.0% of 1945 total)
+  Total: 669623.51 tons
+
+Air Force 15:
+  1940: 170.00 tons (45.3% of 1940 total)
+  1941: 1491.56 tons (2.0% of 1941 total)
+  1942: 1744.35 tons (2.6% of 1942 total)
+  1943: 12566.74 tons (9.3% of 1943 total)
+  1944: 191293.18 tons (18.6% of 1944 total)
+  1945: 77216.26 tons (19.6% of 1945 total)
+  Total: 284482.09 tons
+
+Air Force 9:
+  1940: 60.00 tons (16.0% of 1940 total)
+  1941: 6091.48 tons (8.3% of 1941 total)
+  1942: 7100.44 tons (10.4% of 1942 total)
+  1943: 5508.56 tons (4.1% of 1943 total)
+  1944: 22263.61 tons (2.2% of 1944 total)
+  1945: 10503.43 tons (2.7% of 1945 total)
+  Total: 51527.52 tons
+
+Air Force 12:
+  1941: 30.00 tons (0.0% of 1941 total)
+  1942: 757.10 tons (1.1% of 1942 total)
+  1943: 900.50 tons (0.7% of 1943 total)
+  1944: 2537.00 tons (0.2% of 1944 total)
+  1945: 1816.75 tons (0.5% of 1945 total)
+  Total: 6041.35 tons
+
+Bomb Type Distribution by Air Force:
+--------------------------------
+
+Air Force 8:
+  HE: 589814.57 tons (86.6%)
+  Incendiary: 73835.27 tons (10.8%)
+  Fragmentation: 17426.35 tons (2.6%)
+
+Air Force R:
+  HE: 612488.96 tons (91.5%)
+  Incendiary: 56296.54 tons (8.4%)
+  Fragmentation: 838.00 tons (0.1%)
+
+Air Force 15:
+  HE: 257154.65 tons (90.4%)
+  Incendiary: 9128.13 tons (3.2%)
+  Fragmentation: 18199.30 tons (6.4%)
+
+Air Force 9:
+  HE: 40465.43 tons (78.5%)
+  Incendiary: 6667.98 tons (12.9%)
+  Fragmentation: 4394.11 tons (8.5%)
+
+Air Force 12:
+  HE: 5766.35 tons (95.4%)
+  Incendiary: 86.00 tons (1.4%)
+  Fragmentation: 189.00 tons (3.1%)
