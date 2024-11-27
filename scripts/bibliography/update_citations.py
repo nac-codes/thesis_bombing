@@ -1,3 +1,4 @@
+import sys
 import re
 import os
 import shutil
@@ -70,7 +71,9 @@ def copy_cited_files(citations: set):
 
 def main():
     # Get cited files
-    citations, _ =  update_citations('prospectus.md')
+    file = sys.argv[1]
+
+    citations, _ =  update_citations(file)
     print(f'Found {len(citations)} citations in prospectus')
     
     # Copy cited files and metadata

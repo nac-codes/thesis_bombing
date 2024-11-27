@@ -9,11 +9,11 @@ The total bomb tonnage recorded in our dataset is closely aligned with the figur
 
 These figures are remarkably close to the OSC's reported totals of 692,918 tons for the Eighth Air Force and 312,173 tons for the Fifteenth Air Force[^1]. The slight discrepancies can be attributed to OCR error and LLM hallucinations.
 
-However, the data for the Royal Air Force (RAF) Bomber Command presents a significant shortfall of approximately 300,000 tons when compared to historical records. Our dataset records:
+However, the data for the Royal Air Force (RAF) Bomber Command presents a significant shortfall of over 300,000 tons when compared to historical records. Our dataset records:
 
 - **RAF Bomber Command**: 701,245.61 tons
 
-In contrast, the Air Ministry reported a total of 1,066,141 tons dropped by the RAF Bomber Command[^1]. The missing tonnage in our dataset is predominantly in the **Industrial** category, which mainly includes city area bombings. This discrepancy suggests that a substantial number of RAF mission records, particularly those targeting urban industrial areas, are missing from the archives utilized for our dataset.
+In contrast, the Air Ministry reported a total of 1,066,141 tons dropped by the RAF Bomber Command[^1]. The missing tonnage in our dataset is predominantly in the **Industrial** category, which mainly includes city area bombings[^2]. This discrepancy suggests that a substantial number of RAF mission records, particularly those targeting urban industrial areas, are missing from the archives utilized for our dataset.
 
 ### Implications for Data Analysis
 
@@ -89,11 +89,11 @@ For a more granular view, please refer to the full [**Summary Statistics Report*
 
 - Tonnage by **Air Force** and **Year**
 - Tonnage by **Target Category**
-- Bomb Type Distribution by **Air Force**
+- Bomb Type Distribution by **Air Force** and by **Industry**
 
 ---
 
-## Attack Type Comparison
+## Attack Type Comparison: Area vs Precision Bombing
 
 The [**Attack Types by Air Force and Mission Category**](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png) chart illustrates the distribution of total tonnage between area and precision bombing for both the RAF and USAAF.
 
@@ -223,3 +223,5 @@ The [**Top Missions Reports**](./attack_data/reports/top_missions) list the most
 **Note**: All reports and charts mentioned are accessible in the [**attack_data/reports**](./attack_data/reports) directory. For specific charts not displayed in this document due to space constraints, please refer to the corresponding subdirectories and files within the reports folder.
 
 [^1]: **Sources**: [USSBS Tabulating Service Data Part 1](ussbs_reports/ECONOMIC_REPORT/IMG_8547.JPG) and [Part 2](ussbs_reports/ECONOMIC_REPORT/IMG_8548.JPG). [Office of Statistical Control and Air Ministry records](ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8297.JPG).
+
+[^2]: The total tonnage dropped by the RAF on industrial targets is reported in the [Statistical Appendix of the USSBS Overall Report](ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8326.JPG) as 610,679 tons. We recorded only 194,472.29 tons as seen in the [Summary Statistics Report](attack_data/reports/summary_statistics/summary_statistics_detailed.txt).
