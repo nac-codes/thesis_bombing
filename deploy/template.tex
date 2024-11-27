@@ -1,0 +1,103 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}  % Better font encoding for special characters
+\usepackage{listingsutf8} % UTF-8 support for listings
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{longtable}  % Add this for long tables
+\usepackage{booktabs}   % Add this for better-looking tables
+\usepackage{array}      % Add this for advanced table features
+\usepackage{calc}    % Add this for calculations
+\usepackage{etoolbox}% Add this for conditional statements
+
+% Define table column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% Set default table column width
+\setlength{\defaultaddspace}{0.5em}
+
+% Define inline code style
+\newcommand{\code}[1]{\texttt{#1}}
+
+% Remove pandoc-specific commands
+\newcommand{\passthrough}[1]{#1}
+\newcommand{\pandocbounded}[1]{#1}
+
+% Basic setup for code listings
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    backgroundcolor=\color{gray!10},
+    showstringspaces=false,
+    inputencoding=utf8/latin1,
+    extendedchars=true,
+    literate={├}{|}1 {─}{-}1 {└}{|}1
+}
+
+% For pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Configure hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% Set up graphics path
+\graphicspath{
+    {./}
+    {./attack_data/}
+    {./attack_data/reports/}
+    {./scripts/literature_review/out/}
+}
+
+% Fix for overfull boxes
+\setlength{\emergencystretch}{3em}
+
+% Define maximum width and height for images
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.8\textheight 0.8\textheight\else\Gin@nat@height\fi}
+\makeatother
+
+% Redefine the image inclusion to automatically scale
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{\oldincludegraphics[width=\maxwidth,height=\maxheight,keepaspectratio,#1]{#2}}
+
+% Handle figures
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \origfigure[H]
+    \centering
+} {
+    \endorigfigure
+}
+
+\begin{document}
+
+$if(title)$
+\title{$title$}
+\author{$author$}
+\date{$date$}
+\maketitle
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}

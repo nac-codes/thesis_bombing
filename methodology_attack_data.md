@@ -245,7 +245,9 @@ bomb_weight_mapping = {
 }
 ```
 
-This was derived from the index of the USSBS computer printouts: ![USSBS Computer Printout Index](attack_data/IMG_0089.JPG)
+This was derived from the index of the USSBS computer printouts:
+
+![USSBS Computer Printout Index](attack_data/IMG_0089.JPG)
 
 #### Validation Process
 
@@ -372,7 +374,7 @@ The processed and validated dataset may be found at: [`combined_attack_data_comp
 
 A critical methodological challenge was determining whether each mission should be categorized as "area" or "precision" bombing. Initially, we considered using a simple ratio of incendiary to high explosive/fragmentary bombs as the determining factor. However, this approach proved inadequate as it failed to capture the sophisticated tactics employed in area bombing campaigns.
 
-Historical evidence shows that the most devastating area raids deliberately combined both high explosive and incendiary bombs. As described in contemporary accounts, high explosive bombs would first demolish roofs and windows, creating optimal conditions for incendiary bombs to penetrate buildings and initiate urban firestorms. These tactical combinations turned targeted structures into "giant cauldrons" that became epicenters of devastating urban fires (See: [Hansen, *Fury*](/corpora/hansen_fury/chunks/hansen_fury_0078.txt), [Davis, *Spaatz*](/corpora/davis_spaatz/chunks/davis_spaatz_0810.txt)).
+Historical evidence shows that the most devastating area raids deliberately combined both high explosive and incendiary bombs. As described in contemporary accounts, high explosive bombs would first demolish roofs and windows, creating optimal conditions for incendiary bombs to penetrate buildings and initiate urban firestorms. These tactical combinations turned targeted structures into "giant cauldrons" that became epicenters of devastating urban fires (See: [Hansen, *Fury*](./corpora_cited/hansen_fury/chunks/hansen_fury_0078.txt), [Davis, *Spaatz*](./corpora_cited/davis_spaatz/chunks/davis_spaatz_0810.txt)).
 
 Given this historical context, we developed a more nuanced categorization algorithm that considers both temporal and spatial relationships between raids. The algorithm, implemented in [`categorize_bombing.py`](attack_data/categorize_bombing.py), uses the following logic:
 

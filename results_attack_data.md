@@ -1,6 +1,6 @@
-## Results
+# Results
 
-### Comparison of Total Bomb Tonnage
+## Comparison of Total Bomb Tonnage
 
 The total bomb tonnage recorded in our dataset is closely aligned with the figures reported by both the United States Strategic Bombing Survey (USSBS) Tabulating Service and the Office of Statistical Control (OSC) for the Eighth and Fifteenth Air Forces. Our data for the USAAF shows:
 
@@ -15,13 +15,13 @@ However, the data for the Royal Air Force (RAF) Bomber Command presents a signif
 
 In contrast, the Air Ministry reported a total of 1,066,141 tons dropped by the RAF Bomber Command[^1]. The missing tonnage in our dataset is predominantly in the **Industrial** category, which mainly includes city area bombings[^2]. This discrepancy suggests that a substantial number of RAF mission records, particularly those targeting urban industrial areas, are missing from the archives utilized for our dataset.
 
-### Implications for Data Analysis
+## Implications for Data Analysis
 
 The close alignment of USAAF data confirms that our dataset provides a reliable foundation for analyzing bombing missions conducted by the Eighth and Fifteenth Air Forces, which constituted the majority of USAAF bombings in the European theater. For the RAF data, while the available records are valuable, any conclusions drawn must acknowledge the incomplete nature of the dataset, especially concerning the substantial underrepresentation of bombings on city areas.
 
 ---
 
-### Target Category by Air Force
+## Target Category by Air Force
 
 | Target Category    | RAF Tonnage | RAF % | USAAF Tonnage | USAAF % | Total Tonnage |
 |-------------------|-------------|-------|---------------|----------|---------------|
@@ -41,7 +41,7 @@ The close alignment of USAAF data confirms that our dataset provides a reliable 
 |--------------------|-------------|-------|---------------|----------|---------------|
 | **Total**          | 701,245.61  | 100%  | 1,054,708.40  | 100%    | 1,755,954.02  |
 
-### Yearly Tonnage by Air Force
+## Yearly Tonnage by Air Force
 
 | Year | 8th AF | 15th AF | RAF | 9th AF | 12th AF | Unknown | Total |
 |------|---------|----------|------|---------|----------|----------|--------|
@@ -54,17 +54,17 @@ The close alignment of USAAF data confirms that our dataset provides a reliable 
 | **Total** | **697,814.46** | **290,529.45** | **701,245.61** | **53,314.67** | **6,041.35** | **7,008.48** | **1,755,954.02** |
 | % of Total | 39.7% | 16.5% | 39.9% | 3.0% | 0.3% | 0.4% | 100% |
 
-# Area vs Precision Bombing
+## Area vs Precision Bombing
 
 This section analyzes how bombing tonnage was distributed between area and precision bombing strategies, based on data processed by the [`create_reports.py`](attack_data/create_reports.py) script. These reports and visualizations provide insights into bombing patterns, target priorities, and mission characteristics of both the Royal Air Force (RAF) and the United States Army Air Forces (USAAF) during World War II. All the reports and charts referenced can be found in the [**attack_data/reports**](./attack_data/reports) directory.
 
 ---
 
-## Summary Statistics
+### Summary Statistics
 
 We begin with the [**Summary Statistics Report**](./attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which offers an overall quantitative snapshot of the bombing campaign.
 
-### Key Highlights:
+#### Key Highlights:
 
 - **Total Tonnage Dropped**: **1,697,811 tons**
   - **RAF** contributed **669,624 tons** (39.4%)
@@ -83,7 +83,7 @@ We begin with the [**Summary Statistics Report**](./attack_data/reports/summary_
   - **Precision Bombing** accounted for **61%** of total tonnage.
   - **Area Bombing** made up **39%** of total tonnage.
 
-### Detailed Breakdown:
+#### Detailed Breakdown:
 
 For a more granular view, please refer to the full [**Summary Statistics Report**](./attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which includes:
 
@@ -93,13 +93,13 @@ For a more granular view, please refer to the full [**Summary Statistics Report*
 
 ---
 
-## Attack Type Comparison: Area vs Precision Bombing
+### Attack Type Comparison: Area vs Precision Bombing
 
 The [**Attack Types by Air Force and Mission Category**](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png) chart illustrates the distribution of total tonnage between area and precision bombing for both the RAF and USAAF.
 
 ![Attack Types by Air Force and Mission Category](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png)
 
-### Explanation:
+#### Explanation:
 
 - The **x-axis** represents the **mission category** (Area or Precision).
 - The **y-axis** shows the **total tonnage dropped**.
@@ -107,20 +107,20 @@ The [**Attack Types by Air Force and Mission Category**](./attack_data/reports/a
 
 ---
 
-## Overall Trends
+### Overall Trends
 
 The [**Overall Trends by Bombing Type**](./attack_data/reports/overall_trends/overall_trends_by_bombing_type.png) visualization presents how the total tonnage of area and precision bombings evolved over time.
 
 ![Overall Trends by Bombing Type](./attack_data/reports/overall_trends/overall_trends_by_bombing_type.png)
 
-### Explanation:
+#### Explanation:
 
 - **Stacked Area Chart** showing monthly total tonnage for **area** and **precision** missions.
 - **Timeframe**: From the beginning to the end of the bombing campaign.
 
 ---
 
-## Industry Contribution Analysis
+### Industry Contribution Analysis
 
 The [**Industry Contribution Analysis**](./attack_data/reports/industry_contribution) examines how different target industries contributed to the overall bombing efforts over time, using a 12-month rolling window analysis. Each visualization shows the proportional contribution of different industries to both precision and area bombing campaigns.
 
@@ -128,7 +128,7 @@ The [**Industry Contribution Analysis**](./attack_data/reports/industry_contribu
 
 ![Industry Contribution USAAF](./attack_data/reports/industry_contribution/industry_contribution_usaaf.png)
 
-### Understanding the Visualizations
+#### Understanding the Visualizations
 
 Each figure consists of two panels:
 1. **Top Panel**: Shows industry contributions to precision bombing
@@ -161,24 +161,24 @@ This visualization method allows us to see:
 
 ![Area Bombing Composition](./attack_data/reports/area_bombing_composition/area_bombing_composition.png)
 
-### Explanation:
+#### Explanation:
 
 - **Top Panel**: Displays contributions of each industry to the **HE tonnage** in area bombings over time.
 - **Bottom Panel**: Shows the same for **incendiary tonnage**.
 
 ---
 
-## Trends by Industry
+### Trends by Industry
 
 The [**Trends by Industry Reports**](./attack_data/reports/trends_by_industry) offer insights into the bombing patterns for specific industries over time.
 
-### Sample Industries:
+#### Sample Industries:
 
-#### Transportation
+##### Transportation
 
 ![Transportation - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_transportation__all.png)
 
-#### Oil Refineries
+##### Oil Refineries
 
 ![Oil Refineries - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_oilrefineries_all.png)
 
@@ -186,7 +186,7 @@ The [**Trends by Industry Reports**](./attack_data/reports/trends_by_industry) o
 
 ![Industrial - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_industrial__all.png)
 
-### Explanation:
+#### Explanation:
 
 - **Plots** show both **raw monthly tonnage** and **12-month moving averages** for area and precision bombings.
 - **Purpose**: To identify patterns, shifts in strategic focus, and the effectiveness of bombing campaigns against specific industries.
@@ -194,11 +194,11 @@ The [**Trends by Industry Reports**](./attack_data/reports/trends_by_industry) o
 
 ---
 
-## Top Missions
+### Top Missions
 
 The [**Top Missions Reports**](./attack_data/reports/top_missions) list the most significant missions in terms of tonnage for each industry, separated by bombing type and air force.
 
-### Details:
+#### Details:
 
 - **CSV Files** for each industry and air force combination, such as:
 
@@ -213,7 +213,7 @@ The [**Top Missions Reports**](./attack_data/reports/top_missions) list the most
   - **Total Tonnage**
   - **Bomb Type Breakdown** (HE and Incendiary tonnage and percentages)
 
-### Accessing the Reports:
+#### Accessing the Reports:
 
 - The complete list of top missions for each industry can be found in the [**top_missions**](./attack_data/reports/top_missions) directory.
 - These reports are valuable for identifying key operations and understanding tactical priorities.

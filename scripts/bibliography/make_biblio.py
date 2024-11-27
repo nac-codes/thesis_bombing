@@ -37,13 +37,11 @@ def generate_citation_prompt(metadata):
 Title: {title}
 Author: {author}
 Publisher: {publisher}
-Year: {year}
-Location: {location}""".format(
+Year: {year}""".format(
         title=metadata.get('title', ''),
         author=metadata.get('author', ''),
         publisher=metadata.get('publisher', ''),
-        year=metadata.get('year', ''),
-        location=metadata.get('location', '')
+        year=metadata.get('publication_date', '')
     )
     return prompt
 
@@ -57,7 +55,7 @@ def clean_citation(citation):
 
 def main():
     # Get path to corpora directory
-    corpora_dir = Path("../../corpora")
+    corpora_dir = Path("corpora_cited")
     
     # Get all metadata files
     metadata_files = get_metadata_files(corpora_dir)

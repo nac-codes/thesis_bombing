@@ -1,13 +1,13 @@
 # Literature Review
 
-There are currently two competing narratives on the the shift of strategic bombing from precision to area bombing over the course of the Second World War. One presents it as a natural development from the naivete of precision, or "pinpoint," bombing to a more realistic and battle-tested approach of more generalized area bombing. This we call the "Realist" narrative. The other presents the shift to area bombing as the inevitable result of bellicose military leaders who were willing to do anything to accomplish their objectives and sees precision bombing as a mere public relations front to cover up the true intentions of the bombing campaign. This we call the "Moralist" narrative.
+There are currently two competing narratives on the the shift of strategic bombing from precision to area bombing over the course of the Second World War. One presents it as a natural development from the naivete of precision, or "pinpoint," bombing to a more realistic and battle-tested approach of area bombing. This we call the "Realist" narrative. The other presents the shift to area bombing as the inevitable result of bellicose military leaders who were willing to do anything to accomplish their objectives and sees precision bombing as a mere public relations front to cover up the true intentions of the bombing campaign. This we call the "Moralist" narrative.
 
 First, in order to avoid confusion, it is necessary to define strategic bombing, precision bombing, and area bombing. 
 1. Precision bombing refers to the targeting of specific nodes in the enemy's economic network, such as factories, transportation hubs, and oil refineries. The goal of this strategy is to neutralize the enemy's war-making capacity by destroying these key nodes.
 2. Area bombing, on the other hand, refers to the bombing of a large area, typically a city or industrial area, with the aim of destroying it, its infrastructure, and portions of its workforce. The goal of this strategy is to disrupt economic production and weaken the morale of the civilian population.
 3. Strategic bombing refers to the overall campaign, which may include precision bombing, area bombing or both.
 
-As stated previously, we have divided the literature into two categories: the "Realist" and the "Moralist." These categories are neither exhaustive nor mutually exclusive. No one author fits neatly into one category or the other. They are meant merely to provide a framework for comprehension of both reader and author. 
+As stated previously, we have divided the literature into two categories: the "Realist" and the "Moralist." These categories are neither exhaustive nor mutually exclusive. No one author fits neatly into one category or the other. They are meant merely to provide a helpful framework for both reader and author. 
 
 We begin with the Realist perspective. The main argument of the Realist perspective is that the theory of precision, otherwise known as "pinpoint," bombing, developed at Maxwell Air Force Base in Alabama over the decade preceding WWII, was not applicable under real-world wartime conditions. The pre-war theorists, so the idea goes, had approached strategic bombing too simplistically, viewing it merely as a targeting problem while failing to account for the complex military intelligence network required or the various frictions of war such as weather, maintenance, training, ordinance, and aircraft capabilities. As [Griffith (1994)](./corpora_cited/griffith_hansell/chunks/griffith_hansell_0031.txt) notes, "Only operational experience in combat would reveal many of the problems strategic bombers would face. Once World War II had begun the strategic air war took on a dynamic driven by existing technology and actual combat conditions, not by a preconceived air war doctrine." The reality of warfare meant that "technology and friction became the masters, not the servant of strategic bombing practices," leading to a significant departure from pre-war theoretical frameworks.
 
@@ -69,17 +69,21 @@ To better understand the distribution of these perspectives within the literatur
 
 The resulting analysis reveals a notable skew toward the Realist perspective across our sample of strategic bombing literature (Figure 1). This bias manifests not only in the aggregate but is particularly visible in individual authors' distributions. For instance, Tami Davis Biddle's work shows a characteristic S-shaped pattern in its Q-Q plot, indicating a systematic bias toward Realist arguments (Figure 2). Conversely, Stephen L. McFarland's "America's Pursuit of Precision Bombing" demonstrates a more Moralist-leaning perspective, with a pronounced negative skew in its distribution (Figure 3).[^15]
 
-![Figure 1](./scripts/literature_review/out/skewness_spectrum.png)
+![Skewness Spectrum](./scripts/literature_review/out/skewness_spectrum.png)
+*Figure 1: Skewness Spectrum. Displays the distribution of the Realist and Moralist statements across the corpus.*
 
-![Figure 2](./scripts/literature_review/out/authors/Tami_Davis_Biddle_biddle_rhetoric_skewness_analysis.png)
+![Tami Davis Biddle Skewness](./scripts/literature_review/out/authors/Tami_Davis_Biddle_biddle_rhetoric_skewness_analysis.png)
+*Figure 2: Tami Davis Biddle. Displays a pronounced skew toward the Realist position.*
 
-![Figure 3](./scripts/literature_review/out/authors/Stephen_L_McFarland_Americas_Pursuit_of_Precision__skewness_analysis.png)
+![Stephen L. McFarland Skewness](./scripts/literature_review/out/authors/Stephen_L_McFarland_Americas_Pursuit_of_Precision__skewness_analysis.png)
+*Figure 3: Stephen L. McFarland. Displays a pronounced skew toward the Moralist position.*
 
 This computational analysis helps illuminate several important aspects of the strategic bombing literature. First, it suggests that the Realist perspective, with its focus on operational and technological constraints, dominates the scholarly discourse. While this could reflect the inherent strength of the Realist position, it may also indicate a historiographical bias toward military and operational histories over moral and ethical analyses. Second, the relative scarcity of strong Moralist positions might partly stem from the extremity of our Moralist statement set, which perhaps represents a more radical critique than typically found in academic literature.[^16]
 
 A particularly interesting case emerges in Michael Sherry's "The Rise of American Air Power," which we initially drew upon heavily for the Moralist perspective. Our analysis shows that Sherry's work actually exhibits a more nuanced distribution, with significant representation in both camps (Figure 4). This suggests either that our initial reading was overly selective, focusing on his most pointed moral critiques while overlooking more balanced operational analysis, or that our computational method may not fully capture the subtleties of his argument.[^17]
 
-![Figure 4](./scripts/literature_review/out/authors/Michael_S_Sherry_The_Rise_of_American_Air_Power_skewness_analysis.png)
+![Michael Sherry Skewness](./scripts/literature_review/out/authors/Michael_S_Sherry_The_Rise_of_American_Air_Power_skewness_analysis.png)
+*Figure 4: Michael Sherry. Displays a more balanced distribution.*
 
 [^1]: For more information on bombing accuracy, see: [Crane 2016](./corpora_cited/crane_bombs/chunks/crane_bombs_0147.txt) emphasizes that while American airpower had confidence in the Norden bombsight, the anticipated precision was hard to achieve, with only about 14% of bombs landing within 1,000 feet of their targets during early 1943. [McFarland 1995](./corpora_cited/mcfarland_pursuit/chunks/mcfarland_pursuit_0251.txt) discusses the challenges that altitude and large bombing formations posed to accuracy, noting that bomb patterns became increasingly imprecise as formation size and altitude increased. [Parks 1945](./corpora_cited/parks_preciscion/chunks/parks_preciscion_0005.txt) describes how 'bombing on leader' formations, adopted for practical reasons, led to larger bombing patterns and a lower level of accuracy than originally anticipated for precision bombing.
 

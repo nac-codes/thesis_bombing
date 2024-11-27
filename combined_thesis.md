@@ -1,0 +1,949 @@
+# Introduction
+
+The historiography of the Allied strategic bombing campaign in World War II is dominated by two competing narratives. The first emphasizes the gradual abandonment of precision bombing in favor of area bombing, viewing this shift as evidence of war's inevitable descent into barbarism. The second narrative, primarily advanced by military historians, focuses on the technical and strategic evolution of the bombing campaign, particularly highlighting the neccessity of shifting towards area bombing in order to achieve the destruction of the German war-making capacity.
+
+This thesis will attempt to both discredit and synthesize these two narratives. After a brief overview of the literature from both perspectives, we will begin with an analysis of the effectiveness of precision bombing *vis a vis* area bombing. We will utilize raw attack data from the US Strategic Bombing Survey (USSBS) to display the persistance of precision bombing late into the war, diminishing the narrative of a blanket shift to area bombing. Reports from the US Strategic Bombing Survey will substantiate the claim that these late-war precision attacks were the decisive factor in Allied military victory while area bombing and even the land invasion had fairly little (at least economic) effect. We will then back up this *post facto* analysis with the presentation of an *a priori* theory for the effectiveness of precision bombing and the relative ineffectiveness of area bombing.
+
+Knowing the effectiveness of precision bombing over area bombing, we will then question why the Allies persisted in applying area bombing as much as they did late into the war and raise doubts as to whether the true objective of the Allied bombing campaign was to weaken the German war-making capacity while minimizing civilian casualties. To this question we will then apply a theory of the state and war-making as presented by the likes of Hans-Herrmann Hoppe that describe the sociological process by which the modern state shifted towards a form of total war that was not just economic in nature but sought to eliminate every vertex of the enemy's Clausewitzian triangle: its popular passion, its political will, and its military leadership. We argue that the driving force behind the wanton destructiveness of the Allied area bombings was not the military cadre alone or even primarily, but instead was the natural result of the left edge of Clausewitz's triangle—popular passion and governmental will—becoming both overzealous in its ability to destroy and impatient for an end to the war. Destruction—of the enemy materiel, its political entities, its infrastructure, and even its population—became the means by which the Allies sought to achieve swift and total victory.
+
+This thesis is not unique in its criticism of area bombing during World War II, nor in identifying popular sentiment as a driving force behind the Allied bombing campaign's most destructive elements. However, it diverges from conventional interpretations in both its synthesis and conclusions. While many scholars use the shift to area bombing as evidence of warfare's inherently destructive nature—and thus argue for the general avoidance of war—this thesis reaches a different conclusion. Rather than condemning war itself, it identifies the inclusion of popular passion in warmaking as the fundamental problem. It argues that precision bombing doctrine represented a step toward a more rational and civilized approach to warfare, one that was ultimately overwhelmed by the fury of the *demos* and totalitarian impulses.
+
+
+# Literature Review
+
+There are currently two competing narratives on the the shift of strategic bombing from precision to area bombing over the course of the Second World War. One presents it as a natural development from the naivete of precision, or "pinpoint," bombing to a more realistic and battle-tested approach of area bombing. This we call the "Realist" narrative. The other presents the shift to area bombing as the inevitable result of bellicose military leaders who were willing to do anything to accomplish their objectives and sees precision bombing as a mere public relations front to cover up the true intentions of the bombing campaign. This we call the "Moralist" narrative.
+
+First, in order to avoid confusion, it is necessary to define strategic bombing, precision bombing, and area bombing.
+1. Precision bombing refers to the targeting of specific nodes in the enemy's economic network, such as factories, transportation hubs, and oil refineries. The goal of this strategy is to neutralize the enemy's war-making capacity by destroying these key nodes.
+2. Area bombing, on the other hand, refers to the bombing of a large area, typically a city or industrial area, with the aim of destroying it, its infrastructure, and portions of its workforce. The goal of this strategy is to disrupt economic production and weaken the morale of the civilian population.
+3. Strategic bombing refers to the overall campaign, which may include precision bombing, area bombing or both.
+
+As stated previously, we have divided the literature into two categories: the "Realist" and the "Moralist." These categories are neither exhaustive nor mutually exclusive. No one author fits neatly into one category or the other. They are meant merely to provide a helpful framework for both reader and author.
+
+We begin with the Realist perspective. The main argument of the Realist perspective is that the theory of precision, otherwise known as "pinpoint," bombing, developed at Maxwell Air Force Base in Alabama over the decade preceding WWII, was not applicable under real-world wartime conditions. The pre-war theorists, so the idea goes, had approached strategic bombing too simplistically, viewing it merely as a targeting problem while failing to account for the complex military intelligence network required or the various frictions of war such as weather, maintenance, training, ordinance, and aircraft capabilities. As [Griffith (1994)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/griffith_hansell/chunks/griffith_hansell_0031.txt) notes, "Only operational experience in combat would reveal many of the problems strategic bombers would face. Once World War II had begun the strategic air war took on a dynamic driven by existing technology and actual combat conditions, not by a preconceived air war doctrine." The reality of warfare meant that "technology and friction became the masters, not the servant of strategic bombing practices," leading to a significant departure from pre-war theoretical frameworks.
+
+The technical and operational challenges of precision bombing proved to be far more daunting than pre-war theorists had anticipated. As [McFarland (1995)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/mcfarland_pursuit/chunks/mcfarland_pursuit_0001.txt) reveals, even with sophisticated equipment like the Norden bombsight, accuracy remained elusive: "one study in 1944 concluded that only 7 percent of all American bombs fell within 1,000 feet of their aiming point." Others like [Beagle (2001)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/beagle_pointblank/chunks/beagle_pointblank_0007.txt) cite a more generous study, noting that "over the duration of the Second World War, only about 20 percent of the bombs aimed at targets designated for precision attack fell within 1,000 feet of their aim point."[^1]
+
+The unescorted bomber doctrine proved particularly costly. [Builder (1994)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/builder_icarus/chunks/builder_icarus_0107.txt) explains that "The invincibility of the unescorted bomber formation was an article of faith; Flying Fortress was no idle choice of name for the B-17." This faith would be shattered by reality - as demonstrated by the devastating Schweinfurt and Regensburg raids of 1943, which saw loss rates as high as 20½ percent. Beyond the technical challenges of accuracy and survivability, [Kennett (1982)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/kennett_history/chunks/kennett_history_0128.txt) emphasizes that "precision bombing would almost certainly be daylight bombing, which meant that the bomber would need speed, armament, or both for its own defense," which created an almost impossible operational challenge for both the engineering of the bombers and crews that flew them.[^2]
+
+The sheer scale required for "precision" attacks further undermined their practicality. According to [Beagle (2001)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/beagle_pointblank/chunks/beagle_pointblank_0007.txt), even after achieving air superiority in 1944, a precision bombing mission against a single target required approximately 1,000 aircraft. Moreover, "the minimum bomb pattern bombers could deliver was typically larger than the area of the industrial plant being targeted," making precise targeting of specific components within facilities essentially impossible. These limitations meant that bombing campaigns against specific target sets like ball bearing production, aircraft manufacturing, or transportation infrastructure required months of sustained operations, allowing other target sets time to recover and demonstrating the resilience of the German war economy.
+
+The narrative of the operational hazards of precision bombing typically climaxes with the notorious Schweinfurt raids. Schweinfurt was designated as a target because of the concentration of ball bearing production there, producing an estimated half of these mechanical devices essential to the functioning of automotive engines and industrial machinery. As [Biddle (2002)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/biddle_rhetoric/chunks/biddle_rhetoric_0366.txt) recounts, the first raid on August 17, 1943, celebrating the anniversary of U.S. operations in Europe, led to the loss of 16% of the bombers, but this high cost did not prevent a second assault. The October 14 mission, however, was disastrous: "Of the 291 bombers dispatched, 198 of them were shot down or damaged." This raid finally shattered the "theory of the self-defending bomber," revealing the limitations of the doctrine that had justified unescorted bombing operations.
+
+The failure to achieve strategic objectives at Schweinfurt exposed flaws in the precision bombing campaign, exacerbated by overestimation of the bombers' self-defense capabilities. According to [Murray (1983)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/murray_defeat/chunks/murray_defeat_0269.txt), “The conduct of the Schweinfurt/Regensburg attack…reflects an overestimation of both the accuracy and effectiveness of bombing,” a realization made more acute by "the heavy losses that American bombers suffered…reflecting the insufficient range of escorting fighters." [Haun (2019)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/haun_lectures/chunks/haun_lectures_0263.txt) underscores the unsustainable attrition rates, noting that “Eighth Air Force sacrificed 60 of 291 B-17s at an unsustainable attrition rate of 20.7 percent” during the October raid, which “curtailed US efforts to conduct unescorted high-altitude daylight precision bombing against Germany.”[^3]
+
+These operational challenges and especially the heavy losses during the Schweinfurt raids are employed to provide a rationale for the shift if not towards area bombing than at least away from precision bombing. To explain the shift towards area bombing there are both technical and theoretical arguments that have been put forth. The former describes the development of incendiary bomb technology as the driver of the allied approach to war. As [Knell (2003)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/knell_city/chunks/knell_city_0057.txt) notes, "The fire raid using a mixture of H.E. and incendiary bombs and causing firestorms proved the ultimate answer," with these tactics being "practiced first by the Luftwaffe over Britain starting in September 1940, experimented with and developed further by RAF Bomber Command from 1942 onward." The devastating effectiveness of these tactics was demonstrated during the Hamburg raids of July 1943, where, according to [Crane (2016)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/crane_bombs/chunks/crane_bombs_0202.txt), "Approximately 45,000 people had died... the vast majority from the devastating RAF firestorm of the night of 27 July, the first such conflagration caused by bombing." The impact was so severe that even American commanders like General Eaker were impressed, believing that "the fear of another Hamburg 'apparently has the Germans in a great dither,'" and wanted to exploit this psychological advantage with similar attacks on Berlin.
+
+[Overy (2020)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/overy_airwar/chunks/overy_airwar_0294.txt) explains that while "large high-explosive bombs were better suited for precision attacks," it was "the growing evidence of how effective fire-bombs were, which came about with the switch to area bombing, that encouraged the RAF to place greater emphasis on them." The technical advantages of area bombing with incendiaries were further enhanced by the development of new techniques, including "the use of high explosive bombs to seal off a section of a city into which the fire-bombs were to be aimed," which "enormously increased the destructive power of the conventional bomb attack."
+
+This technological argument is supplemented by several theoretical arguments justifying the shift to area bombing. The first stems from the claim that Germany had initiated city attacks, thereby setting the precedent. As [Garrett (1993)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0025.txt) notes, "the Germans had after all initiated city attacks-first with the bombing of Warsaw, then the assault on Rotterdam in May 1940 (which was said to have caused 30,000 fatalities), and finally with the blitz on Britain itself." The Blitz campaign against Britain is often emphasized, with "50,000 tons of bombs [having been] dropped on British cities, which led to about 40,000 civilian" casualties.
+
+A second theoretical justification arose from the concept of total war, which blurred traditional distinctions between combatants and civilians. As [Garrett (1993)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0300.txt) explains, total war "involves not just the complete mobilization of the resources of the state for military purposes but also the blurring, if not evaporation, of any distinction between the home front and the battle front." This concept was articulated as early as 1921 by the British Naval Staff, who stated that "modern war resolves itself into an attempt to throttle the national life" with the ultimate object being "to bring pressure on the mass of the enemy people, distressing them by every possible means, so as to compel the enemy's government to submit to terms."[^4]
+
+This blurring of lines between civilian and military targets was further justified by the argument that industrial workers were legitimate military targets. [Buckley (1999)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/buckley_total/chunks/buckley_total_0010.txt) poses the question: "Why would those organizing and supporting the war effort in Germany be less of a legitimate target than soldiers fighting at the front, especially in an age when most soldiers are conscripts and may have been indifferent supporters of or even hostile to the Nazi regime?" The argument extended to the claim that those who "build and manufacture the weapons of total war" were as culpable as those who used them.[^5]
+
+This targeting of civilian workers was given theoretical cover through careful rhetorical framing. As [Bellamy (2012)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/bellamy_terror/chunks/bellamy_terror_0006.txt) notes, while acknowledging it was "contrary to the dictates of humanity [to engage in] the indiscriminate bombing of a city for the sole purpose of terrorising the civilian population," military leaders like Hugh Trenchard (RAF) argued that since "a state's industrial capacity determined its ability to wage war, bombing aimed at 'dehousing' factory workers was legitimate." The resulting civilian casualties were characterized as an "inevitable result of a lawful operation of war" - an unintended but "not unhelpful byproduct."
+
+Finally, these various justifications were ultimately supported by the pragmatic argument that area bombing was effective and helped bring the war to a swift conclusion. As [Buckley (1999)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/buckley_total/chunks/buckley_total_0008.txt) argues, "the conduct of war throughout history has been influenced less by morality and more by military capability, balanced by political acceptability." In total war environments, "both the stakes and the military capability have been high, resulting in the use of previously unparalleled methods of waging war." The key factor became simply whether a strategy would "allow you to win and bring the war to a speedy conclusion."[^5.5]
+
+[Werrell (2009)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/werrell_death/chunks/werrell_death_0242.txt) utilizes a combination of the above arguments to joust with the "Moralist" narrative directly, questioning the very premise of civilian innocence in modern warfare. He asks provocatively: "are all civilians innocent? Certainly babies are. But are war workers, be they men, women, or even children? Are those who support the war with their labor, taxes, voices, and votes innocent?" He further contextualizes the moral debate by comparing strategic bombing casualties to other forms of warfare, noting that while "Strategic bombing in World War II probably killed at least 600,000," the World War I Allied blockade "starved to death 800,000, certainly mostly women, children, and old men." His conclusion is that "the great evil is not strategic bombing but war itself."
+
+The Realist perspective therefore may be summed up as follows: War has an inherent tendency toward escalation and brutality, as articulated by Clausewitz's observation that "war is an act of force which theoretically can have no limits" [Garrett 1993](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0198.txt). The shift from precision to area bombing was not driven by malice or bloodlust, but rather by what [Garrett 1993](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0306.txt) describes as "the tendency in war, and particularly in total war, of military operations escalating to the use of all conceivable means." As Clausewitz argued, attempts to place "philanthropic" limits on warfare are futile and even dangerous - "the mistakes which come from kindness can be the very worst" [Garrett 1993](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0198.txt). This escalation was further driven by technological advancement - as [Garrett 1993](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0306.txt) notes, "Because the technology was there, it proved well-nigh irresistible to employ it." The development of new technologies, the emergence of total societal mobilization, and operational necessities all pushed strategic bombing toward ever more destructive forms. Since the war itself was deemed just and necessary, the means required to end it - including area bombing - were seen as regrettable but ultimately justified by the imperative of victory.
+
+The Moralist perspective contends that the distinction between precision and area bombing was largely rhetorical—a facade maintained to obscure the truly destructive and immoral nature of strategic bombing. [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0298.txt) notes that while "much was made about a distinction between British night bombing to terrorize German cities and American daylight precision bombing designed to immobilize the enemy's war-making capacity," this distinction "had never been clearly drawn in American doctrine." Indeed, as early as 1926, the Air Corps doctrine described air attack as "a method of imposing will by terrorizing the whole population... while conserving life and property to the greatest extent." While references to "terrorizing" were later discretely dropped, the underlying intent remained.[^6]
+
+The evidence of this duplicity, the Moralists argue, can be found in the actual conduct of the bombing campaign. [Downes (2008)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/downes_strategic/chunks/downes_strategic_0005.txt) points out that "The U.S. Army Air Forces during World War II launched seventy self-described attacks on a 'city area' in Germany," and devoted "about half of their total effort to radar bombing, which—although not purposefully directed at civilians—American military officers knew was the functional equivalent of British area bombing." The choice of weapons further betrays this intent: American commanders used "a large percentage of incendiary bombs (the preferred weapon against cities) on these raids even though such bombs were ineffective against rail yards, the official targets."
+
+[Maier (2005)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/maier_city/chunks/maier_city_0011.txt) describes how the U.S. "clung to shrouding large-scale bombing with particular industrial or strategic objectives," even as the logic of bombing shifted from precision to pure destruction. By the end of the war, the justification had evolved from targeting specific military objectives to a broader theory that "the more destruction there was, the sooner the collapse would come." This evolution was not a response to operational necessity but rather the revelation of bombing's true purpose.[^7]
+
+Vengeance and emotion, this perspective argues, rather than military necessity, were the true drivers behind the strategic bombing campaign. This narrative, most notably advocated by Michael Sherry, points to the rhetoric surrounding bombing campaigns as evidence. As [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0747.txt) documents, public discourse was filled with emotional calls for "socking the rapacious German nation" and "repayment for Nazi crimes" - language that betrayed motivations far removed from rational military calculus.[^8]
+
+This emotional drive for vengeance was enabled by what Sherry terms "amoral technicians" within the military bureaucracy. [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_1300.txt) describes how "airmen placed operational considerations first and said little about the enemy, rarely employing the rhetoric of vengeance found elsewhere." Through this technical, methodological approach, "the air force could serve as a vehicle of vengeance while confining itself to the problems of technique." The result was a kind of moral abdication where military leaders became "instruments of a nation's anger in which they had no particular investment."
+
+This combination of public bloodlust and bureaucratic amorality created what [Downes (2008)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/downes_strategic/chunks/downes_strategic_0121.txt) describes as an erosion of moral restraint. When "conflicting doctrines and policies clashed, they were judged by the pragmatic test of military efficacy and the degree to which they would contribute to victory. Moral and political considerations were secondary." This prioritization of military victory above all else led to what Barton Bernstein calls a "redefinition of morality" that ultimately enabled the use of atomic weapons, as "by 1945, there were few moral restraints left in what had become virtually a total war."
+
+The moral justification offered for this escalation was, according to [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0757.txt), dangerously open-ended. While Americans "acknowledged the widespread killing of civilians, accepted their innocence, labeled their killing murder," they then "designated it as justifiable homicide, as the only recourse if victory were to be secured and Allied casualties minimized." Yet as Sherry points out, few could plausibly argue that American survival itself was at stake. Rather, "they meant the requirements of victory, total victory at that, and with minimum suffering and loss for the victors." This reasoning "could justify almost any action that accelerated triumph."[^9]
+
+[Maier (2005)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/maier_city/chunks/maier_city_0000.txt) adds that this moral progression—from accepting collateral damage, to area bombing, to atomic weapons—has been difficult to critically examine due to two "twin inhibitions": "the reluctance of German commentators to seem apologetic for the Third Reich, and the difficulty in the U.S. of seeming to cast any aspersions on those who fought 'the good war.'" This framing of World War II as "the good war" has made it particularly challenging to critically examine the ethics of Allied bombing campaigns.
+
+Moralists have also argued that total war actually elongates rather than shortens conflict. The French Catholic philosopher Jacques Maritain, as cited by [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0396.txt), argued that "terror and total war prolonged war. They defeated the very end of victory by arousing resistance, and they poisoned the peace thereafter as well." Maritain proposed a utilitarian standard: "Whatever was unnecessary for victory... was 'bestiality.'" While this standard could be manipulated to justify extreme measures if they could be plausibly linked to victory, it at least provided a framework for restraint that appealed to practical interests rather than "unenforceable rules of international law or flimsy consciences."
+
+This argument about the counterproductive nature of total war is supported by evidence that the war never truly reached the theoretical extremes of "total war." As [Hansen (2008)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/hansen_fury/chunks/hansen_fury_0372.txt) points out, even during the Allied invasion of Germany, armies "did not—as total war would predict—go from house to house spraying civilians with machine-gun fire. On the contrary, they took every reasonable effort to minimize civilian casualties." This suggests that the war "did not—as some would have it—entirely erase the distinction between a soldier and a citizen (though it may have blurred it)." While Hansen acknowledges that Germany's defeat was "both a geopolitical and a moral necessity," he argues that "none of this can justify the degree of death and destruction meted out."[^10]
+
+The moral calculus used to justify civilian casualties was particularly problematic. [Garrett (1993)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0228.txt) critiques Bomber Harris's notorious statement that he did not "regard the whole of the remaining cities of Germany as worth the bones of one British Grenadier." Garrett argues that while governments have a "perfect obligation" to protect their own soldiers and civilians, they retain "imperfect" but real duties to enemy civilians, "the assumption being that all individual human beings have certain rights that continue to obtain even in the midst of war."[^11]
+
+The Moralist critique ultimately extends beyond specific tactics to challenge fundamental assumptions about the nature of war itself. [Fuller (1961)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/fuller_conduct/chunks/fuller_conduct_0245.txt) illuminates a crucial philosophical divide between two conceptions of warfare. The Clausewitzian view maintains that "morality, as understood by civilized peoples, was a factor in social life," seeing war as an extension of politics bound by societal values and ethical constraints. Lenin's more radical critique strips away this civilized veneer, reducing war to "a purely animal struggle in which no punches were barred." His declaration that "We repudiate all morality derived from non-human and non-class concepts... We do not believe in an eternal morality" represents not just a rejection of traditional military ethics, but an unmasking of what the Moralists see as warfare's true nature.
+
+This perspective suggests that the escalation to area bombing reveals the fundamental truth of Lenin's analysis—that beneath the rhetoric of precision and military necessity lies the inherently barbaric nature of modern warfare. The bureaucratic machinery of strategic bombing, with its technical language and cold calculations, served merely as what Lenin would recognize as "a deception, a fraud in the interests of the landlords and capitalists." The precision bombing doctrine, in this view, was less a genuine military innovation than a moral fig leaf, designed to obscure warfare's descent into unrestricted violence. The Moralist critique thus sees the strategic bombing campaign not as an aberration but as the inevitable unmasking of war's true character: an "animal struggle" that necessarily tends toward total destruction once its civilized pretenses are abandoned.[^12]
+
+To better understand the distribution of these perspectives within the literature, we conducted a computational analysis of the texts using natural language processing techniques. Each source text was divided into meaningful chunks and processed using OpenAI's text-embedding-ada-002 model to generate vector representations.[^13] These embeddings were then compared against two carefully curated sets of statements representing the Realist and Moralist positions. The Realist statements encompassed arguments about operational necessity, technological limitations, and military pragmatism (e.g., "Precision bombing was largely ineffective due to technological limitations" and "The effectiveness of area bombing in hastening victory justifies its use over less effective methods"), while the Moralist statements captured ethical critiques and concerns about strategic bombing's moral implications (e.g., "The shift from precision to indiscriminate bombing was not due to necessity but reflected an immoral strategy" and "Emotional vengeance, not military necessity, motivated strategic bombing").[^14]
+
+The resulting analysis reveals a notable skew toward the Realist perspective across our sample of strategic bombing literature (Figure 1). This bias manifests not only in the aggregate but is particularly visible in individual authors' distributions. For instance, Tami Davis Biddle's work shows a characteristic S-shaped pattern in its Q-Q plot, indicating a systematic bias toward Realist arguments (Figure 2). Conversely, Stephen L. McFarland's "America's Pursuit of Precision Bombing" demonstrates a more Moralist-leaning perspective, with a pronounced negative skew in its distribution (Figure 3).[^15]
+
+![Skewness Spectrum](./scripts/literature_review/out/skewness_spectrum.png)
+*Figure 1: Skewness Spectrum. Displays the distribution of the Realist and Moralist statements across the corpus.*
+
+![Tami Davis Biddle Skewness](./scripts/literature_review/out/authors/Tami_Davis_Biddle_biddle_rhetoric_skewness_analysis.png)
+*Figure 2: Tami Davis Biddle. Displays a pronounced skew toward the Realist position.*
+
+![Stephen L. McFarland Skewness](./scripts/literature_review/out/authors/Stephen_L_McFarland_Americas_Pursuit_of_Precision__skewness_analysis.png)
+*Figure 3: Stephen L. McFarland. Displays a pronounced skew toward the Moralist position.*
+
+This computational analysis helps illuminate several important aspects of the strategic bombing literature. First, it suggests that the Realist perspective, with its focus on operational and technological constraints, dominates the scholarly discourse. While this could reflect the inherent strength of the Realist position, it may also indicate a historiographical bias toward military and operational histories over moral and ethical analyses. Second, the relative scarcity of strong Moralist positions might partly stem from the extremity of our Moralist statement set, which perhaps represents a more radical critique than typically found in academic literature.[^16]
+
+A particularly interesting case emerges in Michael Sherry's "The Rise of American Air Power," which we initially drew upon heavily for the Moralist perspective. Our analysis shows that Sherry's work actually exhibits a more nuanced distribution, with significant representation in both camps (Figure 4). This suggests either that our initial reading was overly selective, focusing on his most pointed moral critiques while overlooking more balanced operational analysis, or that our computational method may not fully capture the subtleties of his argument.[^17]
+
+![Michael Sherry Skewness](./scripts/literature_review/out/authors/Michael_S_Sherry_The_Rise_of_American_Air_Power_skewness_analysis.png)
+*Figure 4: Michael Sherry. Displays a more balanced distribution.*
+
+[^1]: For more information on bombing accuracy, see: [Crane 2016](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/crane_bombs/chunks/crane_bombs_0147.txt) emphasizes that while American airpower had confidence in the Norden bombsight, the anticipated precision was hard to achieve, with only about 14% of bombs landing within 1,000 feet of their targets during early 1943. [McFarland 1995](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/mcfarland_pursuit/chunks/mcfarland_pursuit_0251.txt) discusses the challenges that altitude and large bombing formations posed to accuracy, noting that bomb patterns became increasingly imprecise as formation size and altitude increased. [Parks 1945](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/parks_preciscion/chunks/parks_preciscion_0005.txt) describes how 'bombing on leader' formations, adopted for practical reasons, led to larger bombing patterns and a lower level of accuracy than originally anticipated for precision bombing.
+
+[^2]: For more information on the challenges and assumptions surrounding bomber escort and self-defense capabilities, see: [Biddle 2002](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/biddle_rhetoric/chunks/biddle_rhetoric_0272.txt) examines how American planners believed in the viability of the "self-defending" bomber, relying on speed, altitude, and armament for unescorted penetration. This view persisted despite underlying doubts and logistical challenges, until wartime experience revealed its flaws. [Werrell 2009](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/werrell_death/chunks/werrell_death_0062.txt) discusses how American bomber advocates underestimated the need for escorts, firmly believing in the superiority of bombers in mutual defense formations, and failing to predict advancements in defensive technology, such as radar. [Hecks 1990](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/hecks_bombing/chunks/hecks_bombing_0126.txt) details the early struggles with the B-17, noting that inadequate armament and harsh European weather conditions led to high losses, showing that unescorted bombers faced significant operational challenges.
+
+[^3]: [Werrell 2009](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/werrell_death/chunks/werrell_death_0175.txt) details the severe costs of the Schweinfurt raid, stating that "does not inflict decisive damage, cannot be followed up, and merits the award of five of the nation's highest decoration deserves sharp criticism." [Kohn 1988](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/interview_strategic/chunks/interview_strategic_0035.txt) includes firsthand account from Leon Johnson (one of the first four flying officers in the 8th Air Force) describing the Schweinfurt missions as "one of the most hazardous missions in the whole war," underscoring the intense five-hour battles fought over Schweinfurt. Additionally, [Crane 2016](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/crane_bombs/chunks/crane_bombs_0017.txt) argues that while precision bombing was initially seen as both efficient and humane, the pressures of war and technological limitations led commanders to prioritize military objectives over moral considerations. As he notes, "once LeMay became convinced that pinpoint tactics were no longer effective, morality alone was not enough to prevent the firebombing of Tokyo." The growing pressure to end an increasingly bloody war, combined with vast fleets of bombers that "could not just sit idle, despite poor weather," pushed commanders toward more destructive tactics.
+
+[^4]: [Lucien (1971)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/lucien_pinpoint/chunks/lucien_pinpoint_0036.txt) cites Donald Wilson (USAF General) who stated that "Modern industrial nations are susceptible to defeat by interruption of this web" and that "morale collapse brought about by the breaking of this closely knit web will be sufficient."
+
+[^5]: The argument about civilian culpability was further developed by [Garrett (1993)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/garrett_ethics/chunks/garrett_ethics_0300.txt) who noted that airpower made it "possible to wage war not just on the enemy's soldiers but on the society supporting them," leading to what one authority called "a crisis in the law of war, and a process of barbarization such as had not been seen in Europe since the second half of the seventeenth century." The rhetoric used here, however, might be categorized in the "Moralist" camp.
+
+[^5.5]: [Crane 2016](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/crane_bombs/chunks/crane_bombs_0018.txt) explains that the overriding objective was winning the war quickly and efficiently with minimal American casualties, which often prevented morality from being an "overriding criterion." He notes that while some planners took comfort in proposals that would minimize civilian casualties, the need for Allied cooperation led the US to mute ethical arguments since Britain strongly supported attacking civilian morale. The Americans wanted to avoid causing rifts with their allies or aiding German propaganda.
+
+[^6]: The evolution of this doctrine is traced by [Buckley (1999)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/buckley_total/chunks/buckley_total_0009.txt) who notes that during WWI, bombing strategy "accepted that inaccurate bombs would hit and kill civilians and this was acceptable because it would damage enemy morale." While this targeting of civilians "declined as a strategy in the 1930s," it "re-emerged during the Second World War in the RAF once it proved impossible to bomb anything accurately." [Maier (2005)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/maier_city/chunks/maier_city_0009.txt) describes how early in the war, the British moved to define "collateral damage" as an updated version of the medieval just-war doctrine of "double effect" - if civilians were killed while pursuing legitimate military objectives, this was acceptable as long as care was taken to minimize casualties and observe proportionality.
+
+[^7]: This interpretation is supported by [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0298.txt) who notes that "In the 1930s, Americans never decisively opted for the enemy's war-making capacity as their objective. They proposed to attack the enemy's will, only by more humane and economical methods." The distinction between attacking war-making capacity and civilian will was thus blurred from the beginning.
+
+[^8]: The emotional nature of public discourse around bombing is further evidenced by [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0747.txt) who notes that when Vera Brittain published a critique of bombing in 1944, the responses revealed "the mood of vengeance usually shrouded by utilitarian arguments for bombing."
+
+[^9]: The casualness of moral debate around bombing is particularly striking. [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0757.txt) attributes this not just to "moral laziness" but to the circumstances of air war itself: "Americans entered the war with little tradition of realistic debate about air power to draw upon... journalists and politicians were ill-equipped or disinclined to raise moral issues."
+
+[^10]: Hansen's argument about the limits of total war is particularly significant as it challenges both the necessity and inevitability of area bombing. He argues that "Moral clarity has two sides to it: it gives the Allied war aims moral purpose and it defines the limits within which those aims are pursued."
+
+[^11]: Garrett develops this argument further, explaining that moral reasoning requires "universalization," meaning decisions must consider "the interests and rights of all affected parties." He argues that "The mere fact that a state of war exists does not remove the legitimate claims of enemy civilians for a reasonable chance to go on living."
+
+[^12]: This interpretation helps explain why, as [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0757.txt) noted earlier, moral debates about bombing remained "casual" despite their gravity. If war itself is seen as inherently immoral, then debates about specific tactics become merely technical rather than ethical questions.
+
+[^13]: The technical implementation can be found in [`get_similarity_scores.py`](https://github.com/nac-codes/thesis_bombing/blob/master/scripts/literature_review/get_similarity_scores.py) and [`calc_and_visualize.py`](https://github.com/nac-codes/thesis_bombing/blob/master/scripts/literature_review/calc_and_visualize.py). The embedding process converts text into high-dimensional vectors that capture semantic relationships, allowing for quantitative comparison of textual similarity. Each chunk's embedding is compared against both Realist and Moralist statement sets using cosine similarity. The maximum cosine similarity value is then taken from each set and subtracted from each other to generate a relative position score on the spectrum of Moralist to Realist. Most values are close to zero, because the general context and semantics of the statements are similar.
+
+[^14]: The statement sets were carefully constructed to represent the core arguments of each perspective, with 15 Realist statements and 13 Moralist statements. The full statement sets are available in [`get_similarity_scores.py`](https://github.com/nac-codes/thesis_bombing/blob/master/scripts/literature_review/get_similarity_scores.py). The relative scoring between -1 (most Moralist) and +1 (most Realist) allows for nuanced positioning of each text chunk along the ideological spectrum.
+
+[^15]: Statistical significance was assessed using skewness tests (scipy.stats.skewtest), with p < 0.05 indicating significant deviation from normal distribution. The visualization methodology employs both histogram distributions and Q-Q plots to reveal patterns in the data. Red bars in Figure 1 indicate statistically significant skewness.
+
+[^16]: Our sample includes over 60 major works on strategic bombing, representing approximately 30,000 text chunks and 9.8 million words. While not exhaustive, this corpus encompasses most of the seminal works in the field and provides a reasonable representation of the scholarly literature.
+
+[^17]: The analysis of Sherry's work shows a skewness of 0.234 with a p-value of 0.041, indicating a slight but statistically significant lean toward the Realist perspective, despite his reputation for moral critique. This highlights the importance of quantitative analysis in challenging our qualitative impressions of historical texts.
+
+
+# Chapter 1: Bombing by the Numbers
+
+"It is believed that anyone studying the figures will conclude that the differences, viewed in their proper perspective, become quite insignificant, that the larger lessons to be learned from the figures are clear and unmistakable, and that the decisive role of air power stands out in bold relief."
+[*—United States Strategic Bombing Survey, *Summary Report* (1945)*](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/SUMMARY_REPORT/IMG_8296.JPG)
+
+## A New Approach
+
+The historiography of strategic bombing in World War II has largely relied on aggregate statistics to support broader arguments about the nature and evolution of the bombing campaign. Scholars frequently cite total tonnage dropped, overall accuracy rates, and casualty figures to support their positions[^1]. Most of these statistics come from the first few pages of either the Summary Report or Overall Report of the United States Strategic Bombing Survey (USSBS) (e.g. [The Overall Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/IMG_8235.JPG) and [The Summary Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/SUMMARY_REPORT/IMG_8218.JPG)), displaying a relative lack of depth in previous historical analysis. While these statistics are valuable for broad analysis, they obscure the distributed nature of how the strategic bombing campaign was conducted. This thesis attempts to remedy this by creating and analyzing the most comprehensive raid-by-raid dataset of the European theater to date, based on the original computer tabulations of the United States Strategic Bombing Survey (USSBS).
+
+The United States Strategic Bombing Survey (USSBS) was established by Secretary of War Henry Stimson in November 1944, following a directive from President Roosevelt. Led by civilian chairman Franklin D'Olier, the survey brought together over 1,000 civilian and military personnel with the ambitious goal of conducting an impartial and expert study of the effects of aerial attacks on Germany. While officially independent, the survey was closely tied to Army Air Forces leadership who hoped to use its findings to advocate for an independent air force, as stated by [Delori (2023)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/delori_memory/chunks/delori_memory_0004.txt).
+
+Using what was likely an IBM 405 Alphabetical Accounting Machine, the USSBS Tabulating Service processed detailed data for every recorded bombing mission "FROM THE FIRST ATTACK TO 'V-E' DAY"[^2]. These original computer printouts, stored at the [National Archives in College Park, Maryland](https://catalog.archives.gov/id/561292), contain detailed information about each raid, including target location, air force and squadron identification, number of aircraft, bombing altitude, visibility conditions, and precise bomb loads broken down by type and fuzing.
+
+The Allied strategic bombing campaign represented a form of warfare that was unprecedented in its diffusion across time and space. While some narratives attempt to pigeonhole strategic bombing within traditional pitched battle abstractions like "Battle of the Ruhr" or "Big Week", strategic bombing was in fact continuous and diffuse in nature. It was recorded mission-by-mission, not battle-by-battle. Thus historians must move away from the Thucydidean tradition of historicizing warfare in terms of grand battle narratives, and instead analyze warfare computationally, holistically, and granularly. This thesis attempts to take a step in this direction.
+
+![USSBS Computer Printout Example](attack_data/IMG_0387.JPG)
+*Figure 1.1: Example of USSBS computer printout showing detailed raid data of attacks on oil refinery in Korneuburg, Austria.*
+
+While summary statistics from the USSBS and other sources like the USAAF Office of Statistical Control (OSC), British Air Ministry, and British Bombing Survey Unit have been widely available—showing aggregate tons dropped by year, month, air force, or bomb type—the more granular, raid-level data has remained largely inaccessible and unanalyzed. Historically, this is not surprising given the era's technological limitations. The WWII era was one of bureaucratic paper and tyrannizing statistics, where even simple summations could only be performed by those with access to the resources, data, and computational power of the state apparatus. Today, given that an individual with a laptop and an internet connection has the power to perform more computational work than the entire US Government did in 1944, it is unacceptable that historians continue to rely on the authority of more than eighty-year-old state-generated statistics and summarization.
+
+In that spirit, this thesis will open-source all necessary data and code to enable further analysis of the strategic bombing campaign. Along with a fully digitized collection of the summary reports of the USSBS, this includes the creation and analysis of a comprehensive digital database derived from 8,134 photographs of original USSBS computer printouts. Each photograph was processed using Azure Optical Character Recognition (OCR) and Document Intelligence to extract 31 distinct fields of data per raid, including target identification (location, name, coordinates, and code), mission details (date, time, air force, and squadron), operational parameters (number of aircraft, altitude, sighting method, visibility, target priority), and detailed bomb loads (numbers, sizes, and tonnages of high explosive, incendiary, and fragmentation munitions).
+
+![Computers for the Office of Statistical Control](attack_data/IMG_0011.JPG)
+*Figure 1.2: Computers for the Office of Statistical Control (OSC). Picture is from a pamphlet entitled "WHAT YOU SHOULD KNOW ABOUT COMBAT ANALYSIS" contained in the USSBS archive. The woman on the right is using a [Comptometer](https://en.wikipedia.org/wiki/Comptometer), a mechanical calculator.*
+
+The extracted data underwent multiple stages of validation and correction, combining deterministic rules based on known bomb specifications with context-aware large language models to ensure accuracy. A final manual review process helped identify and remove summation rows that could have led to double-counting of mission data. The resulting dataset contains over 54,608 individual bombing missions. [The complete dataset](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/combined_attack_data_checked.csv), along with all code used in its creation, has been made publicly available to enable further research and analysis. A detailed description of the methodology, including specific validation rules and data processing steps, may be found here: [methodology_attack_data.md](https://github.com/nac-codes/thesis_bombing/blob/master/methodology_attack_data.md).
+
+Our analysis of World War II strategic bombing data reveals strong alignment with historical records for United States Army Air Forces (USAAF) operations while highlighting significant gaps in Royal Air Force (RAF) records. The dataset's totals for the Eighth Air Force (697,814 tons) and Fifteenth Air Force (290,529 tons) closely match the figures reported by both the Office of Statistical Control (692,918 and 312,173 tons respectively) and the United States Strategic Bombing Survey Tabulating Service. This consistency validates our dataset as a reliable foundation for analyzing USAAF strategic bombing operations. However, our RAF Bomber Command total of 701,246 tons falls significantly short of the Air Ministry's reported 1,066,141 tons, with the majority of missing data concentrated in industrial target categories—primarily city areas. While this discrepancy requires careful consideration when drawing conclusions about RAF operations, the dataset still provides valuable insights into bombing patterns and strategic priorities. The temporal and categorical distribution of raids, choice of munitions, and evolution of targeting strategies can be analyzed with confidence for USAAF operations, while RAF trends can be studied with appropriate caveats regarding the underrepresentation of industrial targeting. For a comprehensive breakdown of the data, including detailed charts, tables, and temporal analyses, see the [full results documentation](https://github.com/nac-codes/thesis_bombing/blob/master/results_attack_data.md).
+
+While it is the hope of this researcher that the compiled dataset may prove useful for future historians for a variety of forms of historical analysis, in this thesis our focus lies in observing whether the oft-noted strategic shift from precision to area bombing actually occurred, especially in the context of the USAAF. This will be explored in the next section.
+
+## Evaluating the Strategic Shift from Precision to Area Bombing
+
+This section examines empirically whether and to what extent the strategic bombing campaign shifted from precision to area bombing. Our analysis will proceed as follows:
+
+1. We present our approach to categorizing bombing missions, using an algorithm that considers both munition types and tactical patterns rather than relying on stated objectives.
+2. We show that precision bombing accounted for 69% of all bombs dropped, but demonstrate why this figure requires careful interpretation when compared to USSBS assessments.
+3. We examine how marshalling yard raids, particularly by the USAAF, often served as a proxy for area bombing despite their official designation as precision targets.
+4. We contrast the USAAF's concealed area bombing with the RAF's more overt embrace of the strategy in the records, particularly in their targeting of "Industrial" areas.
+5. We demonstrate that while area bombing increased over time in specific sectors, precision bombing remained the predominant strategy throughout the war.
+
+Through this analysis, we challenge existing narratives that overemphasize the shift toward area bombing while unveiling the extent to which USAAF participated in area bombing tactics.
+
+Our methodology for categorizing tons of bombs as being either part of "area" bombing or "precision" bombing involved developing a nuanced categorization algorithm. This algorithm considers both the types of munitions used and the temporal and spatial relationships between raids. Initially, we considered using a simple ratio of incendiary to high explosive/fragmentary bombs as the determining factor. However, this approach proved inadequate as it failed to capture tactics that combined high explosive and incendiary bombs to maximize destruction.
+
+Our algorithm, implemented in [`categorize_bombing.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/categorize_bombing.py), uses the following logic:
+
+1. Any mission that deployed incendiary bombs is automatically categorized as "area" bombing.
+2. For missions using only high explosive bombs, the algorithm:
+   - Examines all other missions targeting the same location within a 4-hour time window before and after the mission.
+   - If any related mission within this window used incendiaries, the mission is categorized as "area" bombing.
+   - Only if no related missions used incendiaries is the mission categorized as "precision" bombing.
+
+This approach, while generous in identifying area bombing, provides a valuable analytical framework for understanding strategic bombing patterns, despite some limitations in edge cases such as oil refinery raids.
+
+Our analysis initially appears to show a predominance of precision bombing, with 69.0% (1,211,273 tons) of all bombs dropped being categorized as precision bombing compared to 31.0% (544,681 tons) categorized as area bombing.
+
+However, these figures require careful interpretation when compared to the United States Strategic Bombing Survey's own analysis. The USSBS reported that "during the period from October 1939 to May 1945 the Allied Air Forces, primarily the RAF, dropped over one-half million tons of high explosives, incendiaries, and fragmentation bombs in such area raids on the 61 German cities." This apparent similarity to our figure of 544,681 tons is misleading.
+
+First, our dataset is missing nearly 400,000 tons of RAF bombing missions, primarily those targeting industrial areas and cities (See [results_attack_data.md](https://github.com/nac-codes/thesis_bombing/blob/master/results_attack_data.md#comparison-of-total-bomb-tonnage) for more details). If we adjust for this missing data, our estimate for area bombing would increase to approximately 940,000 tons—nearly double the USSBS figure.
+
+This discrepancy stems from fundamentally different approaches to categorization. The USSBS used a narrow definition of area raids as those "intentionally directed against a city area by more than 100 bombers with a bomb weight in excess of 100 tons, which destroyed more than 2 percent of the residential buildings in the city" [(USSBS Overall Report)](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/IMG_8271.JPG). The Survey acknowledged the limitations of this intent-based categorization, noting that "in many cases bombs dropped by instruments in 'precision' raids directed against specific targets fell over a wide area comparable to that covered normally in an 'area' raid."
+
+Our methodology, by contrast, focuses on tactical implementation rather than stated intent. By categorizing any mission using incendiaries—or any mission temporally and spatially associated with incendiary use—as area bombing, our analysis captures the operational reality of the bombing campaign. This approach reveals how supposedly precision targets often became de facto area raids through the combined use of high explosives and incendiaries. The USSBS itself acknowledged this reality, noting that when precision raids targeted facilities within cities, such missions "had the practical effect of an area raid against that city" even while being recorded as precision attacks in air force records [(USSBS Overall Report)](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/IMG_8271.JPG).
+
+The most damning instance of such miscategorization occurred in the transportation sector, where the USAAF would often designate marshalling yards (a group of railroad tracks and yards, together with the buildings and equipment associated with railroad operations) as the primary targets. Despite this designation, incendiary bombs were frequently used in these raids, which is inexplicable given their ineffectiveness against most rail infrastructure.
+
+We can observe the growth in the use of area bombing tactics in the industry contribution graph from the USAAF (Figure 1.3), which shows a steady increase in the proportion of bombs dropped related to area bombing, particularly in the transportation sector, from late 1943 onwards.
+
+![Industry Contribution USAAF](./attack_data/reports/industry_contribution/industry_contribution_usaaf.png)
+*Figure 1.3: Industry contribution to USAAF bombing missions, showing the shift from precision to area bombing.*[^3]
+
+We also see a marked increase in the use of area bombing in the transportation industry specifically, in late 1944 (Figure 1.4):
+
+![Area vs Precision Bombing USAAF Transportation](./attack_data/reports/trends_by_industry/trend_transportation__usaaf.png)
+*Figure 1.4: Area vs Precision Bombing USAAF Transportation. Note the spike in area bombing in late 1944.*
+
+Other academics, particularly those from the moralist camp, have noted this shift. Lucien Mott, in his analysis, highlights the moral implications of targeting civilian populations under the guise of military objectives, questioning the efficiency and ethicality of such strategies [(Lucien Mott 2019)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/lucien_pinpoint/chunks/lucien_pinpoint_0036.txt). Similarly, Robert Anthony Pape discusses how transportation targets were often nominally designated as military objectives, yet the use of incendiaries indicates a broader aim to wreak havoc on civilian areas [(Pape 1960)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/pape_coercion/chunks/pape_coercion_0177.txt)). Charles S. Maier also critiques the escalation of destruction, noting how the USAAF's strategy evolved to shroud large-scale area bombings with specific targets, effectively blurring the lines between military and civilian objectives [(Maier 2005)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/maier_city/chunks/maier_city_0011.txt)). Our data allows for these claims to be empirically validated.
+
+The Transportation Division Report of the USSBS provides further evidence that the use of incendiaries in transportation raids had little tactical justification. The report lists the most effective methods of disrupting rail transport, with "systematic line cuts (preferably bridges, underpasses, and viaducts)" and "throats of yards and other choke points" being the top priorities [(USSBS Transportation Report)](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/TRANSPORTATION_REPORT/IMG_10557.JPG). These targets required only high explosive bombs and, due to their concentrated nature, far fewer resources than what was needed to incapacitate an entire marshalling yard.
+
+The only mention of incendiaries being effective is in the case of rolling stock, and then only against "old-style engine houses and car shop facilities." Even in the case of freight stations, which the report cites as vulnerable to fire damage, the on-the-ground reality suggests limited effectiveness. For instance, the report notes that even when incendiaries successfully destroyed the roofs and superstructure of freight stations at "Köln Gereon Yard, Essen central freight station, and Munster," their "very heavy concrete platforms... were still sufficient for the volume of traffic which continued to move" ([USSBS Transportation Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/TRANSPORTATION_REPORT/IMG_10611.JPG)).
+
+This raises serious questions about the tactical rationale behind the extensive and increasing use of incendiaries in transportation raids. If we examine target selection from first principles, considering the predominantly non-flammable nature of rail infrastructure and the USSBS's own conclusion that delayed-action high explosive bombs were most effective for yard disruption, the widespread deployment of incendiaries appears strategically questionable. The fact that many of the USAAF's heaviest area bombing missions targeted marshalling yards, combined with the ineffectiveness of incendiaries against such targets, strongly suggests that these raids were intended to achieve broader urban destruction rather than to destroy specific transportation objectives[^4]. If this is the case, then the misrepresentation of these raids as precision bombing in the historical record represents a dangerous state-sponsored concealment of the true character of the American strategic bombing campaign.
+
+The RAF, by contrast, more blatantly or perhaps more proudly displays its embrace of area bombing in its records, recording these missions as being part of the "Industrial" category, however their targets descriptions are often listed as "town" or "city" area[^5]. These RAF records show a disposition towards area bombing of "Industrial" targets (meaning cities and industrial areas). This was the case especially early in the war (1943) (the period for which we have the most reliable data for the RAF) where area bombing accounted for around 60% of all bombs dropped.
+
+![Industry Contribution RAF](./attack_data/reports/industry_contribution/industry_contribution_raf.png)
+*Figure 1.5: Industry contribution to RAF bombing missions, showing the dominance of area bombing.*
+
+![Area vs Precision Bombing RAF](./attack_data/reports/trends_by_industry/trend_industrial__raf.png)
+*Figure 1.5: Area vs Precision Bombing RAF. Note the dominance of area bombing in the industrial sector around 1943.*
+
+The drop in the proportion of area bombing in the RAF in the latter part of the war can likely be attributed to the missing data from the RAF bombing missions. Given that most of the missing data is from the industrial sector, it is evident that the RAF continued to employ area bombing tactics late into the war. Even without this data, we see an increasing proportion of area bombing in the RAF in the latter part of the war, mostly as a result of the increasing proportion of industrial bombing.
+
+Having examined the most dramatic instances of area bombing and their trends, we must be careful not to overstate the shift towards area bombing, particularly in the case of the USAAF. Despite the increasing use of area bombing tactics in certain sectors, precision bombing still accounted for nearly 70% of all bombing missions throughout the latter stages of the war (1944-1945). This aspect of the campaign included only high explosive bombs, a majority of which were committed to transportation targets and oil refineries. While these raids could still have impacted population centers, the lack of incendiaries suggest both a lack of intent to destroy urban populations and a lack of effectiveness in doing so (high explosive bombs alone did not create the sort of firestorms that killed hundreds of thousands of people). Since others have emphasized the shift towards area bombing late in the war, authors often fail to effectively analyze the impact of this late precision bombing campaign.
+
+As we move to examine the economic effectiveness of the strategic bombing campaign in the next section, we will seek to understand the contributions of area and precision bombing to the overall destruction of the German economy in general and relative to the land invasion, in an effort to determine which strategy truly won the war.
+
+[^1]: Examples include: [Davis 1993](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/davis_spaatz/chunks/davis_spaatz_0854.txt) analyzes the Eighth and Fifteenth Air Forces, citing 1,005,729 tons of bombs dropped (with 28% on marshaling yards, 13% on oil targets), along with RAF Bomber Command's additional 1,047,412 tons. [Webster and Frankland 1961](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/butler_v3/chunks/butler_v3_0298.txt) focus on aggregate statistics in their analysis of the final Battle of the Ruhr (October-December 1944), citing "14,254 sorties... 60,830 tons of bombs... and only 136 bombers failed to return". [Knell 2003](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/knell_city/chunks/knell_city_0293.txt) likewise emphasizes total tonnage, noting that "well over 1 million tons of bombs rained down on Europe in 1944". Most of these statistics come from either the Summary Report or Overall Report of the United States Strategic Bombing Survey (e.g. [Overall Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/IMG_8235.JPG) and [Summary Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/SUMMARY_REPORT/IMG_8218.JPG)). Note that these statistics are from the first few pages of the USSBS reports, displaying a relative lack of depth in historical analysis.
+
+[^2]: This is stated on the cover of every folder in the Statistical Attack Data Series, e.g. [Oil Refineries Folder Cover](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/IMG_0381.JPG)
+
+[^3]: One must generally ignore the proportion values for the first two years of the war as the number of tons dropped is so low that the proportion values are not significant.
+
+[^4]: See [Top Missons Transportation USAAF Area](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/top_missions/top_missions_transportation__usaaf_area.csv) for a list of the heaviest area bombing missions on transportation targets.
+
+[^5]: See [Top Missons Industrial RAF](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/top_missions/top_missions_industrial__raf_area.csv) for a list of the heaviest area bombing missions on industrial targets.
+
+
+# Methodology
+
+The following outlines the comprehensive methodology employed to create and analyze a digital database of strategic bombing missions during World War II. The process involved the collection of primary source data, optical character recognition (OCR) processing, data cleaning and validation, and the generation of analytical reports. Each step is detailed below, with references to the specific scripts used in the data processing pipeline.
+
+## Data Collection
+
+The foundational data for this thesis was derived from 8,134 photographs of original United States Strategic Bombing Survey (USSBS) computer printouts. These documents, housed at the National Archives in College Park, Maryland, contain detailed raid-level data of bombing missions "FROM THE FIRST ATTACK TO 'V-E' DAY." The photographs captured the following information per raid:
+
+- Target identification (location, name, coordinates, and code)
+- Mission details (date, time, air force, and squadron)
+- Operational parameters (number of aircraft, altitude, sighting method, visibility, target priority)
+- Detailed bomb loads (numbers, sizes, and tonnages of high explosive, incendiary, and fragmentation munitions)
+
+An example of these computer printouts is shown in Figure 2.1.
+
+![USSBS Computer Printout Example](./attack_data/IMG_0387.JPG)
+*Figure 2.1: Example of USSBS computer printout showing detailed raid data.*
+
+The photographs were systematically organized into directories based on boxes, books, and images to maintain a coherent data structure for subsequent processing.
+
+## Optical Character Recognition (OCR)
+
+To convert the photographed tables into machine-readable text, we employed OCR techniques using Azure's Form Recognizer service. The service was chosen for its capability to handle complex table structures and handwritten components.
+
+### Processing with Azure Form Recognizer
+
+The script [`send_to_azure.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/send_to_azure.py) was developed to automate the submission of images to the Azure service.
+
+```python
+# Excerpt from send_to_azure.py
+
+document_analysis_client = DocumentAnalysisClient(
+    endpoint=endpoint, credential=AzureKeyCredential(key)
+)
+
+def analyze_document(image_path):
+    ...
+    poller = document_analysis_client.begin_analyze_document(
+        "prebuilt-layout", document=image_file
+    )
+    result = poller.result()
+    ...
+```
+
+This script navigated through the directory of images, sent each image to Azure for processing, and stored the resulting JSON outputs containing the extracted data.
+
+## Data Processing Pipeline
+
+The data processing involved several stages to transform the raw OCR outputs into a clean, structured dataset suitable for analysis. The main steps included:
+
+1. Extracting and organizing metadata and table data from the OCR outputs.
+2. Correcting OCR errors and filling missing values using deterministic methods and language models.
+3. Validating and cleaning the data to ensure consistency and accuracy.
+4. Combining individual tables into a consolidated dataset.
+5. Identifying and handling outliers and summation rows.
+6. Generating analytical reports and visualizations.
+
+### Extracting and Organizing Data
+
+The initial processing of Azure's OCR output was handled by [`process_ocr.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/process_ocr.py). This script was responsible for two critical tasks: extracting metadata about the target and identifying the correct data table from the OCR output.
+
+Azure Form Recognizer returns a structured JSON object containing detected tables, text blocks, and their spatial relationships on the page. While this provides a good foundation, the script needed to handle several complexities:
+
+1. **Table Identification**: The script searched for tables containing exactly 23 columns matching our expected format:
+```python
+# Excerpt from process_ocr.py
+expected_column_names = [
+    "DATE OF ATTACK DAY", "MO", "YR", "TIME OF ATTACK", "AIR FORCE",
+    "GROUP OR SQUADRON NUMBER", "NUMBER OF AIRCRAFT BOMBING",
+    "ALTITUDE OF RELEASE IN HUND. FT.", "SIGHTING", "VISIBILITY OF TARGET",
+    "TARGET PRIORITY", "HIGH EXPLOSIVE BOMBS NUMBER", "SIZE", "TONS",
+    "FUZING NOSE", "TAIL", "INCENDIARY BOMBS NUMBER", "SIZE", "TONS",
+    "FRAGMENTATION BOMBS NUMBER", "SIZE", "TONS", "TOTAL TONS"
+]
+```
+
+The script used fuzzy string matching to identify the correct table and column alignment, as OCR sometimes misread column headers:
+
+```python
+def find_table_with_23_columns(ocr_data, expected_names):
+    best_match_score = 0
+    best_match_table = None
+
+    for table in ocr_data.get("tables", []):
+        # Calculate fuzzy match scores between expected and found columns
+        avg_score = calculate_column_match_score(table, expected_names)
+        if avg_score > best_match_score:
+            best_match_score = avg_score
+            best_match_table = table
+```
+
+2. **Metadata Extraction**: Each page contained critical target information (location, name, coordinates, and target code) that needed to be extracted. The script used GPT-4o to help parse this information accurately:
+
+```python
+def extract_target_info(ocr_data, jpg_file):
+    # Construct prompt for GPT-4 with the page content
+    prompt = f"""Extract the following target information from this text:
+    - Target Location
+    - Target Name
+    - Latitude
+    - Longitude
+    - Target Code
+
+    Text: {page_text}
+    """
+
+    # Use GPT to extract structured information
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[{"role": "user", "content": prompt}]
+    )
+```
+
+3. **Data Organization**: The extracted data was organized into a structured format with two main components:
+   - Metadata dictionary containing target information
+   - Table data containing the actual bombing mission details
+
+The script saved this information in two formats:
+- A JSON file (`extracted_data.json`) containing both metadata and table data
+- A CSV file (`table_data.csv`) containing just the table data for easier processing
+
+```python
+def save_csv(data, filename):
+    with open(filename, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(data.keys())
+        writer.writerows(zip(*data.values()))
+
+def save_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+```
+
+This initial processing stage was critical for ensuring data quality and consistency. The script included extensive logging to track any issues or anomalies in the extraction process, allowing for manual review when necessary. The output files were organized in a directory structure that maintained the relationship between original images and extracted data:
+
+```
+original_image.JPG
+original_image_output/
+    ├── extracted_data.json
+    └── table_data.csv
+```
+
+This structured approach to data extraction provided a solid foundation for subsequent processing steps, ensuring that both the tabular data and contextual metadata were accurately preserved.
+
+### Validating and Correcting Data Fields
+
+After initial extraction, each table underwent a rigorous validation and correction process using [`process_table.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/process_table.py). This script implemented a sophisticated field-by-field validation system with specific rules for each column type.
+
+1. **Field-Specific Validation Rules**: Each column had its own validation function with precise expectations:
+
+```python
+def check_AIR_FORCE(value, is_required, is_RAF):
+    # Expected: 8, 9, 12, 15 for US Air Forces, or R for Royal Air Force
+    if pd.isna(value):
+        if is_required:
+            if is_RAF:
+                return False, "AIR FORCE is required. Could be 8, 9, 12, 15, or R. Potentially is R."
+            else:
+                return False, "AIR FORCE is required. Should be 8, 9, 12, or 15. Potentially is 8."
+    # Additional validation logic...
+
+def check_DAY(value, is_required):
+    # Expected: Single day (1-31) or a range (e.g., 15-16)
+    if pd.isna(value):
+        return not is_required, "DAY is required. Should be a number between 1 and 31 or a range (e.g., 15-16)."
+    # Additional validation logic...
+```
+
+2. **Contextual Error Correction**: When errors were detected, the script used GPT-4o-mini with highly specific prompts that included:
+   - The expected format and valid values for the field
+   - Values from surrounding rows in the same column for context
+   - Related values from the same row (e.g., bomb numbers and tonnage)
+   - Historical patterns from similar entries
+
+For example, when correcting Air Force designations, the prompt would look like this:
+
+```python
+prompt = f"""Correct the Air Force designation.
+Current value: {value}
+Valid options: 8, 9, 12, 15 (US Air Forces) or R (Royal Air Force)
+Previous 3 rows in column: {previous_values}
+Next 3 rows in column: {next_values}
+Target location: {target_location}
+Date of attack: {attack_date}
+
+Please select the most likely correct value from the valid options."""
+```
+
+3. **Mathematical Validation**: For bomb-related data, the script implemented cross-field validation to ensure internal consistency:
+
+```python
+def check_TONNAGE(row):
+    # Validate that individual tonnages sum to total
+    he_tons = row['HIGH EXPLOSIVE BOMBS TONS']
+    inc_tons = row['INCENDIARY BOMBS TONS']
+    frag_tons = row['FRAGMENTATION BOMBS TONS']
+    total_tons = row['TOTAL TONS']
+
+    calculated_total = sum([he_tons, inc_tons, frag_tons])
+    if abs(calculated_total - total_tons) > 0.1:
+        return False, f"Total tons ({total_tons}) does not match sum of individual tonnages ({calculated_total})"
+    return True, None
+```
+
+4. **Iterative Correction Process**: The script processed each row multiple times if necessary:
+   - First pass: Basic validation and correction of individual fields
+   - Second pass: Cross-field validation (e.g., tonnage calculations)
+   - Final pass: Overall consistency check
+
+This meticulous approach to data validation and correction significantly reduced errors while maintaining the integrity of the historical data. By providing GPT-4o-mini with specific constraints and contextual information, we minimized the risk of hallucinated values and ensured corrections were historically plausible.
+
+The script maintained detailed logs of all corrections, allowing for manual review of significant changes:
+
+```python
+logging.info(f"Row {row_idx + 1}: Corrected Value for '{col}': {corrected_value}")
+```
+
+This combination of deterministic validation rules and context-aware AI assistance proved highly effective in cleaning the OCR output while preserving the historical accuracy of the data.
+
+### Deterministic Validation and Correction
+
+A critical aspect of data validation involved the mathematical relationships between bomb quantities, sizes, and tonnages. The script [`post_process_2.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/post_process_2.py) implemented a sophisticated system to validate and correct these interrelated values using known bomb specifications from the period.
+
+#### Bomb Weight Mappings
+
+First, we established a comprehensive mapping of bomb size codes to their actual weights in pounds:
+
+```python
+bomb_weight_mapping = {
+    "HIGH EXPLOSIVE": {
+        1: [100], 2: [250, 300], 3: [500, 600], 4: [1000, 1100], 5: [2000],
+        6: [4000], 7: [500], 8: [1000], 9: [1000], 10: [1600],
+        11: [325, 350], 12: [1000], 13: [1660], 14: [2000]
+    },
+    "INCENDIARY": {
+        1: [2], 2: [4], 3: [6], 4: [10], 5: [100], 6: [500],
+        7: [14 * 6], 8: [38 * 6], 9: [60 * 6], 10: [34 * 4],
+        11: [110 * 4], 12: [128 * 4], 13: [100]
+    },
+    "FRAGMENTATION": {
+        1: [4], 2: [20], 3: [23], 4: [90], 5: [260],
+        6: [3 * 23], 7: [6 * 20], 8: [20 * 20, 24 * 20], 9: [6 * 90],
+        10: [24 * 4], 11: [90 * 4]
+    }
+}
+```
+
+This was derived from the index of the USSBS computer printouts:
+
+![USSBS Computer Printout Index](attack_data/IMG_0089.JPG)
+
+#### Validation Process
+
+For each row in the dataset, the script performed a three-way validation between:
+- Number of bombs
+- Bomb size (which mapped to weight in pounds)
+- Total tonnage
+
+The process worked as follows:
+
+1. **Calculate Expected Values**: For each combination of two known values, calculate the expected third value:
+```python
+def get_expected_values(row, bomb_type):
+    tonnage = row[f'{bomb_type} BOMBS TONS']
+    number = row[f'{bomb_type} BOMBS NUMBER']
+    size_code = row[f'{bomb_type} BOMBS SIZE']
+
+    # If we have tonnage and number, calculate expected size
+    if not pd.isna(tonnage) and not pd.isna(number):
+        expected_size = size_code
+        expected_tonnage = tonnage
+        expected_number = number
+    # If we have tonnage but no number, calculate expected number
+    elif not pd.isna(tonnage) and pd.isna(number):
+        expected_size = size_code
+        expected_tonnage = tonnage
+        expected_number = (tonnage * 2000) / weight  # Convert tons to pounds
+    # If we have number but no tonnage, calculate expected tonnage
+    elif pd.isna(tonnage) and not pd.isna(number):
+        expected_size = size_code
+        expected_tonnage = (number * weight) / 2000  # Convert pounds to tons
+        expected_number = number
+```
+
+2. **Fuzzy Matching**: Compare each calculated combination against the original OCR values to find the best match:
+```python
+def find_best_match(original_values, expected_values_list):
+    best_match = None
+    best_score = -1
+
+    for expected_values in expected_values_list:
+        score = sum([
+            calculate_similarity(original_values['tonnage'], expected_values['tonnage']),
+            calculate_similarity(original_values['size'], expected_values['size']),
+            calculate_similarity(original_values['number'], expected_values['number'])
+        ])
+
+        if score > best_score:
+            best_score = score
+            best_match = expected_values
+```
+
+This approach sometimes produced mathematically correct but historically implausible values (such as fractional numbers of bombs). However, by using fuzzy string matching to compare the calculated values against the original OCR output, the script typically selected the most historically accurate combination. For example:
+
+- Original OCR: `{number: 24, size: 3, tons: 6.0}`
+- Calculated options:
+  1. `{number: 24, size: 3, tons: 6.0}` - Score: 300
+  2. `{number: 24.5, size: 3, tons: 5.9}` - Score: 250
+  3. `{number: 23.8, size: 3, tons: 6.1}` - Score: 240
+
+The first option would be selected as it best matches the original OCR values while maintaining mathematical consistency.
+
+The script logged all corrections for manual review:
+```python
+logging.debug(f"Original values: {original_values}")
+logging.debug(f"Calculated options: {expected_values_list}")
+logging.debug(f"Selected best match: {best_match}")
+```
+
+This deterministic approach to validation proved particularly effective for correcting GPT-4o-mini hallucinations, as it leveraged both mathematical relationships and historical accuracy through fuzzy matching against the original values.
+
+### Combining Data into a Consolidated Dataset
+
+After processing individual tables, the script [`combine.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/combine.py) aggregated the data into a single comprehensive CSV file.
+
+It outputted two CSV files:
+- [`combined_attack_data_complete_checked.csv`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/combined_attack_data_complete_checked.csv): A detailed dataset which includes all the original data fields, including tonnage.
+- [`combined_attack_data.csv`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/combined_attack_data.csv): A simplified dataset which includes only the most important fields for analysis. Reduced tonnage data to being binary (0 or 1) for high explosive, incendiary, and fragmentation bombs.
+
+This script handled file system traversal, read individual CSV files, and concatenated them while preserving relevant metadata.
+
+### Final Manual Review and Outlier Detection
+
+The final step in data cleaning involved manual verification of statistical outliers using [`check_attacka_data.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/check_attacka_data.py). This was particularly important for handling summation rows—entries that represented mission totals rather than individual sorties—which occasionally escaped automated detection.
+
+The script facilitated this review process in several ways:
+
+1. **Statistical Detection**: For each bomb type (high explosive, incendiary, and fragmentation), the script identified statistical outliers:
+```python
+def find_outliers(data, column):
+    mean = np.mean(data[column])
+    std = np.std(data[column])
+    outliers = data[data[column] > mean + 2*std]
+    return outliers.sort_values(by=column, ascending=False)
+```
+
+2. **Contextual Review**: For each outlier, the script displayed:
+   - The full table from the original image
+   - Target information and date
+   - Surrounding entries for context
+   - The original photograph for verification
+
+3. **Interactive Correction**: Users could:
+   - Mark entries as summation rows (removing them from the dataset)
+   - Correct erroneous values
+   - Verify legitimate high-tonnage missions
+
+The script generated distribution plots for each bomb type, helping identify unusual patterns:
+
+```python
+plot_distribution(
+    data,
+    f'Distribution of {bomb_type}',
+    'reports/tons/',
+    f'tonnage_distribution_{bomb_type.lower().replace(" ", "_")}.png'
+)
+```
+
+This final manual review was particularly effective at catching aggregated entries that had slipped through automated detection, ensuring the final dataset limited the amount of double-counting.
+
+The processed and validated dataset may be found at: [`combined_attack_data_complete_checked.csv`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/combined_attack_data_complete_checked.csv)
+
+### Categorizing Area vs. Precision Bombing
+
+A critical methodological challenge was determining whether each mission should be categorized as "area" or "precision" bombing. Initially, we considered using a simple ratio of incendiary to high explosive/fragmentary bombs as the determining factor. However, this approach proved inadequate as it failed to capture the sophisticated tactics employed in area bombing campaigns.
+
+Historical evidence shows that the most devastating area raids deliberately combined both high explosive and incendiary bombs. As described in contemporary accounts, high explosive bombs would first demolish roofs and windows, creating optimal conditions for incendiary bombs to penetrate buildings and initiate urban firestorms. These tactical combinations turned targeted structures into "giant cauldrons" that became epicenters of devastating urban fires (See: [Hansen, *Fury*](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/hansen_fury/chunks/hansen_fury_0078.txt), [Davis, *Spaatz*](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/davis_spaatz/chunks/davis_spaatz_0810.txt)).
+
+Given this historical context, we developed a more nuanced categorization algorithm that considers both temporal and spatial relationships between raids. The algorithm, implemented in [`categorize_bombing.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/categorize_bombing.py), uses the following logic:
+
+1. Any mission that deployed incendiary bombs is automatically categorized as "area" bombing
+2. For missions using only high explosive bombs, the algorithm:
+   - Examines all other missions targeting the same location
+   - Uses a 4-hour time window before and after the mission
+   - If any related mission within this window used incendiaries, categorizes the mission as "area" bombing
+   - Only if no related missions used incendiaries is the mission categorized as "precision" bombing
+
+```python
+def categorize_mission(row, df, time_window_hours=4):
+    # First check if this mission used incendiaries
+    if row['INCENDIARY BOMBS NUMBER'] > 0:
+        return 'area'
+
+    # Check other missions at same target within time window
+    time_window_start = mission_time - timedelta(hours=time_window_hours)
+    time_window_end = mission_time + timedelta(hours=time_window_hours)
+
+    related_missions = df[
+        (df['box'] == box) &
+        (df['book'] == book) &
+        (df['image'] == image) &
+        (pd.to_datetime(df['DATETIME']) >= time_window_start) &
+        (pd.to_datetime(df['DATETIME']) <= time_window_end)
+    ]
+
+    # If any related mission used incendiaries, categorize as area bombing
+    if (related_missions['INCENDIARY BOMBS NUMBER'] > 0).any():
+        return 'area'
+
+    return 'precision'
+```
+
+This generous approach to identifying area bombing does have limitations. For instance, some oil refinery raids that used small quantities of incendiary bombs—presumably to ignite petroleum products as part of precise targeting—are categorized as "area" bombing despite potentially being more accurately described as precision attacks. However, these edge cases represent a relatively small portion of the overall dataset, and the categorization still provides a valuable analytical framework for understanding strategic bombing patterns.
+
+
+
+
+# Results
+
+## Comparison of Total Bomb Tonnage
+
+The total bomb tonnage recorded in our dataset is closely aligned with the figures reported by both the United States Strategic Bombing Survey (USSBS) Tabulating Service and the Office of Statistical Control (OSC) for the Eighth and Fifteenth Air Forces. Our data for the USAAF shows:
+
+- **Eighth Air Force**: 697,814.46 tons
+- **Fifteenth Air Force**: 290,529.45 tons
+
+These figures are remarkably close to the OSC's reported totals of 692,918 tons for the Eighth Air Force and 312,173 tons for the Fifteenth Air Force[^1]. The slight discrepancies can be attributed to OCR error and LLM hallucinations.
+
+However, the data for the Royal Air Force (RAF) Bomber Command presents a significant shortfall of over 300,000 tons when compared to historical records. Our dataset records:
+
+- **RAF Bomber Command**: 701,245.61 tons
+
+In contrast, the Air Ministry reported a total of 1,066,141 tons dropped by the RAF Bomber Command[^1]. The missing tonnage in our dataset is predominantly in the **Industrial** category, which mainly includes city area bombings[^2]. This discrepancy suggests that a substantial number of RAF mission records, particularly those targeting urban industrial areas, are missing from the archives utilized for our dataset.
+
+## Implications for Data Analysis
+
+The close alignment of USAAF data confirms that our dataset provides a reliable foundation for analyzing bombing missions conducted by the Eighth and Fifteenth Air Forces, which constituted the majority of USAAF bombings in the European theater. For the RAF data, while the available records are valuable, any conclusions drawn must acknowledge the incomplete nature of the dataset, especially concerning the substantial underrepresentation of bombings on city areas.
+
+---
+
+## Target Category by Air Force
+
+| Target Category    | RAF Tonnage | RAF % | USAAF Tonnage | USAAF % | Total Tonnage |
+|-------------------|-------------|-------|---------------|----------|---------------|
+| Transportation    | 155,684.12  | 27.8% | 405,038.14    | 72.2%   | 560,722.26    |
+| Industrial        | 194,472.29  | 65.3% | 103,426.67    | 34.7%   | 297,898.96    |
+| Oil Refineries    | 94,959.91   | 36.8% | 163,244.12    | 63.2%   | 258,204.03    |
+| Airfields         | 34,560.41   | 21.5% | 126,112.16    | 78.5%   | 160,672.57    |
+| Military Industry | 60,199.04   | 53.3% | 52,739.97     | 46.7%   | 112,939.01    |
+| Aircraft Production| 10,161.84   | 12.5% | 71,198.44     | 87.5%   | 81,360.28     |
+| Naval             | 40,268.67   | 64.2% | 22,467.20     | 35.8%   | 62,735.87     |
+| Weapon            | 4,836.12    | 15.0% | 27,325.89     | 85.0%   | 32,162.01     |
+| Chemical          | 15,251.73   | 61.5% | 9,557.85      | 38.5%   | 24,809.58     |
+| Manufacturing     | 436.94      | 5.5%  | 7,474.76      | 94.5%   | 7,911.71      |
+| Explosives        | 1,426.12    | 17.9% | 6,553.02      | 82.1%   | 7,979.14      |
+| Utilities         | 3,011.33    | 50.6% | 2,943.60      | 49.4%   | 5,954.93      |
+| Light Metals      | 336.10      | 83.3% | 67.20         | 16.7%   | 403.30        |
+|--------------------|-------------|-------|---------------|----------|---------------|
+| **Total**          | 701,245.61  | 100%  | 1,054,708.40  | 100%    | 1,755,954.02  |
+
+## Yearly Tonnage by Air Force
+
+| Year | 8th AF | 15th AF | RAF | 9th AF | 12th AF | Unknown | Total |
+|------|---------|----------|------|---------|----------|----------|--------|
+| 1940 | - | 304.00 | 213.22 | 60.00 | - | - | 577.23 |
+| 1941 | 22,980.06 | 1,831.56 | 62,265.68 | 6,116.48 | 30.00 | 658.37 | 93,882.14 |
+| 1942 | 24,211.65 | 2,754.35 | 36,473.89 | 7,128.44 | 757.10 | 215.05 | 71,540.49 |
+| 1943 | 54,809.07 | 13,462.19 | 67,437.82 | 6,622.31 | 900.50 | 839.00 | 144,070.89 |
+| 1944 | 434,066.29 | 193,868.57 | 385,895.60 | 22,456.01 | 2,537.00 | 1,186.43 | 1,040,009.89 |
+| 1945 | 161,747.39 | 78,308.78 | 148,959.40 | 10,931.43 | 1,816.75 | 4,109.64 | 405,873.39 |
+| **Total** | **697,814.46** | **290,529.45** | **701,245.61** | **53,314.67** | **6,041.35** | **7,008.48** | **1,755,954.02** |
+| % of Total | 39.7% | 16.5% | 39.9% | 3.0% | 0.3% | 0.4% | 100% |
+
+## Area vs Precision Bombing
+
+This section analyzes how bombing tonnage was distributed between area and precision bombing strategies, based on data processed by the [`create_reports.py`](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/create_reports.py) script. These reports and visualizations provide insights into bombing patterns, target priorities, and mission characteristics of both the Royal Air Force (RAF) and the United States Army Air Forces (USAAF) during World War II. All the reports and charts referenced can be found in the [**attack_data/reports**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports) directory.
+
+---
+
+### Summary Statistics
+
+We begin with the [**Summary Statistics Report**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which offers an overall quantitative snapshot of the bombing campaign.
+
+#### Key Highlights:
+
+- **Total Tonnage Dropped**: **1,697,811 tons**
+  - **RAF** contributed **669,624 tons** (39.4%)
+  - **USAAF** contributed **1,028,188 tons** (60.6%)
+
+- **Bomb Type Distribution**:
+  - **High Explosive (HE)**: **1,510,054 tons** (88.9%)
+  - **Incendiary**: **146,497 tons** (8.6%)
+  - **Fragmentation**: **41,260 tons** (2.4%)
+
+- **Yearly Tonnage Statistics**:
+  - **1944** saw the highest bombing activity with **1,025,761 tons** dropped.
+  - The USAAF's contribution peaked in 1944, reflecting increased American involvement.
+
+- **Bombing Type Distribution**:
+  - **Precision Bombing** accounted for **61%** of total tonnage.
+  - **Area Bombing** made up **39%** of total tonnage.
+
+#### Detailed Breakdown:
+
+For a more granular view, please refer to the full [**Summary Statistics Report**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which includes:
+
+- Tonnage by **Air Force** and **Year**
+- Tonnage by **Target Category**
+- Bomb Type Distribution by **Air Force** and by **Industry**
+
+---
+
+### Attack Type Comparison: Area vs Precision Bombing
+
+The [**Attack Types by Air Force and Mission Category**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png) chart illustrates the distribution of total tonnage between area and precision bombing for both the RAF and USAAF.
+
+![Attack Types by Air Force and Mission Category](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png)
+
+#### Explanation:
+
+- The **x-axis** represents the **mission category** (Area or Precision).
+- The **y-axis** shows the **total tonnage dropped**.
+- Each bar is **stacked** to show contributions from the **RAF** and **USAAF**.
+
+---
+
+### Overall Trends
+
+The [**Overall Trends by Bombing Type**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/overall_trends/overall_trends_by_bombing_type.png) visualization presents how the total tonnage of area and precision bombings evolved over time.
+
+![Overall Trends by Bombing Type](./attack_data/reports/overall_trends/overall_trends_by_bombing_type.png)
+
+#### Explanation:
+
+- **Stacked Area Chart** showing monthly total tonnage for **area** and **precision** missions.
+- **Timeframe**: From the beginning to the end of the bombing campaign.
+
+---
+
+### Industry Contribution Analysis
+
+The [**Industry Contribution Analysis**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/industry_contribution) examines how different target industries contributed to the overall bombing efforts over time, using a 12-month rolling window analysis. Each visualization shows the proportional contribution of different industries to both precision and area bombing campaigns.
+
+![Industry Contribution RAF](./attack_data/reports/industry_contribution/industry_contribution_raf.png)
+
+![Industry Contribution USAAF](./attack_data/reports/industry_contribution/industry_contribution_usaaf.png)
+
+#### Understanding the Visualizations
+
+Each figure consists of two panels:
+1. **Top Panel**: Shows industry contributions to precision bombing
+2. **Bottom Panel**: Shows industry contributions to area bombing
+
+The y-axis represents the **proportional contribution** of each industry, calculated as:
+- For each month, using the previous 12 months of data:
+  1. Calculate the total tonnage dropped across all industries
+  2. For each industry:
+     - Calculate its percentage of total tonnage
+     - Split this percentage between precision and area bombing based on that industry's mission types
+     - Stack these proportions to show relative contribution
+
+Key features:
+- The height of each colored section represents that industry's relative contribution
+- Hatching patterns help distinguish between industries
+- The sum of all sections equals 1.0 (100%) at any given point
+- The x-axis spans from January 1942 to December 1945
+- Different colors and patterns are used consistently across both air forces for easy comparison
+
+This visualization method allows us to see:
+- How the relative importance of different target types evolved
+- Which industries were prioritized by each air force
+- The balance between precision and area bombing for different target types
+- Shifts in strategic focus over time
+
+---
+
+### Area Bombing Composition
+
+![Area Bombing Composition](./attack_data/reports/area_bombing_composition/area_bombing_composition.png)
+
+#### Explanation:
+
+- **Top Panel**: Displays contributions of each industry to the **HE tonnage** in area bombings over time.
+- **Bottom Panel**: Shows the same for **incendiary tonnage**.
+
+---
+
+### Trends by Industry
+
+The [**Trends by Industry Reports**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/trends_by_industry) offer insights into the bombing patterns for specific industries over time.
+
+#### Sample Industries:
+
+##### Transportation
+
+![Transportation - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_transportation__all.png)
+
+##### Oil Refineries
+
+![Oil Refineries - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_oilrefineries_all.png)
+
+#### Industrial Areas
+
+![Industrial - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_industrial__all.png)
+
+#### Explanation:
+
+- **Plots** show both **raw monthly tonnage** and **12-month moving averages** for area and precision bombings.
+- **Purpose**: To identify patterns, shifts in strategic focus, and the effectiveness of bombing campaigns against specific industries.
+- **All industry trends** are available in the [**trends_by_industry**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/trends_by_industry) directory.
+
+---
+
+### Top Missions
+
+The [**Top Missions Reports**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/top_missions) list the most significant missions in terms of tonnage for each industry, separated by bombing type and air force.
+
+#### Details:
+
+- **CSV Files** for each industry and air force combination, such as:
+
+  - `top_missions_transportation_raf_area.csv`
+  - `top_missions_transportation_usaaf_precision.csv`
+
+- **Information Included**:
+  - **Date and Time**
+  - **Mission ID**
+  - **Target Name and Location**
+  - **Number of Aircraft Bombing**
+  - **Total Tonnage**
+  - **Bomb Type Breakdown** (HE and Incendiary tonnage and percentages)
+
+#### Accessing the Reports:
+
+- The complete list of top missions for each industry can be found in the [**top_missions**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/top_missions) directory.
+- These reports are valuable for identifying key operations and understanding tactical priorities.
+
+---
+
+**Note**: All reports and charts mentioned are accessible in the [**attack_data/reports**](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports) directory. For specific charts not displayed in this document due to space constraints, please refer to the corresponding subdirectories and files within the reports folder.
+
+[^1]: **Sources**: [USSBS Tabulating Service Data Part 1](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/ECONOMIC_REPORT/IMG_8547.JPG) and [Part 2](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/ECONOMIC_REPORT/IMG_8548.JPG). [Office of Statistical Control and Air Ministry records](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8297.JPG).
+
+[^2]: The total tonnage dropped by the RAF on industrial targets is reported in the [Statistical Appendix of the USSBS Overall Report](https://github.com/nac-codes/thesis_bombing/blob/master/ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8326.JPG) as 610,679 tons. We recorded only 194,472.29 tons as seen in the [Summary Statistics Report](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/summary_statistics/summary_statistics_detailed.txt).
+
+
+# Bibliography
+
+Beagle, T. W. Jr. 2001. *Effects-Based Targeting: Another Empty Promise?* Maxwell Air Force Base, AL: Air University Press.
+
+Bellamy, Alex J. 2012. *Massacres and Morality: Mass Atrocities in an Age of Civilian Immunity*. Oxford Scholarship Online.
+
+Biddle, Tami Davis. *Rhetoric and Reality in Air Warfare: The Evolution of British and American Ideas about Strategic Bombing, 1914-1945*. Princeton: Princeton University Press, 2002.
+
+Buckley, John. *Air Power in the Age of Total War*. London: UCL Press, 1999.
+
+Builder, Carl H. *The Icarus Syndrome: The Role of Air Power Theory in the Evolution and Fate of the U.S. Air Force*. Routledge, 1994.
+
+Crane, Conrad C. *American Airpower Strategy in World War II: Bombs, Cities, Civilians, and Oil*. Lawrence: University Press of Kansas, 2016.
+
+Davis, Richard G. *Carl A. Spaatz and the Air War in Europe*. Washington, DC: Office of Air Force History, U.S. Air Force, 1993.
+
+Delori, Mathias. *Understanding the Fragmentation of the Memory of the Allied Bombings of World War II: The Role of the United States Strategic Bombing Survey*. Routledge, 2023.
+
+Downes, Alexander B. 2008. *Defining and Explaining Civilian Victimization*. Ithaca: Cornell University Press.
+
+Fuller, J. F. C. *The Conduct of War 1789–1961*. Routledge, 1961.
+
+Garrett, Stephen A. *Ethics and Airpower in World War II: The British Bombing of German Cities*. New York: St. Martin's Press, 1993.
+
+Griffith, Charles R. *The Quest: Haywood Hansell and American Strategic Bombing in World War II*. Knoxville: The University of Tennessee, 1994.
+
+Hansen, Randall. *Fire and Fury: The Allied Bombing of Germany 1942-45*. Toronto: Doubleday Canada, 2008.
+
+Haun, Phil. *Lectures of the Air Corps Tactical School and American Strategic Bombing in World War II*. Lexington: The University Press of Kentucky, 2019.
+
+Haysparks, W. "Precision" and "Area" Bombing: Who Did Which, and When? US Army Air Forces, April 1945.
+
+Hecks, Karl. *Bombing 1939 - 1945: The Air Offensive against Land Targets in World War Two*. London: Robert Hale, 1990.
+
+Kennett, Lee. *A History of Strategic Bombing*. New York: Charles Scribner's Sons, 1982.
+
+Knell, Hermann. *To Destroy a City*. New York: Da Capo Press, 2003.
+
+LeMay, Curtis E., Leon W. Johnson, David A. Burchinal, and Jack J. Catton. Edited by Richard H. Kohn and Joseph P. Harahan. *Strategic Air Warfare*. Washington, DC: Office of Air Force History, United States Air Force, 1988.
+
+Maier, Charles S. *Targeting the City: Debates and Silences about the Aerial Bombing of World War II*. Cambridge: Cambridge Press, 2005.
+
+McFarland, Stephen L. *America's Pursuit of Precision Bombing, 1910-1945*. Tuscaloosa: The University of Alabama Press, 1995.
+
+Mott, Lucien. *Strategic Bombing Campaign During World War Two: Pinpoint vs Area Bombing*. St. John’s University, Unknown.
+
+Murray, Williamson. *Strategy for Defeat: The Luftwaffe, 1933-1945*. Maxwell Air Force Base, Ala.: Air University Press, 1983.
+
+Overy, Richard J. *The Air War 1939-1945*. Plunkett Lake Press, November 2020.
+
+Pape, Robert Anthony. *Why Study Military Coercion?* Ithaca: Cornell University Press, 1960.
+
+Sherry, Michael S. *The Rise of American Air Power: The Creation of Armageddon*. New Haven: Yale University Press, 1987.
+
+Webster, Sir Charles, and Noble Frankland. *The Strategic Air Offensive Against Germany 1939-1945: Volume III: Victory Part 5*. London: Her Majesty's Stationery Office, 1961.
+
+Werrell, Kenneth P. *Death from the Heavens: A History of Strategic Bombing*. Annapolis, MD: Naval Institute Press, 2009.
+
