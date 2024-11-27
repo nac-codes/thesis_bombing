@@ -366,10 +366,47 @@ plot_distribution(
 
 This final manual review was particularly effective at catching aggregated entries that had slipped through automated detection, ensuring the final dataset limited the amount of double-counting.
 
-### Final Outputs
-
 The processed and validated dataset may be found at: [`combined_attack_data_complete_checked.csv`](attack_data/combined_attack_data_complete_checked.csv)
 
-For a discussion of how these outputs were visualized and analyzed, please see [methodology_attack_data_visualization.md](methodology_attack_data_visualization.md).
+### Categorizing Area vs. Precision Bombing
 
-These outputs constitute the empirical foundation of the thesis, enabling a granular analysis of strategic bombing during World War II.
+A critical methodological challenge was determining whether each mission should be categorized as "area" or "precision" bombing. Initially, we considered using a simple ratio of incendiary to high explosive/fragmentary bombs as the determining factor. However, this approach proved inadequate as it failed to capture the sophisticated tactics employed in area bombing campaigns.
+
+Historical evidence shows that the most devastating area raids deliberately combined both high explosive and incendiary bombs. As described in contemporary accounts, high explosive bombs would first demolish roofs and windows, creating optimal conditions for incendiary bombs to penetrate buildings and initiate urban firestorms. These tactical combinations turned targeted structures into "giant cauldrons" that became epicenters of devastating urban fires (See: [Hansen, *Fury*](/corpora/hansen_fury/chunks/hansen_fury_0078.txt), [Davis, *Spaatz*](/corpora/davis_spaatz/chunks/davis_spaatz_0810.txt)).
+
+Given this historical context, we developed a more nuanced categorization algorithm that considers both temporal and spatial relationships between raids. The algorithm, implemented in [`categorize_bombing.py`](attack_data/categorize_bombing.py), uses the following logic:
+
+1. Any mission that deployed incendiary bombs is automatically categorized as "area" bombing
+2. For missions using only high explosive bombs, the algorithm:
+   - Examines all other missions targeting the same location
+   - Uses a 4-hour time window before and after the mission
+   - If any related mission within this window used incendiaries, categorizes the mission as "area" bombing
+   - Only if no related missions used incendiaries is the mission categorized as "precision" bombing
+
+```python
+def categorize_mission(row, df, time_window_hours=4):
+    # First check if this mission used incendiaries
+    if row['INCENDIARY BOMBS NUMBER'] > 0:
+        return 'area'
+    
+    # Check other missions at same target within time window
+    time_window_start = mission_time - timedelta(hours=time_window_hours)
+    time_window_end = mission_time + timedelta(hours=time_window_hours)
+    
+    related_missions = df[
+        (df['box'] == box) &
+        (df['book'] == book) &
+        (df['image'] == image) &
+        (pd.to_datetime(df['DATETIME']) >= time_window_start) &
+        (pd.to_datetime(df['DATETIME']) <= time_window_end)
+    ]
+    
+    # If any related mission used incendiaries, categorize as area bombing
+    if (related_missions['INCENDIARY BOMBS NUMBER'] > 0).any():
+        return 'area'
+    
+    return 'precision'
+```
+
+This generous approach to identifying area bombing does have limitations. For instance, some oil refinery raids that used small quantities of incendiary bombs—presumably to ignite petroleum products as part of precise targeting—are categorized as "area" bombing despite potentially being more accurately described as precision attacks. However, these edge cases represent a relatively small portion of the overall dataset, and the categorization still provides a valuable analytical framework for understanding strategic bombing patterns.
+

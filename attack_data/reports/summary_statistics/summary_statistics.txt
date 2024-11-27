@@ -1,0 +1,23 @@
+
+Summary Statistics Report
+=========================
+
+Total Tonnage Dropped: 1755954.02
+
+By Mission Category:
+--------------------
+Precision Bombing Tonnage: 1211273.33 (69.0%)
+Area Bombing Tonnage: 544680.68 (31.0%)
+
+By Air Force:
+-------------
+
+RAF:
+  Total Tonnage: 701245.61 (39.9%)
+  Precision Bombing Tonnage: 505880.42 (72.1%)
+  Area Bombing Tonnage: 195365.20 (27.9%)
+
+USAAF:
+  Total Tonnage: 1054708.40 (60.1%)
+  Precision Bombing Tonnage: 705392.92 (66.9%)
+  Area Bombing Tonnage: 349315.48 (33.1%)
