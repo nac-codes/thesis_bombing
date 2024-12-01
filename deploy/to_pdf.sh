@@ -2,7 +2,7 @@ echo "Combining markdown files..."
 
 # Create a combined markdown file
 cat preface.md > combined_thesis.md
-cat "\n\n" >> combined_thesis.md
+echo "\n\n" >> combined_thesis.md
 cat introduction.md >> combined_thesis.md
 echo "\n\n" >> combined_thesis.md
 cat lit_review.md >> combined_thesis.md

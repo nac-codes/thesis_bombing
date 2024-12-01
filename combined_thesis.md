@@ -7,7 +7,10 @@ This writing sample represents the literature review and first chapter of my sen
 - Analysis of digitized USSBS interrogation transcripts, including Albert Speer's detailed accounts of industrial adaptation to bombing
 - Theoretical framework incorporating perspectives from military history, sociology, and economics from Hans-Hermann Hoppe, Ludwig von Mises, William Aylott Orton, Jason P. Lowery, Michael Howard, and J.F.C. Fuller
 
-The full thesis aims to challenge conventional narratives about strategic bombing through a novel combination of traditional historical methods and modern computational techniques. This sample demonstrates my approach to integrating quantitative and qualitative analysis while maintaining rigorous scholarly standards.# Introduction
+The full thesis aims to challenge conventional narratives about strategic bombing through a novel combination of traditional historical methods and modern computational techniques. This sample demonstrates my approach to integrating quantitative and qualitative analysis while maintaining rigorous scholarly standards.
+
+
+# Introduction
 
 The historiography of the Allied strategic bombing campaign in World War II is dominated by two competing narratives. The first emphasizes the gradual abandonment of precision bombing in favor of area bombing, viewing this shift as evidence of war's inevitable descent into barbarism. The second narrative, primarily advanced by military historians, focuses on the technical and strategic evolution of the bombing campaign, particularly highlighting the neccessity of shifting towards area bombing in order to achieve the destruction of the German war-making capacity.
 
