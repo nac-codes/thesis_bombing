@@ -96,6 +96,12 @@ d) Jason P. Lowery's conception of:
    - Power Projection Networks
    - Population-scale hallucinations
    - Abstraction
+e) Michael Howard's work on:
+   - The nature of war as intrinsically connected to society
+   - War as reflective of social structures
+f) J.F.C. Fuller's work on:
+   - WWII as irrational
+   - How technological development influences military conduct
 
 This theoretical framework will help explain why, despite precision bombing's superior effectiveness, area bombing remained prevalent.
 
