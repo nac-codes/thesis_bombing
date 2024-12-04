@@ -74,7 +74,7 @@ def main():
     file = sys.argv[1]
 
     citations, _ =  update_citations(file)
-    print(f'Found {len(citations)} citations in prospectus')
+    print(f'Found {len(citations)} citations in file {file}')
     
     # Copy cited files and metadata
     copy_cited_files(citations)
