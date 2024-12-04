@@ -230,7 +230,7 @@ The most striking example of how this categorization reveals previously obscured
 The industry contribution graph from the USAAF (Figure 1.3) illustrates trends in area bombing tactics. It's important to note that the proportions of area bombing before 1943 are not particularly meaningful for the USAAF, as the total number of bombs dropped during this period was relatively small. While the overall increase in the proportion of area bombing from 1942 to 1944 appears slight and not highly significant, a notable trend emerges in the transportation sector. Our algorithm shows a substantial increase in the proportion of bombs categorized as area bombing within this sector from late 1943 onwards. This shift highlights a significant change in strategic priorities, with area bombing becoming more prevalent in transportation targets during the latter part of the war.
 
 ![Industry Contribution USAAF](./attack_data/reports/industry_contribution/industry_contribution_usaaf.png)
-*Figure 1.3: Industry contribution to USAAF bombing missions, showing the shift from precision to area bombing.*[^3]
+*Figure 1.3: First visualization of industry-specific bombing patterns for USAAF missions, showing the relative contribution of each industry sector and the proportion of area vs. precision bombing within each. Note that while overall proportions of area bombing remained relatively stable, specific sectors like transportation saw significant increases in area bombing tactics. The early years of the war are not particularly meaningful due to the low total number of bombs dropped.*
 
 Figure 1.4 illustrates a marked increase in the scale of bombing within the transportation industry, particularly in late 1944. This graph demonstrates how the intensity of bombing operations escalated as the war progressed. Notably, the increase in area bombing on transportation targets was at least proportional to the rise in precision targeting, indicating that area bombing tactics did not displace precision bombing but rather intensified alongside it.
 
@@ -277,8 +277,6 @@ Our goal in the next section is to understand the economic effects of each of th
 [^2.5]: The small discrepancy in the total tonnage dropped by the USAAF between the USSBS and our dataset is due to factors like OCR errors and AI hallucinations. These errors are mostly constrained to relatively insignificant values and several steps have been taken to minimize them, as can be see in [methodology_attack_data.md](https://github.com/nac-codes/thesis_bombing/blob/master/methodology_attack_data.md). The dataset is by no means perfect, but it represents an approximation of the actual bombing campaign, adequate for the purposes of this analysis.
 
 [^2.75]: Harris's statement is quoted in the subsequent chunk [Hansen (2008)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/hansen_fury/chunks/hansen_fury_0080.txt).
-
-[^3]: One must generally ignore the proportion values for the first two years of the war as the number of tons dropped is so low that the proportion values are not significant.
 
 [^4]: See [Top Missons Transportation USAAF Area](https://github.com/nac-codes/thesis_bombing/blob/master/attack_data/reports/top_missions/top_missions_transportation__usaaf_area.csv) for a list of the heaviest area bombing missions on transportation targets.
 
