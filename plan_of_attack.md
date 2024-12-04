@@ -1,108 +1,78 @@
-## Research plan
+# Plan of Attack
 
-This research will proceed along four complementary tracks, combining empirical analysis, theoretical modeling, computational linguistics, and sociological theory to examine the strategic bombing campaign of World War II.
+## Overview
 
-### 1. Analysis of USSBS Attack Data
+This thesis aims to reevaluate the strategic bombing campaign of World War II, challenging conventional narratives through a combination of empirical analysis, theoretical modeling, computational linguistics, and sociological theory. The study seeks to understand the effectiveness of precision versus area bombing, the economic impact on the German war economy, and the underlying social and theoretical frameworks that shaped these strategies.
 
-The first component involves a detailed analysis of the United States Strategic Bombing Survey (USSBS) attack data, which I have digitized into a comprehensive dataset. This data includes:
-- Complete record of RAF and USAAF bombing missions
-- Target coordinates and categories
-- Detailed ordnance information (bomb types, fuzing, and tonnage)
-- Temporal distribution of attacks
+## Chapter 1: Bombing by the Numbers
 
-The analysis will focus particularly on:
-a) Classification of attacks into precision, area, and tactical bombing categories based on:
-   - Ordnance selection (high explosive vs. incendiary)
-   - Fuze settings
-   - Target type
-   - Formation patterns
-b) Quantitative analysis of:
-   - Relative proportion of precision vs. area bombing over time
-   - Geographic distribution of attack types
-   - Correlation between target type and ordnance selection
-   - Persistence of precision bombing techniques through 1945
+In this chapter, we provide a detailed analysis of the strategic bombing campaign using a newly compiled, comprehensive raid-by-raid dataset of the European theater. By examining bombing missions at the granular level, we uncover patterns and trends that challenge the traditional historiography, which has relied heavily on aggregate statistics and broad narratives.
 
-This empirical analysis will challenge the conventional narrative of a wholesale shift to area bombing, demonstrating instead a continued commitment to precision bombing throughout the war.[^18]
+Key points:
 
-### 2. Economic Network Model
+- Address the persistence of area bombing alongside precision bombing, debunking the supposed wholesale shift from precision to area bombing.
+- Highlight the increase in area bombing within the transportation sector late in the war, suggesting it often served as a cover for city area bombing.
+- Discuss the RAF's consistent use of area bombing throughout the war.
+- Analyze the physical effects of area versus precision bombing, emphasizing the distinct destructive capacities of incendiary versus high explosive munitions.
+- Justify our methodological approach to categorizing bombing missions based on tactical implementation rather than stated intent.
 
-The second track involves developing a model in python to provide theoretical validation of precision bombing's superior effectiveness. It will consist of:
-a) A network representation of an industrial economy where:
-   - Nodes represent factories, power plants, and transportation hubs
-   - Edges represent resource flows and dependencies
-   - Workers are distributed across nodes
-b) Impact analysis of different bombing strategies:
-   - Precision bombing (targeted node removal)
-   - Area bombing (distributed worker reduction)
-   - Mixed strategies
-c) Measurement of:
-   - Production capacity over time
-   - Network resilience
-   - Recovery patterns
-   - Resource allocation efficiency
+## Chapter 2: Evaluating the Economic Impact of Strategic Bombing
 
-The simulation will incorporate historical parameters from the German war economy to ensure relevance to the actual strategic bombing campaign.
+This chapter examines the economic effects of both precision and area bombing on the German war economy, drawing extensively on the United States Strategic Bombing Survey (USSBS) reports, particularly the analysis by J.K. Galbraith.
 
-### 3. Public Opinion Analysis
+Key points:
 
-The third component employs computational linguistics to analyze public discourse around strategic bombing. The research will examine:
-a) A corpus of over 10,000 newspaper articles (1941-1946) containing "strategic bombing" and related terms
-b) Semantic analysis using:
-   - Vector embeddings of relevant passages
-   - Comparison with precision/area bombing concept vectors
-   - Temporal trend analysis
-c) Measurement of:
-   - Evolution of bombing-related terminology
-   - Shift in moral framing
-   - Changes in technical vs. emotional content
-   - Geographic and political variations in coverage
+- Assess whether area or precision bombing was more effective in disrupting the German economy.
+- Contrast Galbraith's assertions that the German economy was not fully mobilized until late in the war with Adam Tooze's analysis in *The Wages of Destruction*.
+- Evaluate the choice of bombing targets and whether they addressed actual bottlenecks in the German war economy.
+- Critique the supposed economic benefits of area bombing, debunking claims of its effectiveness.
+- Discuss the implications of using total war tactics against a nation that was not fully engaged in total war.
+- Question why the Allies persisted in employing strategies that may not have been optimally effective, considering whether these choices reflected deeper social conceptions of warfare.
 
-This analysis will quantify the public's growing enthusiasm for area bombing and its potential influence on military strategy.
+## Chapter 3: Theoretical Framework
 
-### 4. Analysis of USSBS Reports and Interrogations
+This chapter explores the sociological and theoretical underpinnings of the strategic bombing campaign, examining how democratic nations engage in warfare and the convergence of Darwinian, Marxist, and Clausewitzian ideas that shaped World War II strategies. We will cite a series of thinkers on this topic, including Hans-Hermann Hoppe, William Orton, Michael Howard, and J.F.C. Fuller.
 
-The fourth track incorporates qualitative analysis of digitized USSBS reports and interrogation transcripts to provide detailed insight into the relative effectiveness of precision versus area bombing strategies. This analysis will examine:
+Key points:
 
-a) Industry-specific USSBS reports including:
-   - Oil and chemical production
-   - Aircraft and armaments manufacturing
-   - Transportation systems
-   - Utilities
+- Analyze how democratic societies wage emotional wars and the role of public opinion in shaping military strategies.
+- Discuss the concept of total war and how it influenced the strategic decisions of the Allies.
+- Argue that the United States mastered this new form of warfare at scale, becoming a "harbinger of destruction."
+- Examine the intellectual currents—including Darwinian, Marxist, and Clausewitzian theories—that contributed to the adoption of total war tactics.
+- Explore how these theories influenced perceptions of warfare, enemy, and the acceptable means to achieve victory.
 
-b) Key interrogation transcripts, including:
-   - Albert Speer's detailed accounts of industrial adaptation
-   - Factory managers' descriptions of production disruption
-   - Military leaders' assessments of strategic impact
-   - Economic planners' discussions of resource allocation
+## Chapter 4: Public Opinion and the Logic of Total War
 
-This documentary analysis will complement the quantitative attack data by providing detailed ground-truth assessment of bombing impacts, as well as the informed perspectives of key leaders of the Nazi war economy. Of particular value are Speer's candid post-war assessments of which attacks proved most devastating to German war production.
+This chapter utilizes computational linguistics to analyze over 10,000 newspaper articles from 1941-1946, exploring how public discourse reflected and influenced the strategic bombing campaign.
 
-### 5. Theoretical Framework
+Key points:
 
-The final track involves applying relevant sociological and economic theories to interpret the empirical findings, particularly:
-a) Hans-Hermann Hoppe's analysis of:
-   - Democratic warfare
-   - State monopoly on violence
-   - Total war dynamics
-b) Ludwig von Mises's theories on:
-   - Interventionism
-   - War economics
-   - Bureaucratic management
-c) William Aylott Orton's work on:
-   - Liberal democracy
-   - Total war transformation
-   - Civilian mobilization
-d) Jason P. Lowery's conception of:
-   - Power Projection Networks
-   - Population-scale hallucinations
-   - Abstraction
-e) Michael Howard's work on:
-   - The nature of war as intrinsically connected to society
-   - War as reflective of social structures
-f) J.F.C. Fuller's work on:
-   - WWII as irrational
-   - How technological development influences military conduct
+- Analyze the evolution of bombing-related terminology and moral framing in public discourse.
+- Demonstrate the role of public opinion (the left leg of the Clausewitzian triangle) in driving the intensification of the bombing campaign.
+- Provide evidence that public enthusiasm for area bombing influenced military strategy.
+- Discuss how media narratives contributed to the nation's mobilization for total war.
+- Examine the interplay between public sentiment, political decision-making, and military operations.
 
-This theoretical framework will help explain why, despite precision bombing's superior effectiveness, area bombing remained prevalent.
+## Chapter 5: The Economic Means of Total War
 
-[^18]: Each mission record contains 27 distinct data fields, including target coordinates, bomb types, fuzing details, sighting assessment, and number of sorties. This granular data allows for sophisticated statistical analysis of bombing patterns and effectiveness.
+This chapter examines how the United States developed the economic capacity to wage total war through strategic bombing, focusing on the monetary and fiscal policies that enabled unprecedented military production and deployment.
+
+Key points:
+
+- Analyze strategic bombing as a particularly capital-intensive form of warfare, requiring massive industrial mobilization and financial resources.
+- Examine how the Federal Reserve's monetary policies and control over money supply enabled the financing of the air war.
+- Draw on Mises's critique of war financing and its implications for democratic societies.
+- Explore Rothbard's analysis of how central banking enables state warfare beyond natural economic constraints.
+- Consider Lyn Alden's insights on Keynesian economics and its role in enabling the massive industrial mobilization required for strategic bombing.
+- Analyze how these economic mechanisms created a template for future American military interventions.
+
+## Conclusion
+
+In the concluding chapter, we synthesize our findings to reflect on both the immediate and long-term implications of the strategic bombing campaign.
+
+Key points:
+
+- Discuss how the confluence of public sentiment, economic capacity, and theoretical justifications created a new paradigm of warfare.
+- Consider how this paradigm continues to influence modern military interventions and strategic thinking.
+- Reflect on the dangers of combining unlimited economic means with emotional democratic warfare.
+- Challenge the "Good War" narrative while acknowledging the necessity of understanding how even justified conflicts can create problematic precedents.
