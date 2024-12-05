@@ -2,77 +2,60 @@
 
 ## Overview
 
-This thesis aims to reevaluate the strategic bombing campaign of World War II, challenging conventional narratives through a combination of empirical analysis, theoretical modeling, computational linguistics, and sociological theory. The study seeks to understand the effectiveness of precision versus area bombing, the economic impact on the German war economy, and the underlying social and theoretical frameworks that shaped these strategies.
+This thesis examines the strategic bombing campaign of World War II through empirical analysis of bombing patterns, economic impacts, and a comparative study of economic mobilization. By combining newly digitized raid-by-raid data with economic analysis, we challenge conventional narratives about both the nature of the bombing campaign and its relationship to wartime economic mobilization.
 
-## Chapter 1: Bombing by the Numbers
+## Introduction (1000 words)
 
-In this chapter, we provide a detailed analysis of the strategic bombing campaign using a newly compiled, comprehensive raid-by-raid dataset of the European theater. By examining bombing missions at the granular level, we uncover patterns and trends that challenge the traditional historiography, which has relied heavily on aggregate statistics and broad narratives.
+The introduction establishes the scope of our investigation, focusing on three key aspects:
+- The need for granular analysis of bombing patterns
+- The economic effectiveness of different bombing strategies
+- The relationship between perceived and actual economic mobilization
 
-Key points:
+## Chapter 1: Bombing by the Numbers (4000 words)
 
-- Address the persistence of area bombing alongside precision bombing, debunking the supposed wholesale shift from precision to area bombing.
-- Highlight the increase in area bombing within the transportation sector late in the war, suggesting it often served as a cover for city area bombing.
-- Discuss the RAF's consistent use of area bombing throughout the war.
-- Analyze the physical effects of area versus precision bombing, emphasizing the distinct destructive capacities of incendiary versus high explosive munitions.
-- Justify our methodological approach to categorizing bombing missions based on tactical implementation rather than stated intent.
-
-## Chapter 2: Evaluating the Economic Impact of Strategic Bombing
-
-This chapter examines the economic effects of both precision and area bombing on the German war economy, drawing extensively on the United States Strategic Bombing Survey (USSBS) reports, particularly the analysis by J.K. Galbraith.
+Using a newly compiled comprehensive raid-by-raid dataset of the European theater, we analyze the patterns and evolution of the strategic bombing campaign.
 
 Key points:
+- Present new methodology for categorizing bombing missions based on tactical implementation rather than stated intent
+- Analyze the physical effects of precision versus area bombing
+- Demonstrate the persistence of area bombing alongside precision bombing
+- Highlight the increase in area bombing within the transportation sector
+- Show how the RAF consistently employed area bombing throughout the war
+- Challenge conventional narratives about the shift from precision to area bombing
 
-- Assess whether area or precision bombing was more effective in disrupting the German economy.
-- Contrast Galbraith's assertions that the German economy was not fully mobilized until late in the war with Adam Tooze's analysis in *The Wages of Destruction*.
-- Evaluate the choice of bombing targets and whether they addressed actual bottlenecks in the German war economy.
-- Critique the supposed economic benefits of area bombing, debunking claims of its effectiveness.
-- Discuss the implications of using total war tactics against a nation that was not fully engaged in total war.
-- Question why the Allies persisted in employing strategies that may not have been optimally effective, considering whether these choices reflected deeper social conceptions of warfare.
+## Chapter 2: Economic Impact of Strategic Bombing (5000 words)
 
-## Chapter 3: Theoretical Framework
-
-This chapter explores the sociological and theoretical underpinnings of the strategic bombing campaign, examining how democratic nations engage in warfare and the convergence of Darwinian, Marxist, and Clausewitzian ideas that shaped World War II strategies. We will cite a series of thinkers on this topic, including Hans-Hermann Hoppe, William Orton, Michael Howard, and J.F.C. Fuller.
-
-Key points:
-
-- Analyze how democratic societies wage emotional wars and the role of public opinion in shaping military strategies.
-- Discuss the concept of total war and how it influenced the strategic decisions of the Allies.
-- Argue that the United States mastered this new form of warfare at scale, becoming a "harbinger of destruction."
-- Examine the intellectual currents—including Darwinian, Marxist, and Clausewitzian theories—that contributed to the adoption of total war tactics.
-- Explore how these theories influenced perceptions of warfare, enemy, and the acceptable means to achieve victory.
-
-## Chapter 4: Public Opinion and the Logic of Total War
-
-This chapter utilizes computational linguistics to analyze over 10,000 newspaper articles from 1941-1946, exploring how public discourse reflected and influenced the strategic bombing campaign.
+Drawing extensively on the United States Strategic Bombing Survey (USSBS) reports, particularly J.K. Galbraith's analysis, we evaluate the economic effectiveness of different bombing strategies.
 
 Key points:
+- Compare the economic impacts of precision versus area bombing
+- Analyze Galbraith's assessment of German economic mobilization
+- Contrast USSBS findings (J.K. Galbraith's Report) with Tooze's analysis in *The Wages of Destruction*
+- Evaluate target selection and its relationship to actual economic bottlenecks
+- Question the economic rationale behind area bombing and even precision bombing
+- Question why these ineffective strategies persisted anyway
 
-- Analyze the evolution of bombing-related terminology and moral framing in public discourse.
-- Demonstrate the role of public opinion (the left leg of the Clausewitzian triangle) in driving the intensification of the bombing campaign.
-- Provide evidence that public enthusiasm for area bombing influenced military strategy.
-- Discuss how media narratives contributed to the nation's mobilization for total war.
-- Examine the interplay between public sentiment, political decision-making, and military operations.
+## Chapter 3: Mobilization, Perception, and Strategic Bombing (3500 words)
 
-## Chapter 5: The Economic Means of Total War
-
-This chapter examines how the United States developed the economic capacity to wage total war through strategic bombing, focusing on the monetary and fiscal policies that enabled unprecedented military production and deployment.
-
-Key points:
-
-- Analyze strategic bombing as a particularly capital-intensive form of warfare, requiring massive industrial mobilization and financial resources.
-- Examine how the Federal Reserve's monetary policies and control over money supply enabled the financing of the air war.
-- Draw on Mises's critique of war financing and its implications for democratic societies.
-- Explore Rothbard's analysis of how central banking enables state warfare beyond natural economic constraints.
-- Consider Lyn Alden's insights on Keynesian economics and its role in enabling the massive industrial mobilization required for strategic bombing.
-- Analyze how these economic mechanisms created a template for future American military interventions.
-
-## Conclusion
-
-In the concluding chapter, we synthesize our findings to reflect on both the immediate and long-term implications of the strategic bombing campaign.
+This chapter examines how American perceptions of German mobilization influenced U.S. economic policies and strategic choices.
 
 Key points:
+- Compare actual levels of economic mobilization between Germany and the United States
+- Analyze the perceptions of German mobilization through analyzing the corpus of US newspapers
+- Examine how these perceptions enabled more interventionist economic policies
+- Explore strategic bombing as a particularly capital-intensive form of warfare
+- Demonstrate how Federal Reserve policies and taxation enabled this capital-intensive strategy
+- Question the logic of employing such resource-intensive tactics against a less-mobilized enemy
+- Consider how misperceptions about enemy capabilities can drive domestic policy changes
 
-- Discuss how the confluence of public sentiment, economic capacity, and theoretical justifications created a new paradigm of warfare.
-- Consider how this paradigm continues to influence modern military interventions and strategic thinking.
-- Reflect on the dangers of combining unlimited economic means with emotional democratic warfare.
-- Challenge the "Good War" narrative while acknowledging the necessity of understanding how even justified conflicts can create problematic precedents.
+## Conclusion (1000 words)
+
+The conclusion synthesizes our findings about the relationship between bombing strategies, economic realities, and wartime mobilization.
+
+Key points:
+- Connect empirical findings about bombing effectiveness with economic analysis
+- Highlight the role of perception in driving both strategic choices and economic policies
+- Consider how misperceptions about enemy capabilities can lead to domestic transformation
+- Reflect on the implications for understanding both World War II and modern military strategy
+
+Total Estimated Word Count: 14,500 words
