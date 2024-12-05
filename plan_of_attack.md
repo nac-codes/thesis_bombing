@@ -4,11 +4,18 @@
 
 This thesis examines the strategic bombing campaign of World War II through empirical analysis of bombing patterns, economic impacts, and a comparative study of economic mobilization. By combining newly digitized raid-by-raid data with economic analysis, we challenge conventional narratives about both the nature of the bombing campaign and its relationship to wartime economic mobilization.
 
-## Introduction (1000 words)
+## Introduction (500 words)
 
 The introduction establishes the scope of our investigation, focusing on three key aspects:
 - The need for granular analysis of bombing patterns
 - The economic effectiveness of different bombing strategies
+- The relationship between perceived and actual economic mobilization
+
+## Literature Review (3000 words)
+
+The literature review will be a comprehensive review of the existing literature on the following topics:
+- Evolution of strategic bombing from precision to area bombing
+- The economic impact of strategic bombing
 - The relationship between perceived and actual economic mobilization
 
 ## Chapter 1: Bombing by the Numbers (4000 words)
@@ -48,7 +55,7 @@ Key points:
 - Question the logic of employing such resource-intensive tactics against a less-mobilized enemy
 - Consider how misperceptions about enemy capabilities can drive domestic policy changes
 
-## Conclusion (1000 words)
+## Conclusion (500 words)
 
 The conclusion synthesizes our findings about the relationship between bombing strategies, economic realities, and wartime mobilization.
 
@@ -58,4 +65,4 @@ Key points:
 - Consider how misperceptions about enemy capabilities can lead to domestic transformation
 - Reflect on the implications for understanding both World War II and modern military strategy
 
-Total Estimated Word Count: 14,500 words
+Total Estimated Word Count: 16,500 words
