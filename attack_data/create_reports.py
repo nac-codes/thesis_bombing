@@ -234,7 +234,7 @@ def create_industry_contribution_analysis(df):
         
         # Create monthly stats for each category
         results = []
-        date_range = pd.date_range(start='1942-01-01', end='1945-12-01', freq='MS')
+        date_range = pd.date_range(start='1943-03-01', end='1945-12-01', freq='MS')  # Starting from Spring 1943
         
         for current_date in date_range:
             window_end = current_date
@@ -720,10 +720,10 @@ def main():
     df = load_and_prepare_data('combined_attack_data_bombing_type.csv')
 
     # Create charts and reports
-    create_summary_statistics_detailed(df)
+    # create_summary_statistics_detailed(df)
     # create_attack_type_comparison(df)
     # create_trends_by_industry(df)    
-    # create_industry_contribution_analysis(df)
+    create_industry_contribution_analysis(df)
     # create_overall_trends(df)
     # create_summary_statistics(df)
     # analyze_area_bombing_composition(df)
