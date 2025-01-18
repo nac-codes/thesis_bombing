@@ -66,3 +66,5 @@ Key points:
 - Reflect on the implications for understanding both World War II and modern military strategy
 
 Total Estimated Word Count: 16,500 words
+
+Second Reader: Adam Tooze
