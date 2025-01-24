@@ -67,7 +67,7 @@ Some might argue that such precision targeting was impractical given the operati
 
 ## Conclusion
 
-The strategic bombing campaign, while achieving some successes, failed to maximize its effectiveness due to issues of both precision and target selection. The campaign often expended considerable resources on industrial targets with significant redundancy, while overlooking critical vulnerabilities in the German war economy that could have yielded more decisive results. Albert Speer, Reich Minister of Armaments and War Production, captured this strategic miscalculation perfectly in his testimony to the U.S. Strategic Bombing Survey. He compared German war production to a stream, noting that Allied bombing concentrated on the "mouth" (final assembly plants) rather than the "source" (basic industries like steel production). As Speer observed, this approach "could not decisively alter the course of the stream." Speer aptly summarized how the bombing campaign, by focusing on downstream industrial targets rather than critical upstream bottlenecks, failed to maximize its potential impact on the German war economy.
+The strategic bombing campaign, while achieving some successes, failed to maximize its effectiveness due to issues of both precision and target selection. The campaign often expended considerable resources on industrial targets with significant redundancy, while overlooking critical vulnerabilities in the German war economy that could have yielded more decisive results. Albert Speer, Reich Minister of Armaments and War Production, captured this strategic miscalculation perfectly in his testimony to the U.S. Strategic Bombing Survey. He compared German war production to a stream, noting that Allied bombing concentrated on the "mouth" (final assembly plants) rather than the "source" (basic industries like steel production). As Speer observed, this approach "could not decisively alter the course of the stream."[^24] Speer aptly summarized how the bombing campaign, by focusing on downstream industrial targets rather than critical upstream bottlenecks, failed to maximize its potential impact on the German war economy.
 
 
 
@@ -122,3 +122,5 @@ The strategic bombing campaign, while achieving some successes, failed to maximi
 [^22]: [Haywood S. Hansell, The Strategic Air War Against Germany and Japan: A Memoir (Washington, D.C.: Office of Air Force History, 1986), 278](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/hansell_memoir/chunks/hansell_memoir_0278.txt)
 
 [^23]: Ibid., [Appendix](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/hansell_memoir/chunks/hansell_memoir_0301.txt)
+
+[^24]: [U.S. Strategic Bombing Survey, "Interrogation of Albert Speer"](https://bomberdata.s3.us-east-1.amazonaws.com/Archive/Interrogations/CONTAINER_6/2L178_USSBS/IMG_0492.JPG)
