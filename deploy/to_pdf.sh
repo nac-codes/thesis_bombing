@@ -19,10 +19,10 @@ echo "Combining markdown files..."
 # echo "Updating links..."
 # python deploy/update_links.py combined_thesis.md
 
-python deploy/update_links.py chapter_1.md
+python deploy/update_links.py chapter_2.md
 
 echo "Converting to PDF..."
-pandoc chapter_1.md \
+pandoc chapter_2.md \
     --from markdown \
     --pdf-engine=pdflatex \
     --template=deploy/template.tex \

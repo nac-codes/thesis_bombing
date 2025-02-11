@@ -1,4 +1,4 @@
-# Chapter 2: 
+# Chapter 2:
 
 ## Wars *aux allures déchaînées*
 For the historian, warfare is compelling neither for its tactical play-by-play nor for opportunities to pass retrospective judgment, but rather because it reveals the deepest values of the society that wages it. The American approach to strategic bombing—with its persistent emphasis on scale over precision—reflects fundamental patterns in how mass democratic societies wage total war. Understanding these patterns requires examining not just what happened, but why a democratic society made these particular choices about how to wage war.
@@ -25,9 +25,9 @@ Churchill's wartime leadership exemplified this democratic drive toward righteou
 
 This outcome of total war cannot be traced back to any individual, whether it be Churchill or Hitler; it cannot be blamed on the  scapegoat of industrialization (a crutch of Marxists and Realists alike). Rather, it stemmed from the inherent nature of mass democracy itself—the unleashing of "the jinni of popular absolutism." When warfare became an expression of the general will, it inevitably took on the character that Fuller described as wars aux allures déchaînées—wars of frenzied appearance, unbound from traditional limits and driven by the passionate certainty of democratic righteousness.[^10]
 
-Clausewitz famously described warfare as a "remarkable trinity" composed of three forces: the government and its political aims, the military and its professional conduct of operations, and the people with their primal passions and hatreds. In modern democratic states, these three elements often fall out of equilibrium, with the people—the δῆμος (demos)—and their passions assuming unprecedented influence. The democratic revolution elevated popular passion from a subordinate force, previously constrained by monarchical authority, to the dominant driver of warfare.
+Clausewitz famously described warfare as a "remarkable trinity" composed of three forces: the government and its political aims, the military and its professional conduct of operations, and the people with their primal passions and hatreds. In modern democratic states, these three elements often fall out of equilibrium, with the people—the demos—and their passions assuming unprecedented influence. The democratic revolution elevated popular passion from a subordinate force, previously constrained by monarchical authority, to the dominant driver of warfare.
 
-![Clausewitz Trinity of War](Production/clausewitz_trinity.png)
+![Clausewitz Trinity of War](./clausewitz_trinity.png)
 
 This transformation manifested across various political systems—Liberal Democracy, National Socialism, and Communism—which, despite their apparent differences, shared this fundamental reorientation of political authority around popular sovereignty and mass mobilization. When such societies engage in warfare against one another, the conflict inevitably transcends traditional military or political objectives. The enemy becomes not merely an opposing army or government but a mirror image of one's own society—a totality that must be confronted in its entirety.
 
@@ -37,7 +37,7 @@ At Casablanca, the Combined Chiefs of Staff defined victory as the "progressive 
 
 Most telling was the British Chiefs of Staff's casual reference to bombing as a means to "inflict direct damage on Germany and Germans."[^13] This deliberate distinction between state and people crystallizes how democratic warfare had evolved to target not just military forces or industrial capacity, but the entire fabric of enemy society. The careful balance of Clausewitz's trinity had given way to a totalizing view that saw these elements as a single, indivisible target for destruction.
 
-When German General Hans-Jürgen von Arnim was captured in Tunisia, General Eisenhower's staff suggested following the traditional military custom of receiving the defeated commander—a practice reflective of the more gentlemanly form of monarchical warfare: 
+When German General Hans-Jürgen von Arnim was captured in Tunisia, General Eisenhower's staff suggested following the traditional military custom of receiving the defeated commander—a practice reflective of the more gentlemanly form of monarchical warfare:
 
 > The custom had its origin in the fact that mercenary soldiers of old had no real enmity toward their opponents. Both sides fought for the love of a fight, out of a sense of duty or, more probably, for money. A captured commander of the eighteenth century was likely to be, for weeks or months, the honored guest of his captor. The tradition that all professional soldiers are really comrades in arms has, in tattered form, persisted to this day.[^14]
 
@@ -59,7 +59,7 @@ This monetary expansion wasn't merely a technical response to wartime needs—it
 
 > "By a continuing process of inflation, governments can confiscate, secretly and unobserved, an important part of the wealth of their citizens. By this method they not only confiscate, but they confiscate arbitrarily; and, while the process impoverishes many, it actually enriches some."[^19]
 
-The contrast with pre-democratic warfare is striking. As Hans-Hermann Hoppe demonstrates, during the monarchical age with commodity money largely outside of government control, price levels generally fell and purchasing power increased, except during times of war or new gold discoveries. Various price indices for Britain show prices were substantially lower in 1760 than they had been a hundred years earlier, and lower still in 1860.[^20] 
+The contrast with pre-democratic warfare is striking. As Hans-Hermann Hoppe demonstrates, during the monarchical age with commodity money largely outside of government control, price levels generally fell and purchasing power increased, except during times of war or new gold discoveries. Various price indices for Britain show prices were substantially lower in 1760 than they had been a hundred years earlier, and lower still in 1860.[^20]
 
 This pattern changed dramatically in the democratic era. The U.S. wholesale commodity price index, which had fallen from 125 in 1868 to below 80 in 1914, rose sharply through successive democratic wars: to 113 after World War I in 1921, then to 185 after World War II in 1948, reaching 255 by 1971.[^21] This inflationary pattern wasn't limited to America—during just two decades of irredeemable fiat money (1971-1991), the consumer price index in the United Kingdom climbed from 24 to 157, in France from 30 to 137, and in Germany from 56 to 116.[^22]
 
@@ -85,11 +85,11 @@ This Black Forest operation was not an isolated example. The strategic bombing c
 
 Meanwhile, the American people were fed narratives that gradually reflected the escalatory nature of the bombing campaign. I've concluded this after conducting an analysis of over 9,000 American newspaper articles from 1943 to 1946 that contained the term "strategic bombing."[^28] Each article was categorized based on how it framed bombing operations: as precision bombing (targeting specific military installations), area bombing (targeting entire urban centers), industrial bombing (targeting economic infrastructure), counterforce bombing (targeting military capabilities), countervalue bombing (targeting civilian morale), or nuclear bombing.[^29]
 
-![Evolution of Strategic Bombing Narratives in American Media, 1943-1946](Readings/src/scrape_newspapers/bombing_market_share_100d.png)
+![Evolution of Strategic Bombing Narratives in American Media, 1943-1946](./newspapers/bombing_market_share_100d.png)
 
 The results reveal the evolution in how strategic bombing was presented to the American public. Early in the war, the narrative emphasized precision and counterforce bombing, focusing on specific targets like the Schweinfurt ball bearing plants or military installations. This framing helped dampen isolationist sentiment by portraying bombing as a surgical, technically sophisticated operation. However, as the war progressed into 1944 and 1945, media coverage increasingly highlighted area and countervalue bombing, with more frequent reporting of civilian casualties and urban destruction.[^30]
 
-Crucially, this shift in media coverage did not reflect actual changes in bombing operations—as we saw in Chapter 1, the proportion of area bombing remained relatively constant throughout the war. Instead, the increased discussion of civilian targeting and urban destruction reveals an ideological transformation. Both government officials and military leaders clearly believed the American public was ready to hear about—and even celebrate—the targeting of German civilians. As we have seen from Herbert Hyman's polling data, this calculation proved correct. 
+Crucially, this shift in media coverage did not reflect actual changes in bombing operations—as we saw in Chapter 1, the proportion of area bombing remained relatively constant throughout the war. Instead, the increased discussion of civilian targeting and urban destruction reveals an ideological transformation. Both government officials and military leaders clearly believed the American public was ready to hear about—and even celebrate—the targeting of German civilians. As we have seen from Herbert Hyman's polling data, this calculation proved correct.
 
 ## Conclusion
 
@@ -105,7 +105,7 @@ This analysis reveals the strategic bombing campaign's more destructive aspects 
 [^3]: [J.F.C. Fuller, The Conduct of War, 1789–1961: A Study of the Impact of the French, Industrial, and Russian Revolutions on War and Its Conduct (New Brunswick, NJ: Rutgers University Press, 1961), 24](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0024.txt)
 [^4]: [J.F.C. Fuller, The Conduct of War, 1789–1961: A Study of the Impact of the French, Industrial, and Russian Revolutions on War and Its Conduct (New Brunswick, NJ: Rutgers University Press, 1961), 24](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0024.txt)[, 36](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0036.txt)
 [^5]: [J.F.C. Fuller, War and Western Civilization, 1832–1932: A Study of War as a Political Instrument and the Expression of Mass Democracy (London: Duckworth, 1932), 18](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_civilization/chunks/fuller_civilization_0018.txt)
-[^5.5]: Translated by GPT-4o. Original text from Mirabeau's speech: "je votes demands a vous-mernes: sera-t-on mieux assure de n'avoirquedesguerresjustes,equitables,siVondelegueexclusive-ment a une assemblee de 700 personnes Vexercice du droit defaire la guerre? Avez-vous prevu jusqu'ou les mouvements passiones,  
+[^5.5]: Translated by GPT-4o. Original text from Mirabeau's speech: "je votes demands a vous-mernes: sera-t-on mieux assure de n'avoirquedesguerresjustes,equitables,siVondelegueexclusive-ment a une assemblee de 700 personnes Vexercice du droit defaire la guerre? Avez-vous prevu jusqu'ou les mouvements passiones,
 jusqu'ouVexaltationducourageetd'unefaussedignitepourroient porter etjustijier Vimprudence . . . ? Pendant qu'un des membres proposera de deliberer, on demandera la guerre a grands cris; vous verrez autour de votes une armee de dtoyens. Votes ne serez pas trompes par des ministres; ne le serez-vousjamais par vous- memes?... Voyezlespeupleslibres:e'estpardesguerresplus ambitieuses, plus barbares qu'ils se sont toujours distingues. Voyez les assemblies politiques: e'est toujours sous le charme de la passion qu'elles ont decrete la guerre.'" From [J.F.C. Fuller, The Conduct of War, 1789–1961, 26](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0026.txt)
 [^6]: [J.F.C. Fuller, The Conduct of War, 1789–1961: A Study of the Impact of the French, Industrial, and Russian Revolutions on War and Its Conduct (New Brunswick, NJ: Rutgers University Press, 1961), 24](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0024.txt)
 [^7]: [J.F.C. Fuller, The Conduct of War, 1789–1961: A Study of the Impact of the French, Industrial, and Russian Revolutions on War and Its Conduct (New Brunswick, NJ: Rutgers University Press, 1961), 41](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0041.txt)
@@ -118,20 +118,20 @@ jusqu'ouVexaltationducourageetd'unefaussedignitepourroient porter etjustijier Vi
 [^14]: Dwight D. Eisenhower, Crusade in Europe (Garden City, NY: Doubleday, 1948), 123-4
 [^15]: [Memorandum on the Attitudes of the American People, Columbia University Archives](https://bomberdata.s3.us-east-1.amazonaws.com/Archive/HERBERT_HYMAN_PAPERS/MEMORANDUM_ATTITUDES/IMG_3966.JPG)
 [^16]: [Ibid.](https://bomberdata.s3.us-east-1.amazonaws.com/Archive/HERBERT_HYMAN_PAPERS/MEMORANDUM_ATTITUDES/IMG_3964.JPG)
-[^17]: "WWII and Today: Monetary Parallels," Federal Reserve Bank of Atlanta, accessed April 15, 2024, https://www.atlantafed.org/-/media/documents/research/publications/policy-hub/2021/05/17/04-wwii-and-today--monetary-parallels.pdf
-[^18]: "World War II: America's Spending, Deficits, Multipliers and Sacrifice," CEPR, accessed April 15, 2024, https://cepr.org/voxeu/columns/world-war-ii-america-spending-deficits-multipliers-and-sacrifice
+[^17]: ["WWII and Today: Monetary Parallels," Federal Reserve Bank of Atlanta, accessed April 15, 2024](https://www.atlantafed.org/-/media/documents/research/publications/policy-hub/2021/05/17/04-wwii-and-today--monetary-parallels.pdf)
+[^18]: ["World War II: America's Spending, Deficits, Multipliers and Sacrifice," CEPR, accessed April 15, 2024](https://cepr.org/voxeu/columns/world-war-ii-america-spending-deficits-multipliers-and-sacrifice)
 [^19]: John Maynard Keynes, Essays in Persuasion (London: Macmillan, 1931), 77.
 [^20]: Hans-Hermann Hoppe, Democracy – The God That Failed: The Economics and Politics of Monarchy, Democracy and Natural Order (New Brunswick: Transaction Publishers, 2001), 58.
 [^21]: Ibid.
 [^22]: Ibid.
 [^23]: Lyn Alden, Broken Money: Why Our Financial System is Failing Us and How We Can Make it Better (Hoboken: Wiley, 2023), 156.
-[^24]: "The Great Inflation," Federal Reserve History, accessed April 15, 2024, https://www.federalreservehistory.org/essays/great-inflation
-[^25]: "The Bretton Woods System," Investopedia, accessed April 15, 2024, https://www.investopedia.com/ask/answers/09/gold-standard.asp
-[^23]: "Preliminary Report, Working Committee Denazification Policy Board," December 20, 1945, Box 3, Folder: Denazification, Telford Taylor Papers, Rare Book and Manuscript Library, Columbia University.
-[^24]: "JCS 1067/6: Directive to Commander-in-Chief of United States Forces of Occupation Regarding the Military Government of Germany," April 26, 1945, Box 2, Folder: JCS 1067, Telford Taylor Papers, Rare Book and Manuscript Library, Columbia University.
+[^24]: ["The Great Inflation," Federal Reserve History, accessed April 15, 2024](https://www.federalreservehistory.org/essays/great-inflation)
+[^25]: ["The Bretton Woods System," Investopedia, accessed April 15, 2024](https://www.investopedia.com/ask/answers/09/gold-standard.asp)
+[^23]: ["Preliminary Report, Working Committee Denazification Policy Board," December 20, 1945, Box 3, Folder: Denazification, Telford Taylor Papers, Rare Book and Manuscript Library, Columbia University](https://bomberdata.s3.us-east-1.amazonaws.com/Archive/Telford_Taylor_Papers/DENAZIFICATION/IMG_3829.JPG).
+[^24]: ["JCS 1067/6: Directive to Commander-in-Chief of United States Forces of Occupation Regarding the Military Government of Germany," April 26, 1945, Box 2, Folder: JCS 1067, Telford Taylor Papers, Rare Book and Manuscript Library, Columbia University](https://bomberdata.s3.us-east-1.amazonaws.com/Archive/Telford_Taylor_Papers/JCS_1067/IMG_2590.JPG).
 [^25]: Nicholson Baker, Human Smoke: The Beginnings of World War II, the End of Civilization (New York: Simon & Schuster, 2008), 227-228.
-[^26]: "Incendiary 'Cards' A British Weapon," The New York Times, September 11, 1940, https://nyti.ms/4jKqGlD.
-[^27]: Daryl Cooper, "The Martyr Made Podcast: Enemy, Prologue: Enemies of All Mankind," accessed April 19, 2025, [https://open.spotify.com/episode/3Y2MduAag6xjYhbYId58OY?si=a31ee645a4804e9f].
+[^26]: ["Incendiary 'Cards' A British Weapon," The New York Times, September 11, 1940](https://nyti.ms/4jKqGlD).
+[^27]: [Daryl Cooper, "The Martyr Made Podcast: Enemy, Prologue: Enemies of All Mankind," accessed April 19, 2025](https://open.spotify.com/episode/3Y2MduAag6xjYhbYId58OY?si=a31ee645a4804e9f).
 [^28]: The analysis covers the period from January 1943, when the term "strategic bombing" began appearing regularly in American newspapers, through December 1946. Articles were sourced from the newspapers.com digital archive.
-[^29]: For detailed methodology of the content analysis and category definitions, see [methodology_sentiment.md](methodology_sentiment.md).
+[^29]: For detailed methodology of the content analysis and category definitions, see [methodology_sentiment.md](https://github.com/nac-codes/thesis_bombing/blob/master/methodology_sentiment.md).
 [^30]: The proportion of articles discussing area bombing increased from approximately 5% in early 1943 to over 25% by late 1945. See Figure 3 for complete trend analysis.
