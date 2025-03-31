@@ -194,29 +194,11 @@ The industry contribution graph for the United States Army Air Forces (Figure 1.
 
 The strategic bombing campaign can be analyzed in three distinct phases:
 
-• **Phase 1 (1942-mid 1943)**:
-  - Characterized by relatively low bombing tonnage overall
-  - Unexpected emphasis on transportation infrastructure targets
-  - Limited operational capacity during this developmental period
+**Phase 1 (1942-mid 1943)**: This initial phase featured low bombing tonnage overall. Unexpected emphasis on transportation infrastructure targets. Limited operational capacity during this developmental period.
 
-• **Phase 2 (Late 1943-early 1944)**:
-  - Significant escalation in overall bombing scale
-  - Enhanced implementation of precision bombing tactics
-  - Notable focus on the "Schweinfurt era" of industrial targeting
-  - Diversification of target types to include:
-    * Military industrial facilities
-    * Airfields and aviation infrastructure
-    * Radio and communications networks
-    * Concurrent increase in both precision and area attacks on urban centers
-  - Resembled the Haywood-Hansell doctrine of precision strategic bombing
+**Phase 2 (Late 1943-early 1944)**: Significant escalation in bombing scale. Enhanced implementation of precision bombing tactics. Notable focus on the "Schweinfurt era" of industrial targeting. Diversification of targets including military industrial facilities, airfields, aviation infrastructure, radio and communications networks. Concurrent increase in both precision and area attacks on urban centers. Resembled the Haywood-Hansell doctrine of precision strategic bombing.
 
-• **Phase 3 (Mid 1944-1945)**:
-  - Renewed strategic focus on transportation infrastructure in preparation for D-Day
-  - Increased utilization of area bombing specifically for transportation targets
-  - Maintenance of stable precision-to-area bombing ratios overall
-  - Intensified targeting of petroleum infrastructure (oil refineries/fields)
-  - Continued bombardment of urban areas, but with a decreasing proportion of area bombing tactics
-  - Emergence of new priority targets: explosive manufacturing facilities and storage depots
+**Phase 3 (Mid 1944-1945)**: Renewed focus on transportation infrastructure for D-Day preparations. Increased area bombing for transportation targets. Maintained stable precision-to-area bombing ratios overall. Intensified targeting of petroleum infrastructure. Continued urban bombardment with decreasing proportion of area bombing tactics. New priority targets emerged: explosive manufacturing facilities and storage depots.
 
 Overall, precision bombing accounted for 69.0% (1,211,273 tons) of all bombs dropped, compared to 31.0% (544,681 tons) categorized as area bombing. More importantly, this ratio remained relatively stable even as the absolute scale of bombing operations increased dramatically in 1944 and 1945. Both precision and area bombing intensified in parallel during these later stages, suggesting a simple expansion of bombing operations rather than a strategic pivot from one approach to another.
 
