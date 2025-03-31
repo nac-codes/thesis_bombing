@@ -163,7 +163,6 @@ def create_trends_by_industry(df):
         plt.legend(title='Mission Category')
         plt.xticks(rotation=45)
         plt.grid(True, alpha=0.2)
-        plt.tight_layout()
         filename = f'trend_{industry.lower().replace(" ", "_")}_all.png'
         plt.savefig(output_dir / filename, bbox_inches='tight', dpi=300, facecolor='black', edgecolor='none')
         plt.close()
@@ -387,35 +386,39 @@ def create_overall_trends(df):
     # Create monthly summaries with complete date range
     date_range = pd.date_range(start=df['month'].min(), end=df['month'].max(), freq='MS')
     
-    # Create and reindex the data to ensure same length
-    precision_data = df[df['mission_category'] == 'precision'].groupby('month')['TOTAL TONS'].sum()
-    area_data = df[df['mission_category'] == 'area'].groupby('month')['TOTAL TONS'].sum()
-    
-    # Reindex both series to have the same date range, filling missing values with 0
-    precision_data = precision_data.reindex(date_range, fill_value=0)
-    area_data = area_data.reindex(date_range, fill_value=0)
+    # Create separate plots for each air force
+    for force in ['RAF', 'USAAF']:
+        force_df = df[df['force_name'] == force]
         
-    plt.style.use('dark_background')
+        # Create and reindex the data to ensure same length
+        precision_data = force_df[force_df['mission_category'] == 'precision'].groupby('month')['TOTAL TONS'].sum()
+        area_data = force_df[force_df['mission_category'] == 'area'].groupby('month')['TOTAL TONS'].sum()
+        
+        # Reindex both series to have the same date range, filling missing values with 0
+        precision_data = precision_data.reindex(date_range, fill_value=0)
+        area_data = area_data.reindex(date_range, fill_value=0)
+            
+        plt.style.use('dark_background')
 
-    # Create figure
-    plt.figure(figsize=(14, 8))
-    
-    # Create stacked area plot
-    plt.stackplot(date_range, 
-                 precision_data.values,
-                 area_data.values,
-                 labels=['Precision', 'Area'])
+        # Create figure
+        plt.figure(figsize=(14, 8))
+        
+        # Create stacked area plot
+        plt.stackplot(date_range, 
+                     precision_data.values,
+                     area_data.values,
+                     labels=['Precision', 'Area'])
 
-    plt.title('Total Tonnage Over Time by Bombing Type', pad=20)
-    plt.xlabel('Month')
-    plt.ylabel('Total Tonnage')
-    plt.legend(title='Mission Category')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
+        plt.title(f'Total Tonnage Over Time by Bombing Type - {force}', pad=20)
+        plt.xlabel('Month')
+        plt.ylabel('Total Tonnage')
+        plt.legend(title='Mission Category')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
 
-    # Save the plot
-    plt.savefig(output_dir / 'overall_trends_by_bombing_type.png', bbox_inches='tight', dpi=300)
-    plt.close()
+        # Save the plot
+        plt.savefig(output_dir / f'overall_trends_by_bombing_type_{force.lower()}.png', bbox_inches='tight', dpi=300)
+        plt.close()
 
     logging.info("Overall trends by bombing type created and saved.")
 
@@ -724,7 +727,7 @@ def main():
     # create_attack_type_comparison(df)
     # create_trends_by_industry(df)    
     create_industry_contribution_analysis(df)
-    # create_overall_trends(df)
+    create_overall_trends(df)
     # create_summary_statistics(df)
     # analyze_area_bombing_composition(df)
     # create_top_missions_report(df)

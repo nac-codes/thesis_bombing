@@ -1,4 +1,4 @@
-# Methodology
+# APPENDIX 1: Methodology for Attack Data
 
 The following outlines the comprehensive methodology employed to create and analyze a digital database of strategic bombing missions during World War II. The process involved the collection of primary source data, optical character recognition (OCR) processing, data cleaning and validation, and the generation of analytical reports. Each step is detailed below, with references to the specific scripts used in the data processing pipeline.
 

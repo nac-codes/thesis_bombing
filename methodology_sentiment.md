@@ -1,4 +1,4 @@
-# Methodology
+# APPENDIX 3: Methodology for Sentiment Analysis
 
 This project aims to analyze how American newspapers from the period 1943–1946 used and framed the term “strategic bombing.” Below is a step-by-step explanation of how each script contributed to the data collection, preprocessing, and analysis pipeline. The final result is a time-based classification (e.g., precision, area, industrial, counterforce, countervalue, nuclear, and unrelated/NA) of thousands of newspaper articles, culminating in a visual “market share” graph showing how these categories evolved over time.
 
