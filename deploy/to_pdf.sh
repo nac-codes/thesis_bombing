@@ -3,7 +3,15 @@
 echo "Combining markdown files..."
 
 # Create a combined markdown file from revised files
-cat introduction.md > combined_thesis.md
+cat acknowledgements.md > combined_thesis.md
+
+cat buffer.md >> combined_thesis.md
+
+cat preface.md >> combined_thesis.md
+
+cat buffer.md >> combined_thesis.md
+
+cat introduction.md >> combined_thesis.md
 
 cat buffer.md >> combined_thesis.md
 
@@ -33,13 +41,12 @@ cat buffer.md >> combined_thesis.md
 
 cat results_attack_data.md >> combined_thesis.md
 
-cat buffer.md >> combined_thesis.md
-
-cat methodology_sentiment.md >> combined_thesis.md
-
 
 echo "Updating links..."
 python deploy/update_links.py combined_thesis.md
+
+echo "Updating footnotes..."
+python renumber_footnotes.py combined_thesis.md
 
 echo "Converting to PDF..."
 pandoc combined_thesis.md \

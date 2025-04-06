@@ -1,227 +1,519 @@
-# APPENDIX 2: Results for Attack Data
+# APPENDIX 2: Results for USAAF Strategic Bombing Data Analysis
 
-## Comparison of Total Bomb Tonnage
+## Dataset Overview
 
-The total bomb tonnage recorded in our dataset is closely aligned with the figures reported by both the United States Strategic Bombing Survey (USSBS) Tabulating Service and the Office of Statistical Control (OSC) for the Eighth and Fifteenth Air Forces. Our data for the USAAF shows:
+The digitization and analysis of the United States Strategic Bombing Survey (USSBS) records yielded a comprehensive dataset covering USAAF bombing operations in the European Theater of Operations during World War II. This dataset provides unprecedented quantitative insights into strategic bombing patterns.
 
-- **Eighth Air Force**: 697,814.46 tons
-- **Fifteenth Air Force**: 290,529.45 tons
+### Data Volume and Coverage
 
-These figures are remarkably close to the OSC's reported totals of 692,918 tons for the Eighth Air Force and 312,173 tons for the Fifteenth Air Force[^1]. The slight discrepancies can be attributed to OCR error and LLM hallucinations.
+- **Total bombing missions analyzed**: 13,478 USAAF raids
+- **Total tonnage dropped**: 1,055,517.68 tons
+- **High explosive tonnage**: 963,160.53 tons (91.3% of total)
+- **Incendiary tonnage**: 92,357.16 tons (8.7% of total)
+- **Average tonnage per raid**: 78.31 tons
+- **Median tonnage per raid**: 36.00 tons
 
-However, the data for the Royal Air Force (RAF) Bomber Command presents a significant shortfall of over 300,000 tons when compared to historical records. Our dataset records:
+### Data Distribution by Air Force
 
-- **RAF Bomber Command**: 701,245.61 tons
+- **Eighth Air Force**: 697,814.46 tons (66.1%)
+- **Fifteenth Air Force**: 290,529.45 tons (27.5%)
+- **Other USAAF units**: 67,173.77 tons (6.4%)
 
-In contrast, the Air Ministry reported a total of 1,066,141 tons dropped by the RAF Bomber Command[^1]. The missing tonnage in our dataset is predominantly in the **Industrial** category, which mainly includes city area bombings[^2]. This discrepancy suggests that a substantial number of RAF mission records, particularly those targeting urban industrial areas, are missing from the archives utilized for our dataset.
+### Tonnage Distribution
 
-## Implications for Data Analysis
+The distribution of bombing tonnage follows a right-skewed pattern:
+- 10th percentile: 2.50 tons
+- 25th percentile: 8.00 tons
+- 50th percentile (median): 36.00 tons
+- 75th percentile: 87.00 tons
+- 90th percentile: 189.00 tons
+- 95th percentile: 298.53 tons
+- 99th percentile: 647.38 tons
 
-The close alignment of USAAF data confirms that our dataset provides a reliable foundation for analyzing bombing missions conducted by the Eighth and Fifteenth Air Forces, which constituted the majority of USAAF bombings in the European theater. For the RAF data, while the available records are valuable, any conclusions drawn must acknowledge the incomplete nature of the dataset, especially concerning the substantial underrepresentation of bombings on city areas.
+This distribution indicates that while most raids employed modest tonnage, a small percentage of operations deployed extraordinary amounts of bombs.
 
----
+## Area Bombing Score Methodology
 
-## Target Category by Air Force
+To quantify bombing patterns objectively, we developed a numerical scoring system that places each mission on a spectrum from precision to area bombing. Each bombing mission received a score from 0 (very precise) to 10 (heavy area bombing) based on three components:
+
+1. **Target Type Score** (30% of total score):
+   - Industrial/city area targets = 10
+   - Specific military/industrial facilities = 0
+   - Mean score: 2.09/10
+   - Median score: 0.00/10
+
+2. **Incendiary Proportion Score** (50% of total score):
+   - Based on percentage of incendiary munitions in total tonnage
+   - Mean score: 1.13/10
+   - Median score: 0.00/10
+
+3. **Tonnage Score** (20% of total score):
+   - Based on the relative tonnage compared to operational norms
+   - Mean score: 6.54/10
+   - Median score: 6.89/10
 
-| Target Category    | RAF Tonnage | RAF % | USAAF Tonnage | USAAF % | Total Tonnage |
-|-------------------|-------------|-------|---------------|----------|---------------|
-| Transportation    | 155,684.12  | 27.8% | 405,038.14    | 72.2%   | 560,722.26    |
-| Industrial        | 194,472.29  | 65.3% | 103,426.67    | 34.7%   | 297,898.96    |
-| Oil Refineries    | 94,959.91   | 36.8% | 163,244.12    | 63.2%   | 258,204.03    |
-| Airfields         | 34,560.41   | 21.5% | 126,112.16    | 78.5%   | 160,672.57    |
-| Military Industry | 60,199.04   | 53.3% | 52,739.97     | 46.7%   | 112,939.01    |
-| Aircraft Production| 10,161.84   | 12.5% | 71,198.44     | 87.5%   | 81,360.28     |
-| Naval             | 40,268.67   | 64.2% | 22,467.20     | 35.8%   | 62,735.87     |
-| Weapon            | 4,836.12    | 15.0% | 27,325.89     | 85.0%   | 32,162.01     |
-| Chemical          | 15,251.73   | 61.5% | 9,557.85      | 38.5%   | 24,809.58     |
-| Manufacturing     | 436.94      | 5.5%  | 7,474.76      | 94.5%   | 7,911.71      |
-| Explosives        | 1,426.12    | 17.9% | 6,553.02      | 82.1%   | 7,979.14      |
-| Utilities         | 3,011.33    | 50.6% | 2,943.60      | 49.4%   | 5,954.93      |
-| Light Metals      | 336.10      | 83.3% | 67.20         | 16.7%   | 403.30        |
-|--------------------|-------------|-------|---------------|----------|---------------|
-| **Total**          | 701,245.61  | 100%  | 1,054,708.40  | 100%    | 1,755,954.02  |
+The weighted combination produced a normalized area bombing score for each mission.
 
-## Yearly Tonnage by Air Force
+## Area Bombing Score Distribution
 
-| Year | 8th AF | 15th AF | RAF | 9th AF | 12th AF | Unknown | Total |
-|------|---------|----------|------|---------|----------|----------|--------|
-| 1940 | - | 304.00 | 213.22 | 60.00 | - | - | 577.23 |
-| 1941 | 22,980.06 | 1,831.56 | 62,265.68 | 6,116.48 | 30.00 | 658.37 | 93,882.14 |
-| 1942 | 24,211.65 | 2,754.35 | 36,473.89 | 7,128.44 | 757.10 | 215.05 | 71,540.49 |
-| 1943 | 54,809.07 | 13,462.19 | 67,437.82 | 6,622.31 | 900.50 | 839.00 | 144,070.89 |
-| 1944 | 434,066.29 | 193,868.57 | 385,895.60 | 22,456.01 | 2,537.00 | 1,186.43 | 1,040,009.89 |
-| 1945 | 161,747.39 | 78,308.78 | 148,959.40 | 10,931.43 | 1,816.75 | 4,109.64 | 405,873.39 |
-| **Total** | **697,814.46** | **290,529.45** | **701,245.61** | **53,314.67** | **6,041.35** | **7,008.48** | **1,755,954.02** |
-| % of Total | 39.7% | 16.5% | 39.9% | 3.0% | 0.3% | 0.4% | 100% |
+### Overall Score Statistics
 
-## Area vs Precision Bombing
+- **Mean area bombing score**: 3.24 (out of 10)
+- **Median area bombing score**: 2.60
+- **Standard deviation**: 1.84
 
-This section analyzes how bombing tonnage was distributed between area and precision bombing strategies, based on data processed by the [`create_reports.py`](attack_data/create_reports.py) script. These reports and visualizations provide insights into bombing patterns, target priorities, and mission characteristics of both the Royal Air Force (RAF) and the United States Army Air Forces (USAAF) during World War II. All the reports and charts referenced can be found in the [**attack_data/reports**](./attack_data/reports) directory.
+### Distribution by Score Category
 
----
+For analytical clarity, missions were grouped into five categories:
 
-### Summary Statistics
+- **Very Precise (0-2)**: 23.7% of raids
+- **Precise (2-4)**: 48.3% of raids
+- **Mixed (4-6)**: 17.3% of raids
+- **Area (6-8)**: 8.8% of raids
+- **Heavy Area (8-10)**: 1.8% of raids
 
-We begin with the [**Summary Statistics Report**](./attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which offers an overall quantitative snapshot of the bombing campaign.
+![Overall Score Distribution](./attack_data/plots/usaaf/general/overall_score_distribution.png)
+*Figure 3.1: Distribution of area bombing scores across all USAAF missions.*
 
-#### Key Highlights:
+### Statistical Distribution Analysis
 
-- **Total Tonnage Dropped**: **1,697,811 tons**
-  - **RAF** contributed **669,624 tons** (39.4%)
-  - **USAAF** contributed **1,028,188 tons** (60.6%)
+The area bombing score distribution shows:
+- 10th percentile: 1.30
+- 25th percentile: 2.10
+- 50th percentile (median): 2.60
+- 75th percentile: 4.30
+- 90th percentile: 6.10
+- 95th percentile: 6.80
+- 99th percentile: 8.60
 
-- **Bomb Type Distribution**:
-  - **High Explosive (HE)**: **1,510,054 tons** (88.9%)
-  - **Incendiary**: **146,497 tons** (8.6%)
-  - **Fragmentation**: **41,260 tons** (2.4%)
+![Tonnage Distribution](./attack_data/plots/usaaf/general/tonnage_distribution.png)
+*Figure 3.2: Distribution of tonnage across USAAF bombing missions.*
 
-- **Yearly Tonnage Statistics**:
-  - **1944** saw the highest bombing activity with **1,025,761 tons** dropped.
-  - The USAAF's contribution peaked in 1944, reflecting increased American involvement.
+## Temporal Analysis
 
-- **Bombing Type Distribution**:
-  - **Precision Bombing** accounted for **61%** of total tonnage.
-  - **Area Bombing** made up **39%** of total tonnage.
+### Yearly Statistics
 
-#### Detailed Breakdown:
+The data shows the progression of bombing operations across the war years:
 
-For a more granular view, please refer to the full [**Summary Statistics Report**](./attack_data/reports/summary_statistics/summary_statistics_detailed.txt), which includes:
+| Year | Raids | Total Tonnage | Avg. Tons/Raid | Mean Score | Median Score | Inc. % | Very Precise % | Precise % | Mixed % | Area % | Heavy Area % |
+|------|-------|---------------|----------------|------------|--------------|--------|---------------|-----------|---------|--------|--------------|
+| 1940 | 397   | 17,474.20     | 44.02          | 2.25       | 2.30         | 5.5%   | 41.8%         | 47.9%     | 8.6%    | 1.8%   | 0.0%         |
+| 1941 | 455   | 29,226.79     | 64.23          | 2.78       | 2.60         | 9.5%   | 28.1%         | 52.3%     | 16.9%   | 2.6%   | 0.0%         |
+| 1942 | 374   | 34,105.90     | 91.19          | 2.82       | 2.60         | 13.1%  | 21.7%         | 64.4%     | 11.8%   | 2.1%   | 0.0%         |
+| 1943 | 1,111 | 75,363.37     | 67.83          | 2.94       | 2.60         | 12.7%  | 26.3%         | 53.7%     | 14.8%   | 5.0%   | 0.2%         |
+| 1944 | 8,140 | 648,320.78    | 79.65          | 3.37       | 2.70         | 8.7%   | 22.4%         | 46.5%     | 18.5%   | 10.1%  | 2.5%         |
+| 1945 | 3,001 | 251,026.64    | 83.65          | 3.26       | 2.60         | 7.3%   | 23.4%         | 48.0%     | 17.8%   | 9.0%   | 1.8%         |
+
+![Yearly Evolution](./attack_data/plots/usaaf/years/yearly_evolution.png)
+*Figure 3.3: Yearly evolution of area bombing scores throughout the war.*
+
+![Category by Year](./attack_data/plots/usaaf/years/category_by_year.png)
+*Figure 3.4: Distribution of bombing categories by year.*
+
+### Quarterly Progression
+
+Quarterly analysis provides a more granular view of bombing pattern evolution:
+
+| Quarter | Mean Score | Total Tonnage | Raids | Inc. % |
+|---------|------------|---------------|-------|--------|
+| 1940Q1  | 2.27       | 7,570.75      | 206   | 5.7%   |
+| 1940Q2  | 2.38       | 3,428.74      | 62    | 2.8%   |
+| 1940Q3  | 1.86       | 2,720.13      | 46    | 3.0%   |
+| 1940Q4  | 2.30       | 3,754.58      | 83    | 11.8%  |
+| 1941Q1  | 2.81       | 11,547.08     | 168   | 10.0%  |
+| 1941Q2  | 2.70       | 5,684.41      | 95    | 7.8%   |
+| 1941Q3  | 2.97       | 4,718.22      | 80    | 6.5%   |
+| 1941Q4  | 2.71       | 7,277.08      | 112   | 7.4%   |
+| 1942Q1  | 2.81       | 18,781.55     | 146   | 7.7%   |
+| 1942Q2  | 2.94       | 5,514.17      | 83    | 16.8%  |
+| 1942Q3  | 2.63       | 2,096.30      | 50    | 10.0%  |
+| 1942Q4  | 2.83       | 7,713.88      | 95    | 9.0%   |
+| 1943Q1  | 2.87       | 22,028.96     | 264   | 10.4%  |
+| 1943Q2  | 2.48       | 7,630.54      | 168   | 5.3%   |
+| 1943Q3  | 2.82       | 19,001.67     | 331   | 8.4%   |
+| 1943Q4  | 3.33       | 26,702.20     | 348   | 14.5%  |
+| 1944Q1  | 3.63       | 77,778.26     | 1,053 | 13.3%  |
+| 1944Q2  | 3.38       | 203,352.41    | 2,413 | 7.9%   |
+| 1944Q3  | 3.34       | 215,379.83    | 2,561 | 7.5%   |
+| 1944Q4  | 3.25       | 151,810.27    | 2,113 | 7.1%   |
+| 1945Q1  | 3.30       | 172,098.21    | 2,221 | 8.0%   |
+| 1945Q2  | 3.18       | 74,534.16     | 714   | 6.8%   |
+| 1945Q3  | 3.09       | 2,191.32      | 33    | 16.7%  |
+| 1945Q4  | 2.56       | 2,202.95      | 33    | 6.5%   |
+
+![Quarterly Metrics](./attack_data/plots/usaaf/general/quarterly_metrics_evolution.png)
+*Figure 3.5: Quarterly evolution of key bombing metrics including tonnage, incendiary percentage, and area bombing score.*
+
+![Monthly Score Progression](./attack_data/plots/usaaf/general/monthly_score_progression.png)
+*Figure 3.6: Monthly progression of area bombing scores throughout the war.*
 
-- Tonnage by **Air Force** and **Year**
-- Tonnage by **Target Category**
-- Bomb Type Distribution by **Air Force** and by **Industry**
+### Yearly Component Radar Analysis
+
+Radar charts for each year provide insight into how component scores evolved over time:
 
----
+![1940 Radar](./attack_data/plots/usaaf/years/component_radar_year_1940.png)
+*Figure 3.7: Radar chart showing component scores for 1940.*
+
+![1942 Radar](./attack_data/plots/usaaf/years/component_radar_year_1942.png)
+*Figure 3.8: Radar chart showing component scores for 1942.*
+
+![1944 Radar](./attack_data/plots/usaaf/years/component_radar_year_1944.png)
+*Figure 3.9: Radar chart showing component scores for 1944.*
+
+![1945 Radar](./attack_data/plots/usaaf/years/component_radar_year_1945.png)
+*Figure 3.10: Radar chart showing component scores for 1945.*
+
+### Yearly Category Distribution Pie Charts
+
+The distribution of bombing categories by year illustrates the evolving pattern of operations:
 
-### Attack Type Comparison: Area vs Precision Bombing
+![1942 Pie Chart](./attack_data/plots/usaaf/years/category_pie_year_1942.png)
+*Figure 3.11: Pie chart showing bombing category distribution for 1942.*
 
-The [**Attack Types by Air Force and Mission Category**](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png) chart illustrates the distribution of total tonnage between area and precision bombing for both the RAF and USAAF.
+![1944 Pie Chart](./attack_data/plots/usaaf/years/category_pie_year_1944.png)
+*Figure 3.12: Pie chart showing bombing category distribution for 1944.*
+
+![1945 Pie Chart](./attack_data/plots/usaaf/years/category_pie_year_1945.png)
+*Figure 3.13: Pie chart showing bombing category distribution for 1945.*
+
+## Target Category Analysis
+
+### Category Distribution
+
+The distribution of bombing tonnage across target categories reveals operational priorities:
+
+| Category            | Total Tonnage  | % of Total | Avg Tons/Raid | Raids  | Inc. % | Mean Score | Median Score |
+|---------------------|----------------|------------|---------------|--------|--------|------------|--------------|
+| Transportation      | 405,865.08     | 38.5%      | 78.05         | 5,200  | 8.3%   | 2.38       | 2.40         |
+| Oil Refineries      | 163,692.77     | 15.5%      | 139.79        | 1,171  | 2.7%   | 2.65       | 2.50         |
+| Airfields           | 125,434.64     | 11.9%       | 80.51         | 1,558  | 7.4%   | 2.96       | 2.60         |
+| Industrial          | 103,571.42     | 9.8%       | 36.73         | 2,820  | 12.2%  | 6.19       | 6.10         |
+| Aircraft Production | 71,152.44      | 6.7%       | 94.49         | 753    | 22.0%  | 3.02       | 2.70         |
+| Military Industry   | 52,510.43      | 5.0%       | 101.96        | 515    | 11.9%  | 2.90       | 2.60         |
+| Tactical            | 43,921.79      | 4.2%       | 121.67        | 361    | 3.2%   | 2.85       | 2.60         |
+| Weapon              | 27,329.89      | 2.6%       | 63.41         | 431    | 0.5%   | 2.61       | 2.50         |
+| Naval               | 22,482.20      | 2.1%       | 76.47         | 294    | 13.8%  | 2.83       | 2.60         |
+| Supply              | 11,451.31      | 1.1%       | 96.23         | 119    | 14.8%  | 2.83       | 2.60         |
+| Chemical            | 9,557.85       | 0.9%       | 97.53         | 98     | 17.3%  | 2.94       | 2.60         |
+| Manufacturing       | 7,474.76       | 0.7%       | 149.50        | 50     | 19.5%  | 3.24       | 2.85         |
+| Explosives          | 6,553.02       | 0.6%       | 182.03        | 36     | 2.9%   | 2.78       | 2.55         |
+| Utilities           | 2,943.60       | 0.3%       | 73.59         | 40     | 11.4%  | 2.91       | 2.65         |
+| Rubber              | 1,325.28       | 0.1%       | 45.70         | 29     | 15.8%  | 2.75       | 2.60         |
+
+![Tonnage Distribution by Category](./attack_data/plots/usaaf/general/tonnage_distribution_by_category.png)
+*Figure 3.14: Distribution of bombing tonnage across target categories.*
+
+![HE vs Incendiary by Category](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
+*Figure 3.15: Comparison of high-explosive and incendiary tonnage by target category.*
+
+### Category Score Comparison
+
+![Category Comparison](./attack_data/plots/usaaf/categories/category_comparison.png)
+*Figure 3.16: Comparison of area bombing scores by target category.*
+
+![Year-Category Heatmap](./attack_data/plots/usaaf/general/year_category_score_heatmap.png)
+*Figure 3.17: Heatmap showing average area bombing scores by category and year.*
+
+![Category by Year](./attack_data/plots/usaaf/categories/category_year_heatmap.png)
+*Figure 3.18: Heatmap showing the distribution of target categories across years.*
+
+### Transportation Target Statistics
+
+Transportation targets received particular attention in the bombing campaign:
+
+- **Number of transportation raids**: 5,200 (38.6% of all raids)
+- **Total tonnage**: 405,865.08 tons (38.5% of total)
+- **Mean area bombing score**: 2.38
+- **Median area bombing score**: 2.40
+- **Average incendiary percentage**: 6.6%
+
+Category distribution for transportation targets:
+- Very Precise (0-2): 33.1%
+- Precise (2-4): 59.6%
+- Mixed (4-6): 7.3%
+- Area (6-8): 0.0%
+- Heavy Area (8-10): 0.0%
+
+![Transportation Categories](./attack_data/plots/usaaf/categories/category_pie_category_transportation.png)
+*Figure 3.19: Distribution of bombing categories for transportation targets.*
+
+![Transportation Score Distribution](./attack_data/plots/usaaf/categories/score_distribution_category_transportation.png)
+*Figure 3.20: Distribution of area bombing scores for transportation targets.*
+
+### Industrial Target Statistics
+
+Industrial targets showed distinctly different patterns:
+
+- **Number of industrial raids**: 2,820 (20.9% of all raids)
+- **Total tonnage**: 103,571.42 tons (9.8% of total)
+- **Mean area bombing score**: 6.19
+- **Median area bombing score**: 6.10
+- **Average incendiary percentage**: 12.2%
+
+Category distribution for industrial targets:
+- Very Precise (0-2): 1.8%
+- Precise (2-4): 21.2%
+- Mixed (4-6): 26.1%
+- Area (6-8): 41.3%
+- Heavy Area (8-10): 9.6%
+
+![Industrial Categories](./attack_data/plots/usaaf/categories/category_pie_category_industrial.png)
+*Figure 3.21: Distribution of bombing categories for industrial targets.*
+
+![Industrial Score Distribution](./attack_data/plots/usaaf/categories/score_distribution_category_industrial.png)
+*Figure 3.22: Distribution of area bombing scores for industrial targets.*
+
+### Oil Refineries Target Statistics
+
+Oil refineries represented a key strategic priority:
+
+- **Number of oil refinery raids**: 1,171 (8.7% of all raids)
+- **Total tonnage**: 163,692.77 tons (15.5% of total)
+- **Mean area bombing score**: 2.65
+- **Median area bombing score**: 2.50
+- **Average incendiary percentage**: 2.7%
+
+Category distribution for oil refinery targets:
+- Very Precise (0-2): 24.3%
+- Precise (2-4): 65.8%
+- Mixed (4-6): 8.4%
+- Area (6-8): 1.5%
+- Heavy Area (8-10): 0.0%
+
+![Oil Refineries Categories](./attack_data/plots/usaaf/categories/category_pie_category_oilrefineries.png)
+*Figure 3.23: Distribution of bombing categories for oil refinery targets.*
+
+![Oil Refineries Score Distribution](./attack_data/plots/usaaf/categories/score_distribution_category_oilrefineries.png)
+*Figure 3.24: Distribution of area bombing scores for oil refinery targets.*
+
+## City-Level Analysis
+
+### Top Cities by Tonnage
+
+| City          | Total Tonnage | Raids | Mean Score | Inc. % |
+|---------------|---------------|-------|------------|--------|
+| Hamburg       | 20,918.83     | 130   | 2.67       | 7.6%   |
+| Berlin        | 18,567.55     | 124   | 5.17       | 43.0%  |
+| Vienna        | 16,667.19     | 175   | 2.74       | 6.8%   |
+| Ploesti       | 16,597.36     | 88    | 2.90       | 2.6%   |
+| Cologne       | 13,322.38     | 96    | 2.89       | 19.6%  |
+| Merseburg     | 12,837.65     | 50    | 2.58       | 0.1%   |
+| Linz          | 11,357.91     | 115   | 3.21       | 0.2%   |
+| Regensburg    | 11,148.30     | 69    | 3.12       | 6.3%   |
+| Budapest      | 10,532.95     | 79    | 2.77       | 5.7%   |
+| Hamm          | 10,293.57     | 64    | 3.31       | 14.6%  |
+
+![City Comparison](./attack_data/plots/usaaf/cities/city_comparison.png)
+*Figure 3.25: Comparison of area bombing scores for major targeted cities.*
+
+![Category by City](./attack_data/plots/usaaf/cities/category_by_city.png)
+*Figure 3.26: Heatmap showing bombing category distribution by city.*
+
+### Cities with Highest Area Bombing Scores
+
+| City                 | Mean Score | Total Tonnage | Raids | Inc. % |
+|----------------------|------------|---------------|-------|--------|
+| Dernbach             | 8.44       | 240.75        | 5     | 93.0%  |
+| Zehdenick            | 8.22       | 197.50        | 6     | 83.8%  |
+| Sylt Island          | 8.16       | 74.00         | 5     | 93.2%  |
+| Vienna Industrial Area| 7.12       | 562.00        | 5     | 0.7%   |
+| Kempten City         | 7.10       | 24.30        | 5     | 38.3%  |
+| Ohrdruf              | 6.81       | 222.70        | 8     | 3.0%   |
+| Royan                | 6.74       | 5,493.79      | 7     | 24.1%  |
+| Saarlautern          | 6.73       | 662.65        | 7     | 4.8%   |
+| Fosexon              | 6.70       | 30.90        | 11    | 32.4%  |
+| Wittenberg           | 6.65       | 265.05        | 6     | 22.9%  |
+
+![City Evolution](./attack_data/plots/usaaf/cities/city_evolution.png)
+*Figure 3.27: Evolution of bombing patterns for selected cities throughout the war.*
+
+### Berlin Analysis
+
+Berlin, as the Nazi capital, received distinctive treatment:
+
+- **Number of Berlin raids**: 124
+- **Total tonnage**: 18,567.55 tons
+- **Mean area bombing score**: 5.17
+- **Median area bombing score**: 4.90
+- **Average incendiary percentage**: 43.0%
+
+Category distribution for Berlin:
+- Very Precise (0-2): 4.8%
+- Precise (2-4): 17.7%
+- Mixed (4-6): 50.8%
+- Area (6-8): 9.7%
+- Heavy Area (8-10): 16.9%
 
-![Attack Types by Air Force and Mission Category](./attack_data/reports/attack_type_comparison/attack_types_by_mission_category.png)
+![Berlin Categories](./attack_data/plots/usaaf/cities/category_pie_city_berlin.png)
+*Figure 3.28: Distribution of bombing categories for Berlin.*
 
-#### Explanation:
+![Berlin Score Distribution](./attack_data/plots/usaaf/cities/score_distribution_city_berlin.png)
+*Figure 3.29: Distribution of area bombing scores for Berlin.*
 
-- The **x-axis** represents the **mission category** (Area or Precision).
-- The **y-axis** shows the **total tonnage dropped**.
-- Each bar is **stacked** to show contributions from the **RAF** and **USAAF**.
+### Hamburg Analysis
 
----
+Hamburg, Germany's second-largest city and major port:
 
-### Overall Trends
+- **Number of Hamburg raids**: 130
+- **Total tonnage**: 20,918.83 tons
+- **Mean area bombing score**: 2.67
+- **Median area bombing score**: 2.50
+- **Average incendiary percentage**: 7.6%
 
-The [**Overall Trends by Bombing Type**](./attack_data/reports/overall_trends/overall_trends_by_bombing_type.png) visualization presents how the total tonnage of area and precision bombings evolved over time.
+Category distribution for Hamburg:
+- Very Precise (0-2): 25.4%
+- Precise (2-4): 59.2%
+- Mixed (4-6): 12.3%
+- Area (6-8): 3.1%
+- Heavy Area (8-10): 0.0%
 
-![Overall Trends by Bombing Type](./attack_data/reports/overall_trends/overall_trends_by_bombing_type.png)
+![Hamburg Categories](./attack_data/plots/usaaf/cities/category_pie_city_hamburg.png)
+*Figure 3.30: Distribution of bombing categories for Hamburg.*
 
-#### Explanation:
+### Vienna Analysis
 
-- **Stacked Area Chart** showing monthly total tonnage for **area** and **precision** missions.
-- **Timeframe**: From the beginning to the end of the bombing campaign.
+Vienna, a major industrial and transportation hub:
 
----
+- **Number of Vienna raids**: 175
+- **Total tonnage**: 16,667.19 tons
+- **Mean area bombing score**: 2.74
+- **Median area bombing score**: 2.60
+- **Average incendiary percentage**: 6.8%
 
-### Industry Contribution Analysis
+Category distribution for Vienna:
+- Very Precise (0-2): 21.7%
+- Precise (2-4): 62.9%
+- Mixed (4-6): 12.6%
+- Area (6-8): 2.9%
+- Heavy Area (8-10): 0.0%
 
-The [**Industry Contribution Analysis**](./attack_data/reports/industry_contribution) examines how different target industries contributed to the overall bombing efforts over time, using a 12-month rolling window analysis. Each visualization shows the proportional contribution of different industries to both precision and area bombing campaigns.
+![Vienna Categories](./attack_data/plots/usaaf/cities/category_pie_city_vienna.png)
+*Figure 3.31: Distribution of bombing categories for Vienna.*
 
-![Industry Contribution RAF](./attack_data/reports/industry_contribution/industry_contribution_raf.png)
+## Component Analysis
 
-![Industry Contribution USAAF](./attack_data/reports/industry_contribution/industry_contribution_usaaf.png)
+### Correlation Between Components
 
-#### Understanding the Visualizations
+The correlation matrix between different score components shows:
 
-Each figure consists of two panels:
-1. **Top Panel**: Shows industry contributions to precision bombing
-2. **Bottom Panel**: Shows industry contributions to area bombing
+|                      | TARGET_SCORE | INCENDIARY_SCORE | TONNAGE_SCORE | AREA_BOMBING_SCORE |
+|----------------------|--------------|------------------|---------------|---------------------|
+| TARGET_SCORE         | 1.000        | 0.075            | -0.311        | 0.826               |
+| INCENDIARY_SCORE     | 0.075        | 1.000            | -0.055           | 0.486               |
+| TONNAGE_SCORE        | -0.311       | -0.055           | 1.000         | 0.103               |
+| AREA_BOMBING_SCORE   | 0.826        | 0.486            | 0.103         | 1.000               |
 
-The y-axis represents the **proportional contribution** of each industry, calculated as:
-- For each month, using the previous 12 months of data:
-  1. Calculate the total tonnage dropped across all industries
-  2. For each industry:
-     - Calculate its percentage of total tonnage
-     - Split this percentage between precision and area bombing based on that industry's mission types
-     - Stack these proportions to show relative contribution
+The correlation data reveals:
+- Target type has the strongest influence on the final area bombing score (r=0.826)
+- Incendiary percentage shows moderate correlation with area bombing score (r=0.486)
+- Tonnage has minimal correlation with area bombing score (r=0.103)
+- Target type is negatively correlated with tonnage (r=-0.311)
 
-Key features:
-- The height of each colored section represents that industry's relative contribution
-- Hatching patterns help distinguish between industries
-- The sum of all sections equals 1.0 (100%) at any given point
-- The x-axis spans from January 1942 to December 1945
-- Different colors and patterns are used consistently across both air forces for easy comparison
+![Correlation Heatmap](./attack_data/plots/correlation_heatmap.png)
+*Figure 3.32: Correlation heatmap between bombing score components.*
 
-This visualization method allows us to see:
-- How the relative importance of different target types evolved
-- Which industries were prioritized by each air force
-- The balance between precision and area bombing for different target types
-- Shifts in strategic focus over time
+### Incendiary Usage Analysis
 
----
+The distribution of incendiary percentages shows:
+- 10th percentile: 0.00%
+- 25th percentile: 0.00%
+- 50th percentile (median): 0.00%
+- 75th percentile: 0.00%
+- 90th percentile: 30.96%
+- 95th percentile: 64.82%
+- 99th percentile: 100.00%
 
-### Area Bombing Composition
+This highly skewed distribution indicates that most raids used minimal or no incendiary munitions, with significant incendiary usage concentrated in a small percentage of operations.
 
-![Area Bombing Composition](./attack_data/reports/area_bombing_composition/area_bombing_composition.png)
+![Tonnage vs Incendiary](./attack_data/plots/tonnage_vs_incendiary.png)
+*Figure 3.33: Relationship between tonnage and incendiary percentage.*
 
-#### Explanation:
+### 3D Component Visualization
 
-- **Top Panel**: Displays contributions of each industry to the **HE tonnage** in area bombings over time.
-- **Bottom Panel**: Shows the same for **incendiary tonnage**.
+The three-dimensional relationship between score components provides insights into how different factors contributed to the overall bombing pattern.
 
----
+![3D Component Visualization](./attack_data/plots/3d_component_visualization.png)
+*Figure 3.34: Three-dimensional visualization of bombing score components.*
 
-### Trends by Industry
+### Area Bombing by Target Type
 
-The [**Trends by Industry Reports**](./attack_data/reports/trends_by_industry) offer insights into the bombing patterns for specific industries over time.
+![Area Bombing by Target Type](./attack_data/plots/area_bombing_by_target_type.png)
+*Figure 3.35: Distribution of area bombing scores by target type classification.*
 
-#### Sample Industries:
+## Component Radar Analysis
 
-##### Transportation
+Radar charts demonstrate how different components contributed to overall scores for different categories and cities.
 
-![Transportation - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_transportation__all.png)
+![Radar Components](./attack_data/plots/radar_components.png)
+*Figure 3.36: Radar chart showing component scores for different bombing categories.*
 
-##### Oil Refineries
+![Transportation Components](./attack_data/plots/usaaf/categories/component_radar_category_transportation.png)
+*Figure 3.37: Radar chart showing component scores for transportation targets.*
 
-![Oil Refineries - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_oilrefineries_all.png)
+![Industrial Components](./attack_data/plots/usaaf/categories/component_radar_category_industrial.png)
+*Figure 3.38: Radar chart showing component scores for industrial targets.*
 
-#### Industrial Areas
+![Berlin Components](./attack_data/plots/usaaf/cities/component_radar_city_berlin.png)
+*Figure 3.39: Radar chart showing component scores for Berlin raids.*
 
-![Industrial - Trends by Bombing Type](./attack_data/reports/trends_by_industry/trend_industrial__all.png)
+## Ordnance Analysis
 
-#### Explanation:
+### Tonnage Distribution by Year
 
-- **Plots** show both **raw monthly tonnage** and **12-month moving averages** for area and precision bombings.
-- **Purpose**: To identify patterns, shifts in strategic focus, and the effectiveness of bombing campaigns against specific industries.
-- **All industry trends** are available in the [**trends_by_industry**](./attack_data/reports/trends_by_industry) directory.
+The distribution of bombing tonnage across years shows the dramatic escalation of the air campaign:
 
----
+| Year | Total Tonnage | % of Campaign | Raids | Avg Tons/Raid |
+|------|---------------|---------------|-------|---------------|
+| 1940 | 17,474.20     | 1.7%          | 397   | 44.02         |
+| 1941 | 29,226.79     | 2.8%          | 455   | 64.23         |
+| 1942 | 34,105.90     | 3.2%          | 374   | 91.19         |
+| 1943 | 75,363.37     | 7.1%          | 1,111 | 67.83         |
+| 1944 | 648,320.78    | 61.4%         | 8,140 | 79.65         |
+| 1945 | 251,026.64    | 23.8%         | 3,001 | 83.65         |
 
-### Top Missions
+![HE vs Incendiary by Year](./attack_data/plots/usaaf/general/he_vs_incendiary_by_year.png)
+*Figure 3.40: Comparison of high-explosive and incendiary tonnage by year.*
 
-The [**Top Missions Reports**](./attack_data/reports/top_missions) list the most significant missions in terms of tonnage for each industry, separated by bombing type and air force.
+### Target Type and Tonnage Analysis
 
-#### Details:
+The relationship between target type and tonnage reveals operational priorities:
 
-- **CSV Files** for each industry and air force combination, such as:
+| Target Type | Mean Tonnage | Median Tonnage | Total Tonnage | Raids | Avg Score |
+|-------------|--------------|----------------|---------------|-------|-----------|
+| Airfields   | 80.51        | 48.00          | 125,434.64    | 1,558 | 2.96      |
+| Bridges     | 47.25        | 33.20          | 8,128.77      | 172   | 2.61      |
+| Factories   | 83.59        | 51.50          | 126,732.38    | 1,517 | 3.01      |
+| Marshalling Yards | 77.09   | 42.70         | 284,529.64    | 3,691 | 2.38      |
+| Urban Areas | 36.73        | 14.00          | 103,571.42    | 2,820 | 6.19      |
+| Oil Storage | 96.44        | 56.00          | 46,576.42     | 483   | 2.64      |
+| Refineries  | 144.60       | 98.50          | 169,182.70    | 1,170 | 2.65      |
 
-  - `top_missions_transportation_raf_area.csv`
-  - `top_missions_transportation_usaaf_precision.csv`
+![Tonnage vs Score Relationship](./attack_data/plots/usaaf/general/tonnage_vs_score_relationship.png)
+*Figure 3.41: Relationship between tonnage and area bombing score across different target types.*
 
-- **Information Included**:
-  - **Date and Time**
-  - **Mission ID**
-  - **Target Name and Location**
-  - **Number of Aircraft Bombing**
-  - **Total Tonnage**
-  - **Bomb Type Breakdown** (HE and Incendiary tonnage and percentages)
+## RAF vs USAAF Comparison
 
-#### Accessing the Reports:
+Our dataset includes limited comparative data between RAF and USAAF operations:
 
-- The complete list of top missions for each industry can be found in the [**top_missions**](./attack_data/reports/top_missions) directory.
-- These reports are valuable for identifying key operations and understanding tactical priorities.
+![USAAF vs RAF Categories](./attack_data/plots/usaaf/usaaf_vs_raf_categories.png)
+*Figure 3.42: Comparison of bombing category distribution between USAAF and RAF.*
 
----
+![USAAF vs RAF Score Distribution](./attack_data/plots/usaaf/usaaf_vs_raf_score_distribution.png)
+*Figure 3.43: Comparison of area bombing score distribution between USAAF and RAF.*
 
-**Note**: All reports and charts mentioned are accessible in the [**attack_data/reports**](./attack_data/reports) directory. For specific charts not displayed in this document due to space constraints, please refer to the corresponding subdirectories and files within the reports folder.
+## Mission Success Analysis
 
-[^1]: **Sources**: [USSBS Tabulating Service Data Part 1](ussbs_reports/ECONOMIC_REPORT/IMG_8547.JPG) and [Part 2](ussbs_reports/ECONOMIC_REPORT/IMG_8548.JPG). [Office of Statistical Control and Air Ministry records](ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8297.JPG).
+The dataset includes information on mission effectiveness:
 
-[^2]: The total tonnage dropped by the RAF on industrial targets is reported in the [Statistical Appendix of the USSBS Overall Report](ussbs_reports/OVERALL_REPORT/STATISTICAL_APPENDIX/IMG_8326.JPG) as 610,679 tons. We recorded only 194,472.29 tons as seen in the [Summary Statistics Report](attack_data/reports/summary_statistics/summary_statistics_detailed.txt).
+| Success Level | Raids | % of Total | Mean Score | Mean Tonnage | Mean Inc. % |
+|---------------|-------|------------|------------|--------------|-------------|
+| High          | 5,683 | 42.2%      | 2.97       | 86.42        | 8.1%        |
+| Medium        | 4,512 | 33.5%      | 3.21       | 74.86        | 7.8%        |
+| Low           | 2,184 | 16.2%      | 3.64       | 67.39        | 10.2%       |
+| Failed        | 1,099 | 8.2%       | 3.85       | 70.53        | 14.1%       |
+
+This analysis indicates that missions with higher area bombing scores (more area-like characteristics) were associated with lower success rates, while precision-focused missions showed higher success rates.
+
+## Data Access
+
+The complete dataset and interactive visualizations are available through a dedicated web application at https://strategic-bombing-data.streamlit.app/, enabling researchers to explore these patterns independently and conduct their own analyses.
