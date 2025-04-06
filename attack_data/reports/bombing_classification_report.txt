@@ -1,0 +1,146 @@
+=======================================================
+     BOMBING RAID CLASSIFICATION DETAILED ANALYSIS     
+=======================================================
+
+This report provides a comprehensive analysis of bombing raids classified
+on a precision-to-area bombing continuum (0-10 scale) based on target type,
+tonnage, and incendiary usage.
+
+=======================================================
+1. OVERALL STATISTICS
+=======================================================
+
+Total raids analyzed: 28,815
+Area bombing targets (INDUSTRIAL book): 5,834 (20.2%)
+Precision bombing targets (other books): 22,981 (79.8%)
+
+Area Bombing Score Distribution:
+  - min: 0.00
+  - 25%: 1.30
+  - 50%: 2.40
+  - mean: 2.80
+  - 75%: 4.00
+  - max: 10.00
+  - std: 2.03
+
+Score distribution by percentiles:
+  - 5th percentile: 0.20
+  - 10th percentile: 0.40
+  - 25th percentile: 1.30
+  - 50th percentile: 2.40
+  - 75th percentile: 4.00
+  - 90th percentile: 6.00
+  - 95th percentile: 6.80
+  - 99th percentile: 8.50
+
+=======================================================
+2. BOMBING CATEGORIES
+=======================================================
+
+Distribution of raids by bombing category:
+  - Very Precise (0-2): 11,134 raids (38.6%)
+  - Precise (2-4): 10,241 raids (35.5%)
+  - Mixed (4-6): 4,320 raids (15.0%)
+  - Area (6-8): 2,273 raids (7.9%)
+  - Heavy Area (8-10): 471 raids (1.6%)
+
+=======================================================
+3. ANALYSIS BY TARGET TYPE
+=======================================================
+
+Area Bombing Score by Target Type:
+
+Industrial/Area Targets:
+  - count: 5,834
+  - min: 4.10
+  - 25%: 5.20
+  - 50%: 6.00
+  - mean: 6.08
+  - 75%: 6.80
+  - max: 10.00
+  - std: 1.23
+
+Non-Industrial/Precision Targets:
+  - count: 22,981
+  - min: 0.00
+  - 25%: 1.10
+  - 50%: 2.00
+  - mean: 1.97
+  - 75%: 2.70
+  - max: 6.10
+  - std: 1.17
+
+Bombing Category Distribution by Target Type (%):
+
+Score Category            Very Precise (0-2)  Precise (2-4)  Mixed (4-6)  Area (6-8)  Heavy Area (8-10)
+Target Type                                                                                            
+Industrial/Area                         0.0%           0.0%        53.0%       38.9%               8.1%
+Non-Industrial/Precision               49.3%          45.3%         5.4%        0.0%               0.0%
+
+=======================================================
+4. COMPONENT ANALYSIS
+=======================================================
+
+Tonnage Distribution:
+  - min: 0.00 tons
+  - 10%: 1.00 tons
+  - 25%: 2.00 tons
+  - 50%: 7.00 tons
+  - mean: 60.94 tons
+  - 75%: 55.00 tons
+  - 90%: 148.76 tons
+  - 95%: 281.00 tons
+  - 99%: 766.79 tons
+  - max: 4837.00 tons
+  - std: 162.92 tons
+
+Incendiary Percentage Distribution:
+  - min: 0.00%
+  - 10%: 0.00%
+  - 25%: 0.00%
+  - 50%: 0.00%
+  - mean: 8.86%
+  - 75%: 3.57%
+  - 90%: 32.26%
+  - 95%: 58.07%
+  - 99%: 100.00%
+  - max: 100.00%
+  - std: 21.45%
+
+Correlation Matrix:
+                               TARGET_SCORE  TONNAGE_SCORE  INCENDIARY_SCORE  AREA_BOMBING_SCORE_NORMALIZED
+TARGET_SCORE                          1.000         -0.064             0.069                          0.814
+TONNAGE_SCORE                        -0.064          1.000            -0.014                          0.386
+INCENDIARY_SCORE                      0.069         -0.014             1.000                          0.431
+AREA_BOMBING_SCORE_NORMALIZED         0.814          0.386             0.431                          1.000
+
+=======================================================
+5. EXAMPLE RAIDS ACROSS THE CONTINUUM
+=======================================================
+
+  target_location                         target_name  TARGET_SCORE  TONNAGE_SCORE  INCENDIARY_SCORE  AREA_BOMBING_SCORE_NORMALIZED
+            ESENS FRAGMENTATION BONDS TOTAL CITY AREA             1       9.033142          6.883199                            9.1
+       Heligoland                         IVEGEL CORE             1       6.677078          8.852081                            9.0
+             BRUX            BRUX UNIDENTIFIED TARGET             1       7.079125          5.599764                            8.0
+        OLDENBURG                           CITY AREA             1       9.308867          1.489814                            7.4
+ UNKNOWN LOCATION                             UNKNOWN             1       7.584938          0.000000                            6.5
+  CILA YBEV AVINS                 UNIDENTIFIED TARGET             1       5.975360          0.000000                            6.0
+           Berlin                 UNIDENTIFIED TARGET             1       5.821447          0.000000                            5.9
+           ANKLAM                         A C FACTORY             0       9.313552          4.643556                            4.3
+          MUNSTER                            RAILROAD             0       6.531668          6.374459                            4.0
+        ST DIZIER                        ROBINSON A D             0       7.189485          3.226688                            3.2
+BALARUC LES BAINS                        OIL REFINERY             0       8.976748          0.000000                            2.8
+        BUCHAREST                             PRAHOVA             0       8.702412          0.000000                            2.7
+           AMBERG                    MARSHALLING YARD             0       1.818150          3.913186                            1.8
+           Aurich                     Railway Station             0       3.290300          0.000000                            1.0
+      Brandenburg             Anti Aircraft B Battery             0       1.254034          0.000000                            0.4
+
+=======================================================
+CONCLUSION
+=======================================================
+
+This analysis reveals that approximately 74.1% of raids were predominantly
+precision bombing in nature, while only about 9.5% fall clearly
+into the area bombing category. This supports the historical understanding
+that while area bombing was a significant strategy, precision bombing
+was more frequently attempted, though often with varying degrees of success.

@@ -1,0 +1,23 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,30-31,3.0,2.0,,R,,5.0,,,,,5.0,6.0,10.0,,,,,,,,,10.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,30-31,3.0,2.0,,R,,5.0,,,,,20.0,3.0,5.0,,,,,,,,,5.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,30-31,3.0,2.0,,R,,1.0,,,,,1.0,6.0,2.0,,,,,,,,,2.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,30-31,3.0,2.0,,R,,32.0,,,,,4.0,3.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,1,4.0,2.0,,R,,30.0,,,,,40.0,2.0,6.0,,,,,,,,,6.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,1,4.0,2.0,,R,,30.0,,,,,10.0,1.0,0.5,,,,,,,,,0.5,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,27,4.0,2.0,,R,,30.0,,,,,16.0,3.0,4.0,,,,,,,,,4.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,27,4.0,2.0,,R,,32.0,,,,,19.0,6.0,38.0,,,,,,,,,38.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,27-28,4.0,2.0,,R,,32.0,,,,,19.0,6.0,38.0,,,,,,,,,38.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,27-28,4.0,2.0,,R,,30.0,,,,,15.0,4.0,7.5,,,,,,,,,7.5,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,27-28,4.0,2.0,,R,,30.0,,,,,10.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,27-28,4.0,2.0,,R,,1.0,,,,,10.0,6.0,22.0,,,,,,,,,22.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,28,4.0,2.0,,R,,30.0,,,,,48.0,4.0,24.0,,,,,,,,,24.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,28,4.0,2.0,,R,,32.0,,,,,16.0,3.0,4.0,,,,,,,,,4.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,28,4.0,2.0,,R,,32.0,,,,,10.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,28,4.0,2.0,,R,,32.0,,,,,14.0,5.0,14.0,,,,,,,,,14.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,28-29,4.0,2.0,,R,,30.0,,,,,18.0,6.0,36.0,,,,,,,,,36.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,28-29,4.0,2.0,,R,,30.0,,,,,23.0,3.0,6.0,,,,,,,,,6.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,28-29,4.0,2.0,,R,,30.0,,,,,18.0,6.0,36.0,,,,,,,,,36.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7900_output,Trondheim,Docks and Harbor,,,16875 710,29,4.0,2.0,,R,,30.0,,,,,1.0,2.0,0.15,,,,,,,,,0.15,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,29,4.0,2.0,,R,,30.0,,,,,48.0,4.0,24.0,,,,,,,,,24.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7901_output,Trondheim,Tirpitz,,,16875 730,29,4.0,2.0,,R,,30.0,,,,,23.0,3.0,6.0,,,,,,,,,6.0,False

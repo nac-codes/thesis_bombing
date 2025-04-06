@@ -1,0 +1,27 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,25-26,5.0,0.0,,R,,3.0,,,,,12.0,3.0,3.0,,5.0,,,,,,,3.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,25-26,5.0,0.0,,R,,3.0,,,,,18.0,2.0,2.0,,5.0,,,,,,,2.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,27,5.0,0.0,,R,,3.0,,,,,40.0,2.0,5.0,,5.0,,,,,,,5.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,04-05,6.0,0.0,,R,,5.0,,,,,16.0,2.0,2.0,,5.0,120.0,2.0,0.24,,,,2.24,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,06,6.0,0.0,,R,,5.0,,,,,15.0,2.0,2.0,,5.0,,,,,,,2.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,4,6.0,0.0,,R,,5.0,,,,,42.0,2.0,5.0,,5.0,300.0,3.0,1.0,,,,6.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,29,7.0,0.0,,R,,3.0,,,,,12.0,3.0,3.0,,5.0,120.0,2.0,0.24,,,,3.24,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,29-30,7.0,0.0,,R,,3.0,,,,,16.0,2.0,2.0,,5.0,,,,,,,2.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,30,7.0,0.0,,R,,6.0,,,,,20.0,3.0,5.0,,5.0,,,,,,,5.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,01-02,8.0,0.0,,R,,9.0,,,,,36.0,3.0,9.0,,5.0,240.0,2.0,0.48,,,,9.48,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,01-02,8.0,0.0,,R,,7.0,,,,,50.0,2.0,6.0,,5.0,,,,,,,6.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,06-07,8.0,0.0,,R,,2.0,,,,,4.0,3.0,1.0,,5.0,60.0,2.0,0.12,,,,1.12,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,06-07,8.0,0.0,,R,,2.0,,,,,6.0,2.0,0.9,,5.0,,,,,,,0.9,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,07,8.0,0.0,,R,,5.0,,,,,4.0,2.0,0.6,,5.0,,,,,,,0.6,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,15-16,8.0,0.0,,R,,8.0,,,,,8.0,3.0,2.0,,5.0,360.0,2.0,0.72,,,,2.72,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,15-16,8.0,0.0,,R,,8.0,,,,,24.0,2.0,3.0,,5.0,,,,,,,3.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,28-29,8.0,0.0,,R,,2.0,,,,,4.0,3.0,1.0,,5.0,120.0,2.0,0.24,,,,1.24,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,28-29,8.0,0.0,,R,,2.0,,,,,10.0,2.0,1.0,,5.0,,,,,,,1.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,1,10.0,0.0,,R,,1.0,,,,,4.0,2.0,0.6,,5.0,,,,,,,0.6,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,10-11,10.0,0.0,,R,,7.0,,,,,11.0,3.0,3.0,,5.0,540.0,2.0,1.0,,,,4.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0875_output,Reisholz Dusseldorf,Mineralolwerke,,,NJ0760124,10-11,10.0,0.0,,R,,7.0,,,,,51.0,2.0,6.0,,5.0,,,,,,,6.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0893_output,Reisholz Dusseldorf,Mineralolwerke A G,4808N,734E,48083 430,21,10.0,0.0,,R,,2.0,,,,,4.0,3.0,1.0,,,120.0,2.0,0.24,,,,1.24,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0893_output,Reisholz Dusseldorf,Mineralolwerke A G,4808N,734E,48083 430,21-22,10.0,0.0,,R,,2.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0893_output,Reisholz Dusseldorf,Mineralolwerke A G,4808N,734E,48083 430,24,10.0,0.0,,R,,1.0,,,,,8.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0893_output,Reisholz Dusseldorf,Mineralolwerke A G,4808N,734E,48083 430,25,10.0,0.0,,R,,1.0,,,,,10.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_1,BOOK_4_CHEMICAL,IMG_0893_output,Reisholz Dusseldorf,Mineralolwerke A G,4808N,734E,48083 430,26,10.0,0.0,,R,,3.0,,,,,12.0,3.0,3.0,,,,,,,,,3.0,False

@@ -1,0 +1,11 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,28,8.0,1.0,,R,,1.0,,,,,5.0,3.0,1.25,,,,,,,,,1.25,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,28-29,8.0,1.0,,R,,1.0,,,,,1.0,4.0,0.55,,,,,,,,,0.55,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,29,8.0,1.0,,R,,1.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,30,8.0,1.0,,R,,1.0,,,,,6.0,3.0,2.0,,,,,,,,,2.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,02-03,9.0,1.0,,R,,1.0,,,,,6.0,3.0,2.0,,,120.0,2.0,0.24,,,,2.24,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,04-05,11.0,1.0,,R,,1.0,,,,,6.0,3.0,2.0,,,100.0,2.0,0.2,,,,2.2,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,04-05,11.0,1.0,,R,,1.0,,,,,6.0,3.0,2.0,,,120.0,2.0,0.24,,,,2.24,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,18,3.0,4.0,,R,,1.0,,,,,6.0,3.0,1.8,,,,,,,,,1.8,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,18-19,3.0,4.0,,R,,1.0,,,,,1.0,6.0,2.0,,,92.0,26.0,1.0,,,,3.0,False
+BOX_7,BOOK_17_NAVAL,IMG_7829_output,Nieuport,Docks Barges Shipping,,,3555 710,20,3.0,4.0,,R,,1.0,,,,,6.0,3.0,2.0,,,999.0,2.0,1.998,,,,3.998,False

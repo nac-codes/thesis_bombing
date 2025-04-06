@@ -1,0 +1,22 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,01,4.0,0.0,,R,,16.0,,,,,63.0,2.0,8.0,,,1500.0,2.0,3.0,,,,11.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,1,4.0,0.0,,R,,12.0,,,,,64.0,2.0,8.0,,,,,,,,,8.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,15-16,4.0,0.0,,R,,6.0,,,,,40.0,2.0,5.0,,,,,,,,,5.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,16,4.0,0.0,,R,,6.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,17,4.0,0.0,,R,,6.0,,,,,24.0,2.0,3.0,,,,,,,,,3.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,17-18,4.0,0.0,,R,,6.0,,,,,31.0,2.0,4.0,,,,,,,,,4.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,19,4.0,0.0,,R,,12.0,,,,,31.0,2.0,4.0,,,,,,,,,4.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,19,4.0,0.0,,R,,18.0,,,,,25.0,2.0,3.75,,,,,,,,,3.75,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,20-21,4.0,0.0,,R,,12.0,,,,,25.0,2.0,3.0,,,,,,,,,3.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,20-21,4.0,0.0,,R,,12.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,22,4.0,0.0,,R,,6.0,,,,,20.0,2.0,3.0,,,60.0,2.0,0.12,,,,3.12,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,22,4.0,0.0,,R,,6.0,,,,,20.0,2.0,3.0,,,,,,,,,3.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,23-24,4.0,0.0,,R,,6.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,25,4.0,0.0,,R,,6.0,,,,,6.666666666666667,2.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,25-26,4.0,0.0,,R,,6.0,,,,,3.0,2.0,0.45,,,60.0,2.0,0.12,,,,0.5700000000000001,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,30,4.0,0.0,,R,,6.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,30,4.0,0.0,,R,,20.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,06-07,1.0,2.0,,R,,9.0,,,,,20.0,3.0,5.0,,,,,,,,,5.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,06-07,1.0,2.0,,R,,20.0,,,,,86.0,2.0,11.0,,,,,,,,,11.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,21,2.0,2.0,,R,,1.0,,,,,6.0,4.0,3.0,,,,,,,,,3.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4615_output,Stavanger,Stavanger Airdrome,,,97781 780,22,2.0,2.0,,R,,5.0,,,,,3.0,5.0,3.0,,,,,,,,,3.0,False

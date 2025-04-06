@@ -1,0 +1,15 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,10,12.0,0.0,,R,,1.0,,,,,2.0,2.0,0.3,,,120.0,2.0,0.24,,,,0.54,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,10-11,12.0,0.0,,R,,1.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,03-04,4.0,1.0,,R,,1.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,03-04,4.0,1.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,29-30,4.0,1.0,,R,,4.0,,,,,16.0,3.0,4.0,,,,,,,,,4.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,29-30,4.0,1.0,,R,,4.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,26-27,6.0,1.0,,R,,4.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,17-18,7.0,1.0,,R,,1.0,,,,,2.0,3.0,0.6,,,,,,,,,0.6,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,10-11,10.0,1.0,,R,,1.0,,,,,7.0,3.0,2.0,,,120.0,2.0,0.24,,,,2.24,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,11,10.0,1.0,,R,,1.0,,,,,5.0,3.0,2.0,,,,,,,,,2.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,12-13,10.0,1.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,26-27,10.0,1.0,,R,,1.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,07-08,12.0,1.0,,R,,1.0,,,,,4.0,2.0,0.6,,,,,,,,,0.6,False
+BOX_7,BOOK_15_TACTICAL,IMG_7327_output,Rotterdam Area,Searchlights,,,11738 800,08,12.0,1.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False

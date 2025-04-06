@@ -1,0 +1,17 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,24,8.0,0.0,,R,,3.0,,,,,15.0,2.0,2.0,,,,,,,,,2.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,24-25,8.0,0.0,,R,,3.0,,,,,20.0,2.0,2.5,,,,,,,,,2.5,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,25-26,8.0,0.0,,R,,1.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,25-26,8.0,0.0,,R,,2.0,,,,,4.0,3.0,1.0,,,40.0,2.0,0.08,,,,1.08,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,27-28,8.0,0.0,,R,,5.0,,,,,32.0,2.0,4.0,,,420.0,2.0,1.0,,,,5.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,23,9.0,0.0,,R,,1.0,,,,,7.0,2.0,1.05,,,120.0,2.0,0.24,,,,1.29,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,23-24,9.0,0.0,,R,,1.0,,,,,7.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,24-25,9.0,0.0,,R,,2.0,,,,,8.0,3.0,2.0,,,,,,,,,2.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,24-25,9.0,0.0,,R,,2.0,,,,,10.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,29-30,9.0,0.0,,R,,5.0,,,,,32.0,2.0,4.0,,,,,,,,,4.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,30-31,9.0,0.0,,R,,15.0,,,,,28.0,2.0,4.2,,,500.0,2.0,1.0,,,,5.2,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,2,10.0,0.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,2,10.0,0.0,,R,,10.0,,,,,4.0,2.0,0.5,,,,,,,,,0.5,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,20-21,10.0,0.0,,R,,2.0,,,,,12.0,2.0,1.8,,,,,,,,,1.8,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,21,10.0,0.0,,R,,2.0,,,,,13.0,2.0,2.0,,,,,,,,,2.0,False
+BOX_6,BOOK_12_MANUFACTURING,IMG_7008_output,"Berlin, Siemenstadt",Elec Eng Wrks Siemens,,,46184 330,29,10.0,0.0,,R,,1.0,,,,,1.0,4.0,0.55,,,,,,,,,0.55,False

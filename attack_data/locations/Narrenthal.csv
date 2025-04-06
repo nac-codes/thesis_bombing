@@ -1,0 +1,20 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,07-08,8.0,0.0,,R,,2.0,,,,,8.0,3.0,2.0,,,,,,,,,2.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,27-28,8.0,0.0,,R,,2.0,,,,,3.0,4.0,2.0,,,60.0,2.0,0.12,,,,2.12,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,05-06,9.0,0.0,,R,,2.0,,,,,4.0,3.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,11-12,9.0,0.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,21-22,12.0,0.0,,R,,1.0,,,,,7.0,2.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,23-24,3.0,1.0,,R,,4.0,,,,,6.0,2.0,0.9,,,,,,,,,0.9,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,23-24,3.0,1.0,,R,,3.0,,,,,2.0,3.0,0.6,,,,,,,,,0.6,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,07-08,4.0,1.0,,R,,4.0,,,,,2.0,3.0,0.6,,,120.0,2.0,0.24,,,,0.84,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,07-08,4.0,1.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,09-09,4.0,1.0,,R,,1.0,,,,,1.0,5.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,24-25,4.0,1.0,,R,,1.0,,,,,1.0,5.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,24-25,4.0,1.0,,R,,1.0,,,,,6.666666666666667,2.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,24-25,4.0,1.0,,R,,1.0,,,,,1.0,3.0,0.3,,,,,,,,,0.3,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,28,5.0,1.0,,R,,1.0,,,,,13.333333333333334,2.0,2.0,,,,,,,,,2.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,28-29,5.0,1.0,,R,,1.0,,,,,3.333333333333333,3.0,1.0,,,120.0,2.0,0.24,,,,1.24,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,28-29,5.0,1.0,,R,,1.0,,,,,3.0,3.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,20-21,6.0,1.0,,R,,1.0,,,,,6.0,3.0,2.0,,,,,,,,,2.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,26-27,6.0,1.0,,R,,1.0,,,,,3.0,4.0,2.0,,,120.0,2.0,0.24,,,,2.24,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4513_output,Narrenthal,Husum Airdrome,,,94590,26-27,6.0,1.0,,R,,1.0,,,,,6.0,3.0,1.8,,,,,,,,,1.8,False

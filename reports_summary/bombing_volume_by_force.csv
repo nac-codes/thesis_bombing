@@ -1,0 +1,7 @@
+force_name,mission_category,TOTAL TONS,percentage_within_force,percentage_of_total
+RAF,area,195365.2,27.86,11.13
+RAF,precision,505880.42,72.14,28.81
+USAAF,area,349315.48,33.12,19.89
+USAAF,precision,705392.92,66.88,40.17
+RAF,Total,701245.61,100.0,39.94
+USAAF,Total,1054708.4,100.0,60.06

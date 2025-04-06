@@ -1,0 +1,19 @@
+box,book,image,target_location,target_name,latitude,longitude,target_code,DAY,MONTH,YEAR,TIME OF ATTACK,AIR FORCE,GROUP/SQUADRON NUMBER,NUMBER OF AIRCRAFT BOMBING,ALTITUDE OF RELEASE IN HUND. FT.,SIGHTING,VISIBILITY OF TARGET,TARGET PRIORITY,HIGH EXPLOSIVE BOMBS NUMBER,HIGH EXPLOSIVE BOMBS SIZE,HIGH EXPLOSIVE BOMBS TONS,HIGH EXPLOSIVE BOMBS FUZING NOSE,HIGH EXPLOSIVE BOMBS FUZING TAIL,INCENDIARY BOMBS NUMBER,INCENDIARY BOMBS SIZE,INCENDIARY BOMBS TONS,FRAGMENTATION BOMBS NUMBER,FRAGMENTATION BOMBS SIZE,FRAGMENTATION BOMBS TONS,TOTAL TONS,SUMMATION_ROW
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,1,10.0,0.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,1,10.0,0.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,13-14,10.0,0.0,,R,,1.0,,,,,4.0,3.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,15-16,10.0,0.0,,R,,1.0,,,,,3.0,3.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,29-30,10.0,0.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4600_output,Terschelling,Airdrome,,,95821 780,11-12,2.0,1.0,,R,,1.0,,,,,2.0,3.0,0.6,,,240.0,2.0,0.48,,,,1.08,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4600_output,Terschelling,Airdrome,,,95821 780,13,2.0,1.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_4,BOOK_10_AIRFIELDS__PART_2,IMG_4600_output,Terschelling,Airdrome,,,95821 780,14,2.0,1.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_13_UTILITIES,IMG_7148_output,Terschelling,Watertower Station,,,95821 30,23,4.0,1.0,,R,,4.0,,,,,12.0,2.0,1.8,,,8.0,36.0,,,,,1.8,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,18-19,5.0,1.0,,R,,1.0,,,,,1.0,5.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,19,5.0,1.0,,R,,1.0,,,,,2.0,2.0,0.3,,,,,,,,,0.3,False
+BOX_7,BOOK_13_UTILITIES,IMG_7148_output,Terschelling,Watertower Station,,,95821 30,24,5.0,1.0,,R,,4.0,,,,,13.333333333333334,2.0,2.0,,,,,,,,,2.0,False
+BOX_7,BOOK_13_UTILITIES,IMG_7148_output,Terschelling,Watertower Station,,,95821 30,25,6.0,1.0,,R,,4.0,,,,,1.0,2.0,0.15,,,,,,,,,0.15,False
+BOX_7,BOOK_13_UTILITIES,IMG_7148_output,Terschelling,Watertower Station,,,95821 30,26,6.0,1.0,,R,,5.0,,,,,1.0,2.0,0.15,,,,,,,,,0.15,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,19,8.0,1.0,,R,,1.0,,,,,5.0,3.0,1.25,,,,,,,,,1.25,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,19-20,8.0,1.0,,R,,1.0,,,,,1.0,2.0,0.15,,,,,,,,,0.15,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,20,9.0,1.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
+BOX_7,BOOK_15_TACTICAL,IMG_7756_output,Terschelling,Gun Position,,,95821 820,20-21,9.0,1.0,,R,,1.0,,,,,2.0,4.0,1.0,,,,,,,,,1.0,False
