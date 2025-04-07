@@ -381,7 +381,7 @@ page = st.sidebar.radio(
 df = load_data()
 cities = sorted(df["target_location"].unique())
 categories = sorted(df["CATEGORY"].unique())
-years = sorted([y for y in range(1940, 1946)])
+years = sorted([y for y in range(1941, 1946)])
 ```
 
 The dashboard provides several key features:

@@ -10,7 +10,7 @@ try:
     print('Cleaning year data...')
     df['YEAR'] = df['YEAR'].fillna(0).astype(float)
     df['Year'] = (1940 + df['YEAR']).astype(int)
-    df.loc[df['Year'] < 1939, 'Year'] = 1940
+    df.loc[df['Year'] < 1941, 'Year'] = 1941
     df.loc[df['Year'] > 1946, 'Year'] = 1945
     
     # Add the score category field as in visualize_usaaf_bombing.py

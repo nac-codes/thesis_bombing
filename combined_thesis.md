@@ -92,14 +92,6 @@ The moral justification offered for this escalation was, according to [Sherry (1
 
 Moralists have also argued that total war actually elongates rather than shortens conflict. The French Catholic philosopher Jacques Maritain, as cited by [Sherry (1987)](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/sherry_armageddon/chunks/sherry_armageddon_0396.txt), argued that "terror and total war prolonged war. They defeated the very end of victory by arousing resistance, and they poisoned the peace thereafter as well."[^18]
 
-## Synthesis
-
-Both the Realist and Moralist perspectives offer valuable insights into the evolution of strategic bombing during World War II, yet neither fully explains the paradox we identified in the introduction: the persistence of both precision and area bombing throughout the conflict. The Realist narrative, with its emphasis on operational necessity, fails to account for why precision bombing continued despite its apparent ineffectiveness. The Moralist narrative, focused on the moral failings of military leadership, cannot explain why genuine efforts at precision targeting persisted alongside area bombing.
-
-What both perspectives miss is the sociopolitical dimension we explored through Fuller's analysis of omnistates. The emotional dynamics of mass politics created powerful pressures toward destructive warfare, yet the American commitment to precision bombing—however imperfect in execution—represented a genuine attempt to resist these pressures. This tension between the emotional imperatives of omnistate warfare and America's exceptional restraint in pursuing precision bombing is the central paradox that our analysis will address.
-
-In the next chapter, we will move beyond these theoretical frameworks to examine the empirical evidence from the United States Strategic Bombing Survey. By analyzing the actual pattern of bombing operations throughout the war, we will demonstrate that neither the Realist nor the Moralist narrative adequately explains the complex reality of the Allied bombing campaign. Instead, we will show how the persistence of both precision and area bombing reflects the fundamental tension between rational military objectives and the emotional dynamics of omnistate warfare.
-
 [^1]: [Griffith, Thomas E. "Strategic Attack of National Electrical Systems." Air University Press, 1994, p. 31.](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/griffith_hansell/chunks/griffith_hansell_0031.txt)
 
 [^2]: [McFarland, Stephen L. "America's Pursuit of Precision Bombing, 1910-1945." Smithsonian Institution Press, 1995, p. 1.](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/mcfarland_pursuit/chunks/mcfarland_pursuit_0001.txt). For more information on bombing accuracy, see: [Crane, Conrad C. "Bombs, Cities, and Civilians: American Airpower Strategy in World War II." University Press of Kansas, 2016, p. 147.](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/crane_bombs/chunks/crane_bombs_0147.txt) emphasizes that while American airpower had confidence in the Norden bombsight, the anticipated precision was hard to achieve, with only about 14% of bombs landing within 1,000 feet of their targets during early 1943. [McFarland, Stephen L. "America's Pursuit of Precision Bombing, 1910-1945." Smithsonian Institution Press, 1995, p. 251.](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/mcfarland_pursuit/chunks/mcfarland_pursuit_0251.txt) discusses the challenges that altitude and large bombing formations posed to accuracy, noting that bomb patterns became increasingly imprecise as formation size and altitude increased. [Parks, W. Hays. "Precision and Area Bombing: Who Did Which, and When?" Journal of Strategic Studies, 1945, p. 5.](https://github.com/nac-codes/thesis_bombing/blob/master/corpora_cited/parks_preciscion/chunks/parks_preciscion_0005.txt) describes how 'bombing on leader' formations, adopted for practical reasons, led to larger bombing patterns and a lower level of accuracy than originally anticipated for precision bombing.
@@ -138,7 +130,7 @@ In the next chapter, we will move beyond these theoretical frameworks to examine
 
 ## Wars *aux allures déchaînées*
 
-tWhile the Realist and Moralist perspectives dominate conventional historical discourse on strategic bombing, neither framework fully explains the transformation of warfare in the modern era. To move beyond these limited perspectives, this section considers broader social and political developments that Fuller argues fundamentally changed the nature of warfare itself. J.F.C Fuller, a military theorist whose analysis, despite his deeply problematic personal history, provides key insights into how modern warfare evolved according to his theoretical framework.
+While the Realist and Moralist perspectives dominate conventional historical discourse on strategic bombing, neither framework fully explains the transformation of warfare in the modern era. To move beyond these limited perspectives, this section considers broader social and political developments that Fuller argues fundamentally changed the nature of warfare itself. J.F.C Fuller, a military theorist whose analysis, despite his deeply problematic personal history, provides key insights into how modern warfare evolved according to his theoretical framework.
 
 Fuller offers a third perspective that locates the origins of total war not in technological limitations or the moral failings of military leadership, but in the fundamental transformation of the relationship between citizens and the state in the modern era. As an influential military theorist writing both before and after the war, Fuller identified a causal connection between mass society and the emergence of total war: warfare unlimited in scope and unconstrained by traditional military objectives, involving the mobilization of entire societies and the deliberate targeting of civilian populations. Rather than total war being something invented by the Nazis when they invaded Poland (as one eminent historian has claimed),[^19] Fuller's analysis suggests the very principles that underpin modern states as the driving forces behind the phenomenon of total war.
 
@@ -207,7 +199,7 @@ Fuller's theoretical framework offers valuable insights for our subsequent analy
 [^26]: [J.F.C. Fuller, The Conduct of War, 1789–1961: A Study of the Impact of the French, Industrial, and Russian Revolutions on War and Its Conduct (New Brunswick, NJ: Rutgers University Press, 1961), 41](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0041.txt)
 [^27]: [Ibid](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0041.txt) .
 [^28]: [Ibid, 310](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0310.txt)
-[^29]:[Ibid, 33](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0033.txt)
+[^28]:[Ibid, 33](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/fuller_conduct/chunks/fuller_conduct_0033.txt)
 [^30]: ["Plan for Combined Bomber Offensive From the United Kingdom," Combined Chiefs of Staff, May 14, 1943](https://r2-text-viewer.nchimicles.workers.dev/0000000001/80650a98-fe49-429a-afbd-9dde66e2d02b/de60a378-52c7-400f-b09d-c121cbb23e90/frus1943d150_frus.txt)
 [^31]: [Ibid.](https://docviewer.history-lab.org?doc_id=frus1943d92)
 [^32]: ["Memorandum by the British Chiefs of Staff," January 3, 1943](https://docviewer.history-lab.org/?doc_id=frus1941-43d401)
@@ -232,12 +224,12 @@ To systematically evaluate the nature of each bombing mission, we developed a th
 
 This multidimensional approach provides a nuanced assessment of bombing character beyond the binary precision/area classification often employed in historical narratives.[^37]
 
-The results decisively challenge the conventional understanding of strategic bombing evolution. Rather than a dramatic shift from precision to area bombing, we find relative stability throughout the conflict. The mean area bombing score across all raids was 3.24 out of 10, with a median of 2.6—indicating that most bombing operations maintained significant precision elements throughout the war with a long-tail of outlier area bombing raids. While there was a modest upward trend in area bombing scores over time (from approximately 2.5 to 3.5), this change falls well within one standard deviation and represents a refinement rather than transformation of bombing doctrine.
+The results decisively challenge the conventional understanding of strategic bombing evolution. Rather than a dramatic shift from precision to area bombing, we find relative stability throughout the conflict. The mean area bombing score across all raids was 3.27 out of 10, with a median of 2.7—indicating that most bombing operations maintained significant precision elements throughout the war with a long-tail of outlier area bombing raids. While there was a modest upward trend in area bombing scores over time (from approximately 2.5 to 3.5), this change falls well within one standard deviation and represents a refinement rather than transformation of bombing doctrine.
 
 ![Yearly Distribution of Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/years/category_by_year.png)
 *Figure 1.1: Yearly distribution of bombing categories, showing the relative stability of precision bombing throughout the conflict.*
 
-The yearly distribution of bombing categories offers additional insight into this evolution. Very precise bombing (scores 0-2) decreased slightly from 1940 to 1941 but then maintained a relatively stable proportion throughout the remainder of the war. Mixed bombing approaches (scores 4-6) increased modestly from around 10% early in the war to 18.6% at their peak. Clear area bombing (scores 6-8) and heavy area bombing (scores 8-10) did increase over time, with heavy area bombing emerging from non-existence in 1940-1941 to a small but notable presence by 1944.
+The yearly distribution of bombing categories offers additional insight into this evolution. Very precise bombing (scores 0-2) maintained a relatively stable proportion throughout the remainder of the war. Mixed bombing approaches (scores 4-6) increased modestly from around 10% early in the war to 18.6% at their peak. Clear area bombing (scores 6-8) and heavy area bombing (scores 8-10) did increase over time, with heavy area bombing emerging from non-existence in 1941 to a small but notable presence by 1944.
 
 This modest increase in area bombing coincided with the period of heaviest overall bombing activity and significantly increased tonnage per raid—a correlation that suggests operational scale rather than doctrinal transformation drove these changes. This pattern is what we would expect: some increase in area bombing characteristics as operations intensified, but not the dramatic wholesale shift from precision to area bombing that dominates conventional narratives. The data reveals a nuanced reality where tactical diversification occurred within a framework that remained fundamentally committed to precision approaches.
 
@@ -249,7 +241,7 @@ Examining operational metrics reveals additional nuance in the bombing campaign'
 ![Quarterly Metrics Evolution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/quarterly_metrics_evolution.png)
 *Figure 1.3: Quarterly evolution of key bombing metrics, showing increased tonnage but stable incendiary percentages.*
 
-![High-Explosive vs. Incendiary by Category](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/he_vs_incendiary_by_category.png)
+![High-Explosive vs. Incendiary by Category](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
 *Figure 1.4: Comparison of high-explosive and incendiary tonnage by year, illustrating parallel growth rather than substitution.*
 
 Breaking down the data by target category provides further evidence against a hidden shift toward area bombing. While the "industrial" category consistently showed the highest area bombing scores, these remained stable across the war years rather than progressively increasing. Other high-scoring categories included manufacturing, aircraft production, military industry, and oil refineries—with oil targets actually showing decreased area bombing scores in later years. No category demonstrated the dramatic escalation that would indicate either a deliberate concealment of area tactics or a fundamental doctrinal shift.
@@ -260,30 +252,33 @@ Breaking down the data by target category provides further evidence against a hi
 ![Year-Category Score Heatmap](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/year_category_score_heatmap.png)
 *Figure 1.6: Heatmap of average area bombing scores by category and year, demonstrating stability across most target types.*
 
+![Overall Component Radar](./attack_data/plots/usaaf/general/overall_component_radar.png)
+*Figure 1.7: Radar chart showing component scores for the entire dataset.*
+
 One persistent claim in strategic bombing historiography deserves particular scrutiny: the assertion that transportation targets served as a pretext for area bombing. Several prominent scholars have advanced this theory—Lucien Mott argues that transportation targeting masked deliberate attacks on civilian populations [(Lucien Mott 2019)](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/lucien_pinpoint/chunks/lucien_pinpoint_0036.txt), while Robert Anthony Pape contends that marshalling yards and rail centers functioned as nominal military objectives concealing broader civilian targeting [(Pape 1960)](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora_cited/pape_coercion/chunks/pape_coercion_0177.txt).[^38] These scholars point to the use of incendiary munitions against transportation infrastructure—weapons tactically ill-suited for disrupting rail operations—and excessive tonnage deployments as evidence of disguised area bombing.
 
 However, our comprehensive data analysis thoroughly refutes these claims. Transportation targets consistently maintained one of the most precise bombing profiles throughout the war, with a median area bombing score of just 2.4—well within the "precise bombing" classification. The incendiary component averaged a mere 1.0 across all transportation raids, significantly lower than the dataset average. Only 7.3% of transportation attacks fell into the "mixed" category (scores 4-6), with none qualifying as true area bombing. The distribution of bombing scores for transportation targets shows a pronounced concentration in the precise categories, directly contradicting the notion that these missions served as cover for civilian targeting.
-
-![Transportation Category Components](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/component_radar_category_transportation.png)
-*Figure 1.7: Radar chart showing the component scores for transportation targets, demonstrating consistently low area bombing characteristics.*
-
-![Transportation Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/category_pie_category_transportation.png)
-*Figure 1.8: Distribution of bombing categories for transportation targets, showing the overwhelming predominance of precision bombing approaches.*
-
-![Transportation Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/score_distribution_category_transportation.png)
-*Figure 1.9: Area bombing score distribution for transportation operations, revealing a strong concentration in the precise bombing range.*
 
 Rather than transportation, the misclassification appears in the "industrial" category, where targets labeled as "city area," "town area," or "unidentified target" reveal the true locus of area bombing operations. This classification is particularly significant, as the USSBS dedicated several folders to this "industrial" category, with the overwhelming majority of targets therein being city areas, town areas, or unidentified targets associated with cities. This categorization effectively served as a catch-all for area bombing operations targeting urban centers, lending some credence to scholarly claims about classification manipulation.
 
 This misclassification can be interpreted in two ways. One perspective suggests a deliberate concealment of area bombing practices, obscuring civilian targeting behind industrial designations. Alternatively, it may reflect the USAAF's doctrinal commitment to precision bombing—so deeply ingrained that even when targeting entire city areas, operations were conceptualized as attacking "city industry" or "German workers," thus maintaining the fiction of precision targeting. Regardless of interpretation, our methodology classifies these operations as area bombing based on their operational characteristics rather than their administrative designation, providing a more accurate representation of bombing practices throughout the campaign.
 
+![Transportation Category Components](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/component_radar_category_transportation.png)
+*Figure 1.8: Radar chart showing component scores for transportation targets. While the low target type score (0/10) merely confirms these weren't designated as city targets, the consistently low incendiary usage (1.0/10) and relatively moderate tonnage deployment (6.7/10) demonstrate that transportation raids maintained genuine precision characteristics in practice, contradicting assertions they functionally served as disguised area attacks.*
+
+![Transportation Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/category_pie_category_transportation.png)
+*Figure 1.9: Distribution of bombing categories for transportation targets, showing the overwhelming predominance of precision bombing approaches.*
+
+![Transportation Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/score_distribution_category_transportation.png)
+*Figure 1.10: Area bombing score distribution for transportation operations, revealing a strong concentration in the precise bombing range.*
+
 The most notable exception to these patterns was Berlin, which experienced significantly higher area bombing tactics. Only 23% of Berlin operations qualified as very precise or precise bombing, with 50% falling into mixed categories and nearly 27% constituting clear or heavy area bombing. The average incendiary percentage for Berlin proper reached 46%—extraordinarily high compared to other targets—with a median area bombing score of 4.9. This exceptional treatment of the Nazi capital suggests that emotional or symbolic factors may have influenced targeting decisions for particularly emblematic objectives, even as overall doctrine maintained its precision focus.
 
 ![Berlin Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/cities/category_pie_city_berlin.png)
-*Figure 1.10: Distribution of bombing categories for Berlin, showing a significantly higher proportion of area bombing compared to the overall campaign.*
+*Figure 1.11: Distribution of bombing categories for Berlin, showing a significantly higher proportion of area bombing compared to the overall campaign.*
 
 ![Berlin Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/cities/score_distribution_city_berlin.png)
-*Figure 1.11: Area bombing score distribution for Berlin operations, demonstrating the exceptional nature of the capital's treatment.*
+*Figure 1.12: Area bombing score distribution for Berlin operations, demonstrating the exceptional nature of the capital's treatment.*
 
 To facilitate further research and enable independent verification of these findings, a web application has been developed that provides comprehensive access to the complete bombing dataset. This resource allows researchers to explore operations by year, target category, city, or any combination of factors, with the ability to download raw or processed data for independent analysis: https://strategic-bombing-data.streamlit.app/. The reader, if they are reading this thesis on paper, is encouraged to please pause and visit the website.
 
@@ -918,7 +913,7 @@ page = st.sidebar.radio(
 df = load_data()
 cities = sorted(df["target_location"].unique())
 categories = sorted(df["CATEGORY"].unique())
-years = sorted([y for y in range(1940, 1946)])
+years = sorted([y for y in range(1941, 1946)])
 ```
 
 The dashboard provides several key features:
@@ -1008,7 +1003,7 @@ For analytical clarity, missions were grouped into five categories:
 
 - **Very Precise (0-2)**: 23.7% of raids
 - **Precise (2-4)**: 48.3% of raids
-- **Mixed (4-6)**: 17.3% of raids
+- **Mixed (4-6)**: 17.4% of raids
 - **Area (6-8)**: 8.8% of raids
 - **Heavy Area (8-10)**: 1.8% of raids
 
@@ -1037,12 +1032,11 @@ The data shows the progression of bombing operations across the war years:
 
 | Year | Raids | Total Tonnage | Avg. Tons/Raid | Mean Score | Median Score | Inc. % | Very Precise % | Precise % | Mixed % | Area % | Heavy Area % |
 |------|-------|---------------|----------------|------------|--------------|--------|---------------|-----------|---------|--------|--------------|
-| 1940 | 397   | 17,474.20     | 44.02          | 2.25       | 2.30         | 5.5%   | 41.8%         | 47.9%     | 8.6%    | 1.8%   | 0.0%         |
-| 1941 | 455   | 29,226.79     | 64.23          | 2.78       | 2.60         | 9.5%   | 28.1%         | 52.3%     | 16.9%   | 2.6%   | 0.0%         |
-| 1942 | 374   | 34,105.90     | 91.19          | 2.82       | 2.60         | 13.1%  | 21.7%         | 64.4%     | 11.8%   | 2.1%   | 0.0%         |
-| 1943 | 1,111 | 75,363.37     | 67.83          | 2.94       | 2.60         | 12.7%  | 26.3%         | 53.7%     | 14.8%   | 5.0%   | 0.2%         |
-| 1944 | 8,140 | 648,320.78    | 79.65          | 3.37       | 2.70         | 8.7%   | 22.4%         | 46.5%     | 18.5%   | 10.1%  | 2.5%         |
-| 1945 | 3,001 | 251,026.64    | 83.65          | 3.26       | 2.60         | 7.3%   | 23.4%         | 48.0%     | 17.8%   | 9.0%   | 1.8%         |
+| 1941 | 852   | 46,701.00     | 54.81          | 2.54       | 2.30         | 8.0%   | 28.1%         | 52.3%     | 16.9%   | 2.6%   | 0.0%         |
+| 1942 | 374   | 34,105.90     | 91.19          | 2.82       | 2.60         | 13.1%  | 21.7%         | 64.4%     | 11.8%   | 1.9%   | 0.3%         |
+| 1943 | 1,111 | 75,363.37     | 67.83          | 2.94       | 2.40         | 12.7%  | 26.3%         | 53.7%     | 14.9%   | 4.1%   | 1.1%         |
+| 1944 | 8,140 | 648,320.78    | 79.65          | 3.37       | 2.70         | 8.7%   | 22.4%         | 46.5%     | 18.6%   | 10.1%  | 2.5%         |
+| 1945 | 3,001 | 251,026.64    | 83.65          | 3.26       | 2.70         | 7.3%   | 23.4%         | 48.0%     | 17.7%   | 9.7%   | 1.1%         |
 
 ![Yearly Evolution](./attack_data/plots/usaaf/years/yearly_evolution.png)
 *Figure 3.3: Yearly evolution of area bombing scores throughout the war.*
@@ -1056,14 +1050,10 @@ Quarterly analysis provides a more granular view of bombing pattern evolution:
 
 | Quarter | Mean Score | Total Tonnage | Raids | Inc. % |
 |---------|------------|---------------|-------|--------|
-| 1940Q1  | 2.27       | 7,570.75      | 206   | 5.7%   |
-| 1940Q2  | 2.38       | 3,428.74      | 62    | 2.8%   |
-| 1940Q3  | 1.86       | 2,720.13      | 46    | 3.0%   |
-| 1940Q4  | 2.30       | 3,754.58      | 83    | 11.8%  |
-| 1941Q1  | 2.81       | 11,547.08     | 168   | 10.0%  |
-| 1941Q2  | 2.70       | 5,684.41      | 95    | 7.8%   |
-| 1941Q3  | 2.97       | 4,718.22      | 80    | 6.5%   |
-| 1941Q4  | 2.71       | 7,277.08      | 112   | 7.4%   |
+| 1941Q1  | 2.51       | 19,117.83     | 374   | 7.7%   |
+| 1941Q2  | 2.57       | 9,113.15      | 157   | 5.8%   |
+| 1941Q3  | 2.56       | 7,438.36      | 126   | 5.2%   |
+| 1941Q4  | 2.54       | 11,031.66     | 195   | 9.3%   |
 | 1942Q1  | 2.81       | 18,781.55     | 146   | 7.7%   |
 | 1942Q2  | 2.94       | 5,514.17      | 83    | 16.8%  |
 | 1942Q3  | 2.63       | 2,096.30      | 50    | 10.0%  |
@@ -1091,8 +1081,8 @@ Quarterly analysis provides a more granular view of bombing pattern evolution:
 
 Radar charts for each year provide insight into how component scores evolved over time:
 
-![1940 Radar](./attack_data/plots/usaaf/years/component_radar_year_1940.png)
-*Figure 3.7: Radar chart showing component scores for 1940.*
+![1941 Radar](./attack_data/plots/usaaf/years/component_radar_year_1941.png)
+*Figure 3.7: Radar chart showing component scores for 1941.*
 
 ![1942 Radar](./attack_data/plots/usaaf/years/component_radar_year_1942.png)
 *Figure 3.8: Radar chart showing component scores for 1942.*
@@ -1125,26 +1115,26 @@ The distribution of bombing tonnage across target categories reveals operational
 | Category            | Total Tonnage  | % of Total | Avg Tons/Raid | Raids  | Inc. % | Mean Score | Median Score |
 |---------------------|----------------|------------|---------------|--------|--------|------------|--------------|
 | Transportation      | 405,865.08     | 38.5%      | 78.05         | 5,200  | 8.3%   | 2.38       | 2.40         |
-| Oil Refineries      | 163,692.77     | 15.5%      | 139.79        | 1,171  | 2.7%   | 2.65       | 2.50         |
-| Airfields           | 125,434.64     | 11.9%       | 80.51         | 1,558  | 7.4%   | 2.96       | 2.60         |
+| Oil Refineries      | 163,692.77     | 15.5%      | 139.79        | 1,171  | 2.7%   | 2.50       | 2.60         |
+| Airfields           | 125,434.64     | 11.9%      | 80.51         | 1,558  | 7.4%   | 2.41       | 2.40         |
 | Industrial          | 103,571.42     | 9.8%       | 36.73         | 2,820  | 12.2%  | 6.19       | 6.10         |
 | Aircraft Production | 71,152.44      | 6.7%       | 94.49         | 753    | 22.0%  | 3.02       | 2.70         |
-| Military Industry   | 52,510.43      | 5.0%       | 101.96        | 515    | 11.9%  | 2.90       | 2.60         |
-| Tactical            | 43,921.79      | 4.2%       | 121.67        | 361    | 3.2%   | 2.85       | 2.60         |
-| Weapon              | 27,329.89      | 2.6%       | 63.41         | 431    | 0.5%   | 2.61       | 2.50         |
-| Naval               | 22,482.20      | 2.1%       | 76.47         | 294    | 13.8%  | 2.83       | 2.60         |
-| Supply              | 11,451.31      | 1.1%       | 96.23         | 119    | 14.8%  | 2.83       | 2.60         |
-| Chemical            | 9,557.85       | 0.9%       | 97.53         | 98     | 17.3%  | 2.94       | 2.60         |
+| Military Industry   | 52,510.43      | 5.0%       | 101.96        | 515    | 11.9%  | 2.77       | 2.60         |
+| Tactical            | 43,921.79      | 4.2%       | 121.67        | 361    | 3.2%   | 2.36       | 2.40         |
+| Weapon              | 27,329.89      | 2.6%       | 63.41         | 431    | 0.5%   | 2.15       | 2.20         |
+| Naval               | 22,482.20      | 2.1%       | 76.47         | 294    | 13.8%  | 2.34       | 2.30         |
+| Supply              | 11,451.31      | 1.1%       | 96.23         | 119    | 14.8%  | 2.74       | 2.40         |
+| Chemical            | 9,557.85       | 0.9%       | 97.53         | 98     | 17.3%  | 2.72       | 2.50         |
 | Manufacturing       | 7,474.76       | 0.7%       | 149.50        | 50     | 19.5%  | 3.24       | 2.85         |
-| Explosives          | 6,553.02       | 0.6%       | 182.03        | 36     | 2.9%   | 2.78       | 2.55         |
-| Utilities           | 2,943.60       | 0.3%       | 73.59         | 40     | 11.4%  | 2.91       | 2.65         |
-| Rubber              | 1,325.28       | 0.1%       | 45.70         | 29     | 15.8%  | 2.75       | 2.60         |
+| Explosives          | 6,553.02       | 0.6%       | 182.03        | 36     | 2.9%   | 2.60       | 2.60         |
+| Utilities           | 2,943.60       | 0.3%       | 73.59         | 40     | 11.4%  | 2.36       | 2.20         |
+| Rubber              | 1,325.28       | 0.1%       | 45.70         | 29     | 15.8%  | 2.46       | 2.00         |
 
 ![Tonnage Distribution by Category](./attack_data/plots/usaaf/general/tonnage_distribution_by_category.png)
 *Figure 3.14: Distribution of bombing tonnage across target categories.*
 
-![HE vs Incendiary by Category](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
-*Figure 3.15: Comparison of high-explosive and incendiary tonnage by target category.*
+![HE vs Incendiary by Category](./attack_data/plots/usaaf/categories/category_comparison.png)
+*Figure 3.15: Comparison of area bombing scores by target category.*
 
 ### Category Score Comparison
 
@@ -1209,8 +1199,8 @@ Oil refineries represented a key strategic priority:
 
 - **Number of oil refinery raids**: 1,171 (8.7% of all raids)
 - **Total tonnage**: 163,692.77 tons (15.5% of total)
-- **Mean area bombing score**: 2.65
-- **Median area bombing score**: 2.50
+- **Mean area bombing score**: 2.50
+- **Median area bombing score**: 2.60
 - **Average incendiary percentage**: 2.7%
 
 Category distribution for oil refinery targets:
@@ -1257,11 +1247,11 @@ Category distribution for oil refinery targets:
 | Zehdenick            | 8.22       | 197.50        | 6     | 83.8%  |
 | Sylt Island          | 8.16       | 74.00         | 5     | 93.2%  |
 | Vienna Industrial Area| 7.12       | 562.00        | 5     | 0.7%   |
-| Kempten City         | 7.10       | 24.30        | 5     | 38.3%  |
+| Kempten City         | 7.10       | 24.30         | 5     | 38.3%  |
 | Ohrdruf              | 6.81       | 222.70        | 8     | 3.0%   |
 | Royan                | 6.74       | 5,493.79      | 7     | 24.1%  |
 | Saarlautern          | 6.73       | 662.65        | 7     | 4.8%   |
-| Fosexon              | 6.70       | 30.90        | 11    | 32.4%  |
+| Fosexon              | 6.70       | 30.90         | 11    | 32.4%  |
 | Wittenberg           | 6.65       | 265.05        | 6     | 22.9%  |
 
 ![City Evolution](./attack_data/plots/usaaf/cities/city_evolution.png)
@@ -1275,7 +1265,7 @@ Berlin, as the Nazi capital, received distinctive treatment:
 - **Total tonnage**: 18,567.55 tons
 - **Mean area bombing score**: 5.17
 - **Median area bombing score**: 4.90
-- **Average incendiary percentage**: 43.0%
+- **Average incendiary percentage**: 45.3%
 
 Category distribution for Berlin:
 - Very Precise (0-2): 4.8%
@@ -1336,21 +1326,18 @@ Category distribution for Vienna:
 
 The correlation matrix between different score components shows:
 
-|                      | TARGET_SCORE | INCENDIARY_SCORE | TONNAGE_SCORE | AREA_BOMBING_SCORE |
+|                      | Target Score | Incendiary Score | Tonnage Score | Area Bombing Score |
 |----------------------|--------------|------------------|---------------|---------------------|
-| TARGET_SCORE         | 1.000        | 0.075            | -0.311        | 0.826               |
-| INCENDIARY_SCORE     | 0.075        | 1.000            | -0.055           | 0.486               |
-| TONNAGE_SCORE        | -0.311       | -0.055           | 1.000         | 0.103               |
-| AREA_BOMBING_SCORE   | 0.826        | 0.486            | 0.103         | 1.000               |
+| Target Score         | 1.000        | 0.075            | -0.311        | 0.826               |
+| Incendiary Score     | 0.075        | 1.000            | -0.055        | 0.486               |
+| Tonnage Score        | -0.311       | -0.055           | 1.000         | 0.103               |
+| Area Bombing Score   | 0.826        | 0.486            | 0.103         | 1.000               |
 
 The correlation data reveals:
 - Target type has the strongest influence on the final area bombing score (r=0.826)
 - Incendiary percentage shows moderate correlation with area bombing score (r=0.486)
 - Tonnage has minimal correlation with area bombing score (r=0.103)
 - Target type is negatively correlated with tonnage (r=-0.311)
-
-![Correlation Heatmap](./attack_data/plots/correlation_heatmap.png)
-*Figure 3.32: Correlation heatmap between bombing score components.*
 
 ### Incendiary Usage Analysis
 
@@ -1365,36 +1352,21 @@ The distribution of incendiary percentages shows:
 
 This highly skewed distribution indicates that most raids used minimal or no incendiary munitions, with significant incendiary usage concentrated in a small percentage of operations.
 
-![Tonnage vs Incendiary](./attack_data/plots/tonnage_vs_incendiary.png)
-*Figure 3.33: Relationship between tonnage and incendiary percentage.*
-
-### 3D Component Visualization
-
-The three-dimensional relationship between score components provides insights into how different factors contributed to the overall bombing pattern.
-
-![3D Component Visualization](./attack_data/plots/3d_component_visualization.png)
-*Figure 3.34: Three-dimensional visualization of bombing score components.*
-
-### Area Bombing by Target Type
-
-![Area Bombing by Target Type](./attack_data/plots/area_bombing_by_target_type.png)
-*Figure 3.35: Distribution of area bombing scores by target type classification.*
+![Tonnage vs Incendiary](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
+*Figure 3.32: Comparison of high-explosive and incendiary tonnage by category.*
 
 ## Component Radar Analysis
 
 Radar charts demonstrate how different components contributed to overall scores for different categories and cities.
 
-![Radar Components](./attack_data/plots/radar_components.png)
-*Figure 3.36: Radar chart showing component scores for different bombing categories.*
-
 ![Transportation Components](./attack_data/plots/usaaf/categories/component_radar_category_transportation.png)
-*Figure 3.37: Radar chart showing component scores for transportation targets.*
+*Figure 3.33: Radar chart showing component scores for transportation targets.*
 
 ![Industrial Components](./attack_data/plots/usaaf/categories/component_radar_category_industrial.png)
-*Figure 3.38: Radar chart showing component scores for industrial targets.*
+*Figure 3.34: Radar chart showing component scores for industrial targets.*
 
 ![Berlin Components](./attack_data/plots/usaaf/cities/component_radar_city_berlin.png)
-*Figure 3.39: Radar chart showing component scores for Berlin raids.*
+*Figure 3.35: Radar chart showing component scores for Berlin raids.*
 
 ## Ordnance Analysis
 
@@ -1404,15 +1376,14 @@ The distribution of bombing tonnage across years shows the dramatic escalation o
 
 | Year | Total Tonnage | % of Campaign | Raids | Avg Tons/Raid |
 |------|---------------|---------------|-------|---------------|
-| 1940 | 17,474.20     | 1.7%          | 397   | 44.02         |
-| 1941 | 29,226.79     | 2.8%          | 455   | 64.23         |
+| 1941 | 46,701.00     | 4.4%          | 852   | 54.81         |
 | 1942 | 34,105.90     | 3.2%          | 374   | 91.19         |
 | 1943 | 75,363.37     | 7.1%          | 1,111 | 67.83         |
 | 1944 | 648,320.78    | 61.4%         | 8,140 | 79.65         |
 | 1945 | 251,026.64    | 23.8%         | 3,001 | 83.65         |
 
 ![HE vs Incendiary by Year](./attack_data/plots/usaaf/general/he_vs_incendiary_by_year.png)
-*Figure 3.40: Comparison of high-explosive and incendiary tonnage by year.*
+*Figure 3.36: Comparison of high-explosive and incendiary tonnage by year.*
 
 ### Target Type and Tonnage Analysis
 
@@ -1420,7 +1391,7 @@ The relationship between target type and tonnage reveals operational priorities:
 
 | Target Type | Mean Tonnage | Median Tonnage | Total Tonnage | Raids | Avg Score |
 |-------------|--------------|----------------|---------------|-------|-----------|
-| Airfields   | 80.51        | 48.00          | 125,434.64    | 1,558 | 2.96      |
+| Airfields   | 80.51        | 48.00          | 125,434.64    | 1,558 | 2.41      |
 | Bridges     | 47.25        | 33.20          | 8,128.77      | 172   | 2.61      |
 | Factories   | 83.59        | 51.50          | 126,732.38    | 1,517 | 3.01      |
 | Marshalling Yards | 77.09   | 42.70         | 284,529.64    | 3,691 | 2.38      |
@@ -1429,30 +1400,7 @@ The relationship between target type and tonnage reveals operational priorities:
 | Refineries  | 144.60       | 98.50          | 169,182.70    | 1,170 | 2.65      |
 
 ![Tonnage vs Score Relationship](./attack_data/plots/usaaf/general/tonnage_vs_score_relationship.png)
-*Figure 3.41: Relationship between tonnage and area bombing score across different target types.*
-
-## RAF vs USAAF Comparison
-
-Our dataset includes limited comparative data between RAF and USAAF operations:
-
-![USAAF vs RAF Categories](./attack_data/plots/usaaf/usaaf_vs_raf_categories.png)
-*Figure 3.42: Comparison of bombing category distribution between USAAF and RAF.*
-
-![USAAF vs RAF Score Distribution](./attack_data/plots/usaaf/usaaf_vs_raf_score_distribution.png)
-*Figure 3.43: Comparison of area bombing score distribution between USAAF and RAF.*
-
-## Mission Success Analysis
-
-The dataset includes information on mission effectiveness:
-
-| Success Level | Raids | % of Total | Mean Score | Mean Tonnage | Mean Inc. % |
-|---------------|-------|------------|------------|--------------|-------------|
-| High          | 5,683 | 42.2%      | 2.97       | 86.42        | 8.1%        |
-| Medium        | 4,512 | 33.5%      | 3.21       | 74.86        | 7.8%        |
-| Low           | 2,184 | 16.2%      | 3.64       | 67.39        | 10.2%       |
-| Failed        | 1,099 | 8.2%       | 3.85       | 70.53        | 14.1%       |
-
-This analysis indicates that missions with higher area bombing scores (more area-like characteristics) were associated with lower success rates, while precision-focused missions showed higher success rates.
+*Figure 3.37: Relationship between tonnage and area bombing score across different target types.*
 
 ## Data Access
 

@@ -68,7 +68,7 @@ For analytical clarity, missions were grouped into five categories:
 
 - **Very Precise (0-2)**: 23.7% of raids
 - **Precise (2-4)**: 48.3% of raids
-- **Mixed (4-6)**: 17.3% of raids
+- **Mixed (4-6)**: 17.4% of raids
 - **Area (6-8)**: 8.8% of raids
 - **Heavy Area (8-10)**: 1.8% of raids
 
@@ -97,12 +97,11 @@ The data shows the progression of bombing operations across the war years:
 
 | Year | Raids | Total Tonnage | Avg. Tons/Raid | Mean Score | Median Score | Inc. % | Very Precise % | Precise % | Mixed % | Area % | Heavy Area % |
 |------|-------|---------------|----------------|------------|--------------|--------|---------------|-----------|---------|--------|--------------|
-| 1940 | 397   | 17,474.20     | 44.02          | 2.25       | 2.30         | 5.5%   | 41.8%         | 47.9%     | 8.6%    | 1.8%   | 0.0%         |
-| 1941 | 455   | 29,226.79     | 64.23          | 2.78       | 2.60         | 9.5%   | 28.1%         | 52.3%     | 16.9%   | 2.6%   | 0.0%         |
-| 1942 | 374   | 34,105.90     | 91.19          | 2.82       | 2.60         | 13.1%  | 21.7%         | 64.4%     | 11.8%   | 2.1%   | 0.0%         |
-| 1943 | 1,111 | 75,363.37     | 67.83          | 2.94       | 2.60         | 12.7%  | 26.3%         | 53.7%     | 14.8%   | 5.0%   | 0.2%         |
-| 1944 | 8,140 | 648,320.78    | 79.65          | 3.37       | 2.70         | 8.7%   | 22.4%         | 46.5%     | 18.5%   | 10.1%  | 2.5%         |
-| 1945 | 3,001 | 251,026.64    | 83.65          | 3.26       | 2.60         | 7.3%   | 23.4%         | 48.0%     | 17.8%   | 9.0%   | 1.8%         |
+| 1941 | 852   | 46,701.00     | 54.81          | 2.54       | 2.30         | 8.0%   | 28.1%         | 52.3%     | 16.9%   | 2.6%   | 0.0%         |
+| 1942 | 374   | 34,105.90     | 91.19          | 2.82       | 2.60         | 13.1%  | 21.7%         | 64.4%     | 11.8%   | 1.9%   | 0.3%         |
+| 1943 | 1,111 | 75,363.37     | 67.83          | 2.94       | 2.40         | 12.7%  | 26.3%         | 53.7%     | 14.9%   | 4.1%   | 1.1%         |
+| 1944 | 8,140 | 648,320.78    | 79.65          | 3.37       | 2.70         | 8.7%   | 22.4%         | 46.5%     | 18.6%   | 10.1%  | 2.5%         |
+| 1945 | 3,001 | 251,026.64    | 83.65          | 3.26       | 2.70         | 7.3%   | 23.4%         | 48.0%     | 17.7%   | 9.7%   | 1.1%         |
 
 ![Yearly Evolution](./attack_data/plots/usaaf/years/yearly_evolution.png)
 *Figure 3.3: Yearly evolution of area bombing scores throughout the war.*
@@ -116,14 +115,10 @@ Quarterly analysis provides a more granular view of bombing pattern evolution:
 
 | Quarter | Mean Score | Total Tonnage | Raids | Inc. % |
 |---------|------------|---------------|-------|--------|
-| 1940Q1  | 2.27       | 7,570.75      | 206   | 5.7%   |
-| 1940Q2  | 2.38       | 3,428.74      | 62    | 2.8%   |
-| 1940Q3  | 1.86       | 2,720.13      | 46    | 3.0%   |
-| 1940Q4  | 2.30       | 3,754.58      | 83    | 11.8%  |
-| 1941Q1  | 2.81       | 11,547.08     | 168   | 10.0%  |
-| 1941Q2  | 2.70       | 5,684.41      | 95    | 7.8%   |
-| 1941Q3  | 2.97       | 4,718.22      | 80    | 6.5%   |
-| 1941Q4  | 2.71       | 7,277.08      | 112   | 7.4%   |
+| 1941Q1  | 2.51       | 19,117.83     | 374   | 7.7%   |
+| 1941Q2  | 2.57       | 9,113.15      | 157   | 5.8%   |
+| 1941Q3  | 2.56       | 7,438.36      | 126   | 5.2%   |
+| 1941Q4  | 2.54       | 11,031.66     | 195   | 9.3%   |
 | 1942Q1  | 2.81       | 18,781.55     | 146   | 7.7%   |
 | 1942Q2  | 2.94       | 5,514.17      | 83    | 16.8%  |
 | 1942Q3  | 2.63       | 2,096.30      | 50    | 10.0%  |
@@ -151,8 +146,8 @@ Quarterly analysis provides a more granular view of bombing pattern evolution:
 
 Radar charts for each year provide insight into how component scores evolved over time:
 
-![1940 Radar](./attack_data/plots/usaaf/years/component_radar_year_1940.png)
-*Figure 3.7: Radar chart showing component scores for 1940.*
+![1941 Radar](./attack_data/plots/usaaf/years/component_radar_year_1941.png)
+*Figure 3.7: Radar chart showing component scores for 1941.*
 
 ![1942 Radar](./attack_data/plots/usaaf/years/component_radar_year_1942.png)
 *Figure 3.8: Radar chart showing component scores for 1942.*
@@ -185,26 +180,26 @@ The distribution of bombing tonnage across target categories reveals operational
 | Category            | Total Tonnage  | % of Total | Avg Tons/Raid | Raids  | Inc. % | Mean Score | Median Score |
 |---------------------|----------------|------------|---------------|--------|--------|------------|--------------|
 | Transportation      | 405,865.08     | 38.5%      | 78.05         | 5,200  | 8.3%   | 2.38       | 2.40         |
-| Oil Refineries      | 163,692.77     | 15.5%      | 139.79        | 1,171  | 2.7%   | 2.65       | 2.50         |
-| Airfields           | 125,434.64     | 11.9%       | 80.51         | 1,558  | 7.4%   | 2.96       | 2.60         |
+| Oil Refineries      | 163,692.77     | 15.5%      | 139.79        | 1,171  | 2.7%   | 2.50       | 2.60         |
+| Airfields           | 125,434.64     | 11.9%      | 80.51         | 1,558  | 7.4%   | 2.41       | 2.40         |
 | Industrial          | 103,571.42     | 9.8%       | 36.73         | 2,820  | 12.2%  | 6.19       | 6.10         |
 | Aircraft Production | 71,152.44      | 6.7%       | 94.49         | 753    | 22.0%  | 3.02       | 2.70         |
-| Military Industry   | 52,510.43      | 5.0%       | 101.96        | 515    | 11.9%  | 2.90       | 2.60         |
-| Tactical            | 43,921.79      | 4.2%       | 121.67        | 361    | 3.2%   | 2.85       | 2.60         |
-| Weapon              | 27,329.89      | 2.6%       | 63.41         | 431    | 0.5%   | 2.61       | 2.50         |
-| Naval               | 22,482.20      | 2.1%       | 76.47         | 294    | 13.8%  | 2.83       | 2.60         |
-| Supply              | 11,451.31      | 1.1%       | 96.23         | 119    | 14.8%  | 2.83       | 2.60         |
-| Chemical            | 9,557.85       | 0.9%       | 97.53         | 98     | 17.3%  | 2.94       | 2.60         |
+| Military Industry   | 52,510.43      | 5.0%       | 101.96        | 515    | 11.9%  | 2.77       | 2.60         |
+| Tactical            | 43,921.79      | 4.2%       | 121.67        | 361    | 3.2%   | 2.36       | 2.40         |
+| Weapon              | 27,329.89      | 2.6%       | 63.41         | 431    | 0.5%   | 2.15       | 2.20         |
+| Naval               | 22,482.20      | 2.1%       | 76.47         | 294    | 13.8%  | 2.34       | 2.30         |
+| Supply              | 11,451.31      | 1.1%       | 96.23         | 119    | 14.8%  | 2.74       | 2.40         |
+| Chemical            | 9,557.85       | 0.9%       | 97.53         | 98     | 17.3%  | 2.72       | 2.50         |
 | Manufacturing       | 7,474.76       | 0.7%       | 149.50        | 50     | 19.5%  | 3.24       | 2.85         |
-| Explosives          | 6,553.02       | 0.6%       | 182.03        | 36     | 2.9%   | 2.78       | 2.55         |
-| Utilities           | 2,943.60       | 0.3%       | 73.59         | 40     | 11.4%  | 2.91       | 2.65         |
-| Rubber              | 1,325.28       | 0.1%       | 45.70         | 29     | 15.8%  | 2.75       | 2.60         |
+| Explosives          | 6,553.02       | 0.6%       | 182.03        | 36     | 2.9%   | 2.60       | 2.60         |
+| Utilities           | 2,943.60       | 0.3%       | 73.59         | 40     | 11.4%  | 2.36       | 2.20         |
+| Rubber              | 1,325.28       | 0.1%       | 45.70         | 29     | 15.8%  | 2.46       | 2.00         |
 
 ![Tonnage Distribution by Category](./attack_data/plots/usaaf/general/tonnage_distribution_by_category.png)
 *Figure 3.14: Distribution of bombing tonnage across target categories.*
 
-![HE vs Incendiary by Category](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
-*Figure 3.15: Comparison of high-explosive and incendiary tonnage by target category.*
+![HE vs Incendiary by Category](./attack_data/plots/usaaf/categories/category_comparison.png)
+*Figure 3.15: Comparison of area bombing scores by target category.*
 
 ### Category Score Comparison
 
@@ -269,8 +264,8 @@ Oil refineries represented a key strategic priority:
 
 - **Number of oil refinery raids**: 1,171 (8.7% of all raids)
 - **Total tonnage**: 163,692.77 tons (15.5% of total)
-- **Mean area bombing score**: 2.65
-- **Median area bombing score**: 2.50
+- **Mean area bombing score**: 2.50
+- **Median area bombing score**: 2.60
 - **Average incendiary percentage**: 2.7%
 
 Category distribution for oil refinery targets:
@@ -317,11 +312,11 @@ Category distribution for oil refinery targets:
 | Zehdenick            | 8.22       | 197.50        | 6     | 83.8%  |
 | Sylt Island          | 8.16       | 74.00         | 5     | 93.2%  |
 | Vienna Industrial Area| 7.12       | 562.00        | 5     | 0.7%   |
-| Kempten City         | 7.10       | 24.30        | 5     | 38.3%  |
+| Kempten City         | 7.10       | 24.30         | 5     | 38.3%  |
 | Ohrdruf              | 6.81       | 222.70        | 8     | 3.0%   |
 | Royan                | 6.74       | 5,493.79      | 7     | 24.1%  |
 | Saarlautern          | 6.73       | 662.65        | 7     | 4.8%   |
-| Fosexon              | 6.70       | 30.90        | 11    | 32.4%  |
+| Fosexon              | 6.70       | 30.90         | 11    | 32.4%  |
 | Wittenberg           | 6.65       | 265.05        | 6     | 22.9%  |
 
 ![City Evolution](./attack_data/plots/usaaf/cities/city_evolution.png)
@@ -335,7 +330,7 @@ Berlin, as the Nazi capital, received distinctive treatment:
 - **Total tonnage**: 18,567.55 tons
 - **Mean area bombing score**: 5.17
 - **Median area bombing score**: 4.90
-- **Average incendiary percentage**: 43.0%
+- **Average incendiary percentage**: 45.3%
 
 Category distribution for Berlin:
 - Very Precise (0-2): 4.8%
@@ -396,21 +391,18 @@ Category distribution for Vienna:
 
 The correlation matrix between different score components shows:
 
-|                      | TARGET_SCORE | INCENDIARY_SCORE | TONNAGE_SCORE | AREA_BOMBING_SCORE |
+|                      | Target Score | Incendiary Score | Tonnage Score | Area Bombing Score |
 |----------------------|--------------|------------------|---------------|---------------------|
-| TARGET_SCORE         | 1.000        | 0.075            | -0.311        | 0.826               |
-| INCENDIARY_SCORE     | 0.075        | 1.000            | -0.055           | 0.486               |
-| TONNAGE_SCORE        | -0.311       | -0.055           | 1.000         | 0.103               |
-| AREA_BOMBING_SCORE   | 0.826        | 0.486            | 0.103         | 1.000               |
+| Target Score         | 1.000        | 0.075            | -0.311        | 0.826               |
+| Incendiary Score     | 0.075        | 1.000            | -0.055        | 0.486               |
+| Tonnage Score        | -0.311       | -0.055           | 1.000         | 0.103               |
+| Area Bombing Score   | 0.826        | 0.486            | 0.103         | 1.000               |
 
 The correlation data reveals:
 - Target type has the strongest influence on the final area bombing score (r=0.826)
 - Incendiary percentage shows moderate correlation with area bombing score (r=0.486)
 - Tonnage has minimal correlation with area bombing score (r=0.103)
 - Target type is negatively correlated with tonnage (r=-0.311)
-
-![Correlation Heatmap](./attack_data/plots/correlation_heatmap.png)
-*Figure 3.32: Correlation heatmap between bombing score components.*
 
 ### Incendiary Usage Analysis
 
@@ -425,36 +417,21 @@ The distribution of incendiary percentages shows:
 
 This highly skewed distribution indicates that most raids used minimal or no incendiary munitions, with significant incendiary usage concentrated in a small percentage of operations.
 
-![Tonnage vs Incendiary](./attack_data/plots/tonnage_vs_incendiary.png)
-*Figure 3.33: Relationship between tonnage and incendiary percentage.*
-
-### 3D Component Visualization
-
-The three-dimensional relationship between score components provides insights into how different factors contributed to the overall bombing pattern.
-
-![3D Component Visualization](./attack_data/plots/3d_component_visualization.png)
-*Figure 3.34: Three-dimensional visualization of bombing score components.*
-
-### Area Bombing by Target Type
-
-![Area Bombing by Target Type](./attack_data/plots/area_bombing_by_target_type.png)
-*Figure 3.35: Distribution of area bombing scores by target type classification.*
+![Tonnage vs Incendiary](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
+*Figure 3.32: Comparison of high-explosive and incendiary tonnage by category.*
 
 ## Component Radar Analysis
 
 Radar charts demonstrate how different components contributed to overall scores for different categories and cities.
 
-![Radar Components](./attack_data/plots/radar_components.png)
-*Figure 3.36: Radar chart showing component scores for different bombing categories.*
-
 ![Transportation Components](./attack_data/plots/usaaf/categories/component_radar_category_transportation.png)
-*Figure 3.37: Radar chart showing component scores for transportation targets.*
+*Figure 3.33: Radar chart showing component scores for transportation targets.*
 
 ![Industrial Components](./attack_data/plots/usaaf/categories/component_radar_category_industrial.png)
-*Figure 3.38: Radar chart showing component scores for industrial targets.*
+*Figure 3.34: Radar chart showing component scores for industrial targets.*
 
 ![Berlin Components](./attack_data/plots/usaaf/cities/component_radar_city_berlin.png)
-*Figure 3.39: Radar chart showing component scores for Berlin raids.*
+*Figure 3.35: Radar chart showing component scores for Berlin raids.*
 
 ## Ordnance Analysis
 
@@ -464,15 +441,14 @@ The distribution of bombing tonnage across years shows the dramatic escalation o
 
 | Year | Total Tonnage | % of Campaign | Raids | Avg Tons/Raid |
 |------|---------------|---------------|-------|---------------|
-| 1940 | 17,474.20     | 1.7%          | 397   | 44.02         |
-| 1941 | 29,226.79     | 2.8%          | 455   | 64.23         |
+| 1941 | 46,701.00     | 4.4%          | 852   | 54.81         |
 | 1942 | 34,105.90     | 3.2%          | 374   | 91.19         |
 | 1943 | 75,363.37     | 7.1%          | 1,111 | 67.83         |
 | 1944 | 648,320.78    | 61.4%         | 8,140 | 79.65         |
 | 1945 | 251,026.64    | 23.8%         | 3,001 | 83.65         |
 
 ![HE vs Incendiary by Year](./attack_data/plots/usaaf/general/he_vs_incendiary_by_year.png)
-*Figure 3.40: Comparison of high-explosive and incendiary tonnage by year.*
+*Figure 3.36: Comparison of high-explosive and incendiary tonnage by year.*
 
 ### Target Type and Tonnage Analysis
 
@@ -480,7 +456,7 @@ The relationship between target type and tonnage reveals operational priorities:
 
 | Target Type | Mean Tonnage | Median Tonnage | Total Tonnage | Raids | Avg Score |
 |-------------|--------------|----------------|---------------|-------|-----------|
-| Airfields   | 80.51        | 48.00          | 125,434.64    | 1,558 | 2.96      |
+| Airfields   | 80.51        | 48.00          | 125,434.64    | 1,558 | 2.41      |
 | Bridges     | 47.25        | 33.20          | 8,128.77      | 172   | 2.61      |
 | Factories   | 83.59        | 51.50          | 126,732.38    | 1,517 | 3.01      |
 | Marshalling Yards | 77.09   | 42.70         | 284,529.64    | 3,691 | 2.38      |
@@ -489,30 +465,7 @@ The relationship between target type and tonnage reveals operational priorities:
 | Refineries  | 144.60       | 98.50          | 169,182.70    | 1,170 | 2.65      |
 
 ![Tonnage vs Score Relationship](./attack_data/plots/usaaf/general/tonnage_vs_score_relationship.png)
-*Figure 3.41: Relationship between tonnage and area bombing score across different target types.*
-
-## RAF vs USAAF Comparison
-
-Our dataset includes limited comparative data between RAF and USAAF operations:
-
-![USAAF vs RAF Categories](./attack_data/plots/usaaf/usaaf_vs_raf_categories.png)
-*Figure 3.42: Comparison of bombing category distribution between USAAF and RAF.*
-
-![USAAF vs RAF Score Distribution](./attack_data/plots/usaaf/usaaf_vs_raf_score_distribution.png)
-*Figure 3.43: Comparison of area bombing score distribution between USAAF and RAF.*
-
-## Mission Success Analysis
-
-The dataset includes information on mission effectiveness:
-
-| Success Level | Raids | % of Total | Mean Score | Mean Tonnage | Mean Inc. % |
-|---------------|-------|------------|------------|--------------|-------------|
-| High          | 5,683 | 42.2%      | 2.97       | 86.42        | 8.1%        |
-| Medium        | 4,512 | 33.5%      | 3.21       | 74.86        | 7.8%        |
-| Low           | 2,184 | 16.2%      | 3.64       | 67.39        | 10.2%       |
-| Failed        | 1,099 | 8.2%       | 3.85       | 70.53        | 14.1%       |
-
-This analysis indicates that missions with higher area bombing scores (more area-like characteristics) were associated with lower success rates, while precision-focused missions showed higher success rates.
+*Figure 3.37: Relationship between tonnage and area bombing score across different target types.*
 
 ## Data Access
 

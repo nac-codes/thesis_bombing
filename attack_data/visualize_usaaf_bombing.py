@@ -17,28 +17,14 @@ for dir_name in ['plots/usaaf/years', 'plots/usaaf/categories', 'plots/usaaf/cit
 
 # Load and merge data - using USAAF filtered data
 print("Loading USAAF-only data...")
-raids_classification = pd.read_csv('processed_data/usaaf/usaaf_raids_classification_with_category.csv')
-raids_summary = pd.read_csv('processed_data/raids_summary.csv')
-
-# Display column names to debug
-print("Raids classification columns:", raids_classification.columns.tolist())
-print("Raids summary columns:", raids_summary.columns.tolist())
-
-# Create a unique identifier to merge datasets
-raids_classification['raid_id'] = raids_classification.index
-raids_summary['raid_id'] = raids_summary.index
-
-# Merge datasets
-print("Merging datasets...")
-# Use the dataset that already has all needed columns
-df = raids_classification.copy()
+df = pd.read_csv('processed_data/usaaf/usaaf_raids_full.csv')
 
 # Clean up year data - it should be 1940s
 print("Cleaning year data...")
 df['YEAR'] = df['YEAR'].fillna(0).astype(float)  # Handle missing values
 df['Year'] = (1940 + df['YEAR']).astype(int)
 # Handle any outlier years
-df.loc[df['Year'] < 1939, 'Year'] = 1940
+df.loc[df['Year'] < 1941, 'Year'] = 1941
 df.loc[df['Year'] > 1946, 'Year'] = 1945
 
 # Create a clean location field
@@ -378,63 +364,63 @@ print("Creating USAAF/RAF comparison plots...")
 all_raids = pd.read_csv('processed_data/raids_area_bombing_classification.csv')
 all_raids['raid_id'] = all_raids.index
 
-# Try to merge with raids_summary to get AIR FORCE data if available
-try:
-    all_raids_with_af = pd.merge(
-        all_raids,
-        raids_summary[['raid_id', 'AIR FORCE']],
-        on='raid_id',
-        how='left'
-    )
+# # Try to merge with raids_summary to get AIR FORCE data if available
+# try:
+#     all_raids_with_af = pd.merge(
+#         all_raids,
+#         raids_summary[['raid_id', 'AIR FORCE']],
+#         on='raid_id',
+#         how='left'
+#     )
     
-    # Create Air Force type
-    all_raids_with_af['Air Force'] = all_raids_with_af['AIR FORCE'].apply(lambda x: 'RAF' if x == 'R' else 'USAAF')
+#     # Create Air Force type
+#     all_raids_with_af['Air Force'] = all_raids_with_af['AIR FORCE'].apply(lambda x: 'RAF' if x == 'R' else 'USAAF')
     
-    # Score distribution comparison
-    plt.figure(figsize=(14, 8))
-    sns.histplot(data=all_raids_with_af, x='AREA_BOMBING_SCORE_NORMALIZED', hue='Air Force', 
-                element='step', stat='density', common_norm=False, bins=20, kde=True)
-    plt.title('Area Bombing Score Distribution: USAAF vs RAF', fontsize=18)
-    plt.xlabel('Area Bombing Score (10 = Clear Area Bombing, 0 = Precise Bombing)', fontsize=14)
-    plt.ylabel('Density', fontsize=14)
-    plt.xlim(0, 10)
-    plt.tight_layout()
-    plt.savefig('plots/usaaf/usaaf_vs_raf_score_distribution.png', dpi=300)
-    plt.close()
+#     # Score distribution comparison
+#     plt.figure(figsize=(14, 8))
+#     sns.histplot(data=all_raids_with_af, x='AREA_BOMBING_SCORE_NORMALIZED', hue='Air Force', 
+#                 element='step', stat='density', common_norm=False, bins=20, kde=True)
+#     plt.title('Area Bombing Score Distribution: USAAF vs RAF', fontsize=18)
+#     plt.xlabel('Area Bombing Score (10 = Clear Area Bombing, 0 = Precise Bombing)', fontsize=14)
+#     plt.ylabel('Density', fontsize=14)
+#     plt.xlim(0, 10)
+#     plt.tight_layout()
+#     plt.savefig('plots/usaaf/usaaf_vs_raf_score_distribution.png', dpi=300)
+#     plt.close()
     
-    # Category comparison
-    plt.figure(figsize=(14, 8))
-    all_raids_with_af['Score Category'] = pd.cut(all_raids_with_af['AREA_BOMBING_SCORE_NORMALIZED'], 
-                                 bins=[0, 2, 4, 6, 8, 10],
-                                 labels=['Very Precise (0-2)', 'Precise (2-4)', 
-                                        'Mixed (4-6)', 'Area (6-8)', 'Heavy Area (8-10)'])
+#     # Category comparison
+#     plt.figure(figsize=(14, 8))
+#     all_raids_with_af['Score Category'] = pd.cut(all_raids_with_af['AREA_BOMBING_SCORE_NORMALIZED'], 
+#                                  bins=[0, 2, 4, 6, 8, 10],
+#                                  labels=['Very Precise (0-2)', 'Precise (2-4)', 
+#                                         'Mixed (4-6)', 'Area (6-8)', 'Heavy Area (8-10)'])
     
-    category_by_af = pd.crosstab(all_raids_with_af['Air Force'], all_raids_with_af['Score Category'])
-    category_by_af_pct = category_by_af.div(category_by_af.sum(axis=1), axis=0) * 100
+#     category_by_af = pd.crosstab(all_raids_with_af['Air Force'], all_raids_with_af['Score Category'])
+#     category_by_af_pct = category_by_af.div(category_by_af.sum(axis=1), axis=0) * 100
     
-    # Plot side by side
-    category_by_af_pct.plot(kind='bar', figsize=(14, 8))
-    plt.title('Bombing Categories: USAAF vs RAF', fontsize=18)
-    plt.xlabel('Air Force', fontsize=14)
-    plt.ylabel('Percentage of Raids', fontsize=14)
-    plt.ylim(0, 100)
-    plt.grid(True, alpha=0.3, axis='y')
+#     # Plot side by side
+#     category_by_af_pct.plot(kind='bar', figsize=(14, 8))
+#     plt.title('Bombing Categories: USAAF vs RAF', fontsize=18)
+#     plt.xlabel('Air Force', fontsize=14)
+#     plt.ylabel('Percentage of Raids', fontsize=14)
+#     plt.ylim(0, 100)
+#     plt.grid(True, alpha=0.3, axis='y')
     
-    # Add percentage text on bars
-    for i, af in enumerate(category_by_af_pct.index):
-        cumulative_sum = 0
-        for j, col in enumerate(category_by_af_pct.columns):
-            # Only add text for segments that are at least 3% of the total
-            if category_by_af_pct.loc[af, col] >= 3:
-                plt.text(i, category_by_af_pct.loc[af, col]/2,
-                        f"{category_by_af_pct.loc[af, col]:.1f}%", ha='center', va='center',
-                        fontsize=10, fontweight='bold')
+#     # Add percentage text on bars
+#     for i, af in enumerate(category_by_af_pct.index):
+#         cumulative_sum = 0
+#         for j, col in enumerate(category_by_af_pct.columns):
+#             # Only add text for segments that are at least 3% of the total
+#             if category_by_af_pct.loc[af, col] >= 3:
+#                 plt.text(i, category_by_af_pct.loc[af, col]/2,
+#                         f"{category_by_af_pct.loc[af, col]:.1f}%", ha='center', va='center',
+#                         fontsize=10, fontweight='bold')
     
-    plt.tight_layout()
-    plt.savefig('plots/usaaf/usaaf_vs_raf_categories.png', dpi=300)
-    plt.close()
-except Exception as e:
-    print(f"Skipping RAF comparison due to error: {e}")
+#     plt.tight_layout()
+#     plt.savefig('plots/usaaf/usaaf_vs_raf_categories.png', dpi=300)
+#     plt.close()
+# except Exception as e:
+#     print(f"Skipping RAF comparison due to error: {e}")
 
 # Add new section for general bombing campaign visualizations
 print("Creating general bombing campaign visualizations...")
@@ -905,6 +891,103 @@ plt.tight_layout()
 plt.savefig('plots/usaaf/general/year_category_score_heatmap.png', dpi=300)
 plt.close()
 
+print("Creating extended radar chart with additional metrics...")
+
+# Calculate average component scores for the entire dataset
+avg_target = df['TARGET_SCORE'].mean() * 10  # Scale to 0-10
+avg_tonnage = df['TONNAGE_SCORE'].mean()
+avg_incendiary = df['INCENDIARY_SCORE'].mean()
+overall_score = df['AREA_BOMBING_SCORE_NORMALIZED'].mean()
+
+# Calculate additional metrics (normalized to 0-10 scale)
+avg_he_percent = (100 - df['INCENDIARY_PERCENT'].mean()) / 10  # Convert to 0-10 scale
+avg_tonnage_per_raid = min(df['TOTAL_TONS'].mean() / 50, 10)  # Cap at 10 (500 tons)
+avg_raid_count_per_city = min(df.groupby('Location').size().mean() / 5, 10)  # Normalize
+avg_precision = 10 - overall_score  # Invert area bombing score to get precision
+
+# First create the standard three-component radar chart
+print("Creating standard radar chart for bombing components...")
+
+# Create radar chart with just the three main components
+standard_categories = ['Target Type', 'Tonnage', 'Incendiary']
+standard_values = [avg_target, avg_tonnage, avg_incendiary]
+
+# Create the radar chart
+standard_angles = np.linspace(0, 2*np.pi, len(standard_categories), endpoint=False).tolist()
+standard_values += standard_values[:1]  # Close the loop
+standard_angles += standard_angles[:1]  # Close the loop
+
+fig, ax = plt.subplots(figsize=(12, 12), subplot_kw=dict(polar=True))
+ax.plot(standard_angles, standard_values, 'o-', linewidth=3, color='darkblue')
+ax.fill(standard_angles, standard_values, alpha=0.25, color='darkblue')
+ax.set_thetagrids(np.degrees(standard_angles[:-1]), standard_categories)
+ax.set_ylim(0, 10)  # Consistent range for component scores
+ax.set_title('Overall USAAF Bombing Campaign Component Scores', fontsize=18, pad=20)
+ax.grid(True)
+
+# Add score values at points
+for angle, value, category in zip(standard_angles[:-1], standard_values[:-1], standard_categories):
+    ax.text(angle, value + 0.5, f'{value:.2f}', 
+           horizontalalignment='center', verticalalignment='center',
+           fontsize=14, fontweight='bold')
+
+# Add overall area bombing score
+ax.text(0, -2.5, f'Overall Area Bombing Score: {overall_score:.2f}', 
+       horizontalalignment='center', verticalalignment='center',
+       fontsize=16, fontweight='bold', color='darkred')
+
+plt.tight_layout()
+plt.savefig('plots/usaaf/general/overall_component_radar.png', dpi=300)
+plt.close()
+
+# Then create the extended radar chart with more metrics
+
+# Create extended radar chart with more metrics
+extended_categories = [
+    'Target Type (Area)', 
+    'Tonnage Score', 
+    'Incendiary %', 
+    'HE %',
+    'Avg Tons/Raid',
+    'Precision'
+]
+extended_values = [
+    avg_target, 
+    avg_tonnage, 
+    avg_incendiary, 
+    avg_he_percent,
+    avg_tonnage_per_raid,
+    avg_precision
+]
+
+# Create the radar chart
+extended_angles = np.linspace(0, 2*np.pi, len(extended_categories), endpoint=False).tolist()
+extended_values += extended_values[:1]  # Close the loop
+extended_angles += extended_angles[:1]  # Close the loop
+
+fig, ax = plt.subplots(figsize=(14, 14), subplot_kw=dict(polar=True))
+ax.plot(extended_angles, extended_values, 'o-', linewidth=3, color='darkblue')
+ax.fill(extended_angles, extended_values, alpha=0.25, color='darkblue')
+ax.set_thetagrids(np.degrees(extended_angles[:-1]), extended_categories)
+ax.set_ylim(0, 10)  # Consistent range for component scores
+ax.set_title('Extended USAAF Bombing Campaign Metrics', fontsize=20, pad=20)
+ax.grid(True)
+
+# Add score values at points
+for angle, value, category in zip(extended_angles[:-1], extended_values[:-1], extended_categories):
+    ax.text(angle, value + 0.5, f'{value:.2f}', 
+           horizontalalignment='center', verticalalignment='center',
+           fontsize=14, fontweight='bold')
+
+# Add explanatory text
+plt.figtext(0.5, 0.01, 
+           "All metrics normalized to 0-10 scale.\nPrecision is inverse of Area Bombing Score.\nHE % is complement of Incendiary %.",
+           ha='center', fontsize=12, bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+
+plt.tight_layout()
+plt.savefig('plots/usaaf/general/extended_metrics_radar.png', dpi=300)
+plt.close()
+
 print("Creating tonnage-weighted analysis...")
 # Create a directory for these analyses
 os.makedirs('plots/usaaf/tonnage_weighted', exist_ok=True)
@@ -1194,7 +1277,11 @@ plt.xticks(range(len(quarterly_merged)), [str(q) for q in quarterly_merged['Quar
 quarterly_merged['Difference'] = quarterly_merged['Weighted_Mean'] - quarterly_merged['Avg_Score']
 for i, row in enumerate(quarterly_merged.itertuples()):
     if abs(row.Difference) >= 0.5:  # Only annotate significant differences
-        plt.annotate(f"Diff: {row.Difference:+.2f}\n({row[raid_count_col]} raids, {row[tonnage_col]:.0f} tons)",
+        # Fix: Access the raid count and tonnage using proper attribute names or by getting values from the DataFrame
+        raid_count = getattr(row, raid_count_col.replace('.', '_')) if hasattr(row, raid_count_col.replace('.', '_')) else quarterly_merged.iloc[i][raid_count_col]
+        tonnage = getattr(row, tonnage_col.replace('.', '_')) if hasattr(row, tonnage_col.replace('.', '_')) else quarterly_merged.iloc[i][tonnage_col]
+        
+        plt.annotate(f"Diff: {row.Difference:+.2f}\n({raid_count} raids, {tonnage:.0f} tons)",
                     (i, max(row.Avg_Score, row.Weighted_Mean) + 0.3),
                     ha='center', va='bottom',
                     fontsize=9,

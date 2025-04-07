@@ -14,12 +14,12 @@ To systematically evaluate the nature of each bombing mission, we developed a th
 
 This multidimensional approach provides a nuanced assessment of bombing character beyond the binary precision/area classification often employed in historical narratives.[^2]
 
-The results decisively challenge the conventional understanding of strategic bombing evolution. Rather than a dramatic shift from precision to area bombing, we find relative stability throughout the conflict. The mean area bombing score across all raids was 3.24 out of 10, with a median of 2.6—indicating that most bombing operations maintained significant precision elements throughout the war with a long-tail of outlier area bombing raids. While there was a modest upward trend in area bombing scores over time (from approximately 2.5 to 3.5), this change falls well within one standard deviation and represents a refinement rather than transformation of bombing doctrine.
+The results decisively challenge the conventional understanding of strategic bombing evolution. Rather than a dramatic shift from precision to area bombing, we find relative stability throughout the conflict. The mean area bombing score across all raids was 3.27 out of 10, with a median of 2.7—indicating that most bombing operations maintained significant precision elements throughout the war with a long-tail of outlier area bombing raids. While there was a modest upward trend in area bombing scores over time (from approximately 2.5 to 3.5), this change falls well within one standard deviation and represents a refinement rather than transformation of bombing doctrine.
 
 ![Yearly Distribution of Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/years/category_by_year.png)
 *Figure 1.1: Yearly distribution of bombing categories, showing the relative stability of precision bombing throughout the conflict.*
 
-The yearly distribution of bombing categories offers additional insight into this evolution. Very precise bombing (scores 0-2) decreased slightly from 1940 to 1941 but then maintained a relatively stable proportion throughout the remainder of the war. Mixed bombing approaches (scores 4-6) increased modestly from around 10% early in the war to 18.6% at their peak. Clear area bombing (scores 6-8) and heavy area bombing (scores 8-10) did increase over time, with heavy area bombing emerging from non-existence in 1940-1941 to a small but notable presence by 1944. 
+The yearly distribution of bombing categories offers additional insight into this evolution. Very precise bombing (scores 0-2) maintained a relatively stable proportion throughout the remainder of the war. Mixed bombing approaches (scores 4-6) increased modestly from around 10% early in the war to 18.6% at their peak. Clear area bombing (scores 6-8) and heavy area bombing (scores 8-10) did increase over time, with heavy area bombing emerging from non-existence in 1941 to a small but notable presence by 1944. 
 
 This modest increase in area bombing coincided with the period of heaviest overall bombing activity and significantly increased tonnage per raid—a correlation that suggests operational scale rather than doctrinal transformation drove these changes. This pattern is what we would expect: some increase in area bombing characteristics as operations intensified, but not the dramatic wholesale shift from precision to area bombing that dominates conventional narratives. The data reveals a nuanced reality where tactical diversification occurred within a framework that remained fundamentally committed to precision approaches.
 
@@ -31,7 +31,7 @@ Examining operational metrics reveals additional nuance in the bombing campaign'
 ![Quarterly Metrics Evolution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/quarterly_metrics_evolution.png)
 *Figure 1.3: Quarterly evolution of key bombing metrics, showing increased tonnage but stable incendiary percentages.*
 
-![High-Explosive vs. Incendiary by Category](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/he_vs_incendiary_by_category.png)
+![High-Explosive vs. Incendiary by Category](./attack_data/plots/usaaf/general/he_vs_incendiary_by_category.png)
 *Figure 1.4: Comparison of high-explosive and incendiary tonnage by year, illustrating parallel growth rather than substitution.*
 
 Breaking down the data by target category provides further evidence against a hidden shift toward area bombing. While the "industrial" category consistently showed the highest area bombing scores, these remained stable across the war years rather than progressively increasing. Other high-scoring categories included manufacturing, aircraft production, military industry, and oil refineries—with oil targets actually showing decreased area bombing scores in later years. No category demonstrated the dramatic escalation that would indicate either a deliberate concealment of area tactics or a fundamental doctrinal shift.
@@ -42,30 +42,33 @@ Breaking down the data by target category provides further evidence against a hi
 ![Year-Category Score Heatmap](./attack_data/deployment_usaaf_dashboard/plots/usaaf/general/year_category_score_heatmap.png)
 *Figure 1.6: Heatmap of average area bombing scores by category and year, demonstrating stability across most target types.*
 
+![Overall Component Radar](./attack_data/plots/usaaf/general/overall_component_radar.png)
+*Figure 1.7: Radar chart showing component scores for the entire dataset.*
+
 One persistent claim in strategic bombing historiography deserves particular scrutiny: the assertion that transportation targets served as a pretext for area bombing. Several prominent scholars have advanced this theory—Lucien Mott argues that transportation targeting masked deliberate attacks on civilian populations [(Lucien Mott 2019)](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora/lucien_pinpoint/chunks/lucien_pinpoint_0036.txt), while Robert Anthony Pape contends that marshalling yards and rail centers functioned as nominal military objectives concealing broader civilian targeting [(Pape 1960)](https://bomberdata.s3.us-east-1.amazonaws.com/Readings/corpora_cited/pape_coercion/chunks/pape_coercion_0177.txt).[^3] These scholars point to the use of incendiary munitions against transportation infrastructure—weapons tactically ill-suited for disrupting rail operations—and excessive tonnage deployments as evidence of disguised area bombing.
 
 However, our comprehensive data analysis thoroughly refutes these claims. Transportation targets consistently maintained one of the most precise bombing profiles throughout the war, with a median area bombing score of just 2.4—well within the "precise bombing" classification. The incendiary component averaged a mere 1.0 across all transportation raids, significantly lower than the dataset average. Only 7.3% of transportation attacks fell into the "mixed" category (scores 4-6), with none qualifying as true area bombing. The distribution of bombing scores for transportation targets shows a pronounced concentration in the precise categories, directly contradicting the notion that these missions served as cover for civilian targeting. 
-
-![Transportation Category Components](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/component_radar_category_transportation.png)
-*Figure 1.7: Radar chart showing the component scores for transportation targets, demonstrating consistently low area bombing characteristics.*
-
-![Transportation Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/category_pie_category_transportation.png)
-*Figure 1.8: Distribution of bombing categories for transportation targets, showing the overwhelming predominance of precision bombing approaches.*
-
-![Transportation Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/score_distribution_category_transportation.png)
-*Figure 1.9: Area bombing score distribution for transportation operations, revealing a strong concentration in the precise bombing range.*
 
 Rather than transportation, the misclassification appears in the "industrial" category, where targets labeled as "city area," "town area," or "unidentified target" reveal the true locus of area bombing operations. This classification is particularly significant, as the USSBS dedicated several folders to this "industrial" category, with the overwhelming majority of targets therein being city areas, town areas, or unidentified targets associated with cities. This categorization effectively served as a catch-all for area bombing operations targeting urban centers, lending some credence to scholarly claims about classification manipulation.
 
 This misclassification can be interpreted in two ways. One perspective suggests a deliberate concealment of area bombing practices, obscuring civilian targeting behind industrial designations. Alternatively, it may reflect the USAAF's doctrinal commitment to precision bombing—so deeply ingrained that even when targeting entire city areas, operations were conceptualized as attacking "city industry" or "German workers," thus maintaining the fiction of precision targeting. Regardless of interpretation, our methodology classifies these operations as area bombing based on their operational characteristics rather than their administrative designation, providing a more accurate representation of bombing practices throughout the campaign.
 
+![Transportation Category Components](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/component_radar_category_transportation.png)
+*Figure 1.8: Radar chart showing component scores for transportation targets. While the low target type score (0/10) merely confirms these weren't designated as city targets, the consistently low incendiary usage (1.0/10) and relatively moderate tonnage deployment (6.7/10) demonstrate that transportation raids maintained genuine precision characteristics in practice, contradicting assertions they functionally served as disguised area attacks.*
+
+![Transportation Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/category_pie_category_transportation.png)
+*Figure 1.9: Distribution of bombing categories for transportation targets, showing the overwhelming predominance of precision bombing approaches.*
+
+![Transportation Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/categories/score_distribution_category_transportation.png)
+*Figure 1.10: Area bombing score distribution for transportation operations, revealing a strong concentration in the precise bombing range.*
+
 The most notable exception to these patterns was Berlin, which experienced significantly higher area bombing tactics. Only 23% of Berlin operations qualified as very precise or precise bombing, with 50% falling into mixed categories and nearly 27% constituting clear or heavy area bombing. The average incendiary percentage for Berlin proper reached 46%—extraordinarily high compared to other targets—with a median area bombing score of 4.9. This exceptional treatment of the Nazi capital suggests that emotional or symbolic factors may have influenced targeting decisions for particularly emblematic objectives, even as overall doctrine maintained its precision focus.
 
 ![Berlin Bombing Categories](./attack_data/deployment_usaaf_dashboard/plots/usaaf/cities/category_pie_city_berlin.png)
-*Figure 1.10: Distribution of bombing categories for Berlin, showing a significantly higher proportion of area bombing compared to the overall campaign.*
+*Figure 1.11: Distribution of bombing categories for Berlin, showing a significantly higher proportion of area bombing compared to the overall campaign.*
 
 ![Berlin Score Distribution](./attack_data/deployment_usaaf_dashboard/plots/usaaf/cities/score_distribution_city_berlin.png)
-*Figure 1.11: Area bombing score distribution for Berlin operations, demonstrating the exceptional nature of the capital's treatment.*
+*Figure 1.12: Area bombing score distribution for Berlin operations, demonstrating the exceptional nature of the capital's treatment.*
 
 To facilitate further research and enable independent verification of these findings, a web application has been developed that provides comprehensive access to the complete bombing dataset. This resource allows researchers to explore operations by year, target category, city, or any combination of factors, with the ability to download raw or processed data for independent analysis: https://strategic-bombing-data.streamlit.app/. The reader, if they are reading this thesis on paper, is encouraged to please pause and visit the website.
 
