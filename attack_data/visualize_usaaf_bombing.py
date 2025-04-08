@@ -609,28 +609,37 @@ top_categories_by_tonnage = top_categories_by_tonnage.sort_values('AREA_BOMBING_
 # Create stacked bar chart
 bar_width = 0.7
 x = np.arange(len(top_categories_by_tonnage))
-plt.bar(x, top_categories_by_tonnage['HE_TONS'], 
+he_bars = plt.bar(x, top_categories_by_tonnage['HE_TONS'], 
        color='steelblue', width=bar_width, label='HE Bombs')
-plt.bar(x, top_categories_by_tonnage['INCENDIARY_TONS'], 
+inc_bars = plt.bar(x, top_categories_by_tonnage['INCENDIARY_TONS'], 
        bottom=top_categories_by_tonnage['HE_TONS'], color='darkorange', width=bar_width, 
        label='Incendiary Bombs')
 
+# Add labels for tonnage on each bar segment
+for i, (he, inc) in enumerate(zip(top_categories_by_tonnage['HE_TONS'], top_categories_by_tonnage['INCENDIARY_TONS'])):
+    # Only add labels if the values are significant enough
+    if he > 500:
+        plt.text(i, he/2, f'{he:.0f}', ha='center', va='center', color='white', fontweight='bold')
+    if inc > 500:
+        plt.text(i, he + inc/2, f'{inc:.0f}', ha='center', va='center', color='black', fontweight='bold')
+
 # Add area bombing score line (dual y-axis)
 ax2 = plt.twinx()
-ax2.plot(x, top_categories_by_tonnage['AREA_BOMBING_SCORE_NORMALIZED'], 'ro-', label='Area Bombing Score')
+score_line = ax2.plot(x, top_categories_by_tonnage['AREA_BOMBING_SCORE_NORMALIZED'], 'ro-', label='Area Bombing Score')
 ax2.set_ylim(0, 10)
 ax2.set_ylabel('Average Area Bombing Score', fontsize=14, color='darkred')
 ax2.tick_params(axis='y', colors='darkred')
 
-# Set x-axis labels
+# Set x-axis labels with diagonal orientation to prevent overlap
 plt.xticks(x, top_categories_by_tonnage['CATEGORY'], rotation=45, ha='right', fontsize=12)
 plt.xlabel('Target Category', fontsize=14)
+plt.ylabel('Total Tons', fontsize=14)
 plt.title('HE vs Incendiary Bombing by Target Category (USAAF)', fontsize=18)
 
-# Add two legends
-lines1, labels1 = plt.gca().get_legend_handles_labels()
-lines2, labels2 = ax2.get_legend_handles_labels()
-plt.legend(lines1 + lines2, labels1 + labels2, loc='upper right', fontsize=12)
+# Create a single legend with all elements
+handles = [he_bars, inc_bars, score_line[0]]
+labels = ['HE Bombs', 'Incendiary Bombs', 'Area Bombing Score']
+plt.legend(handles, labels, loc='upper right', fontsize=12)
 
 plt.grid(True, alpha=0.3, axis='y')
 plt.tight_layout()
