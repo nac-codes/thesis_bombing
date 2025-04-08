@@ -467,6 +467,30 @@ The relationship between target type and tonnage reveals operational priorities:
 ![Tonnage vs Score Relationship](./attack_data/plots/usaaf/general/tonnage_vs_score_relationship.png)
 *Figure 3.37: Relationship between tonnage and area bombing score across different target types.*
 
+## Additional Visualizations and Exploratory Analysis
+
+In addition to the analyses presented above, we conducted numerous exploratory visualizations to examine different aspects of the bombing campaign data. These visualizations, while not all included in the main analysis, provide supplementary perspectives on the strategic bombing operations. The complete collection of visualization scripts and output files is available in the repository for researchers interested in further exploration.
+
+Key visualization scripts include:
+
+- Bombing patterns by year, category, and city (`attack_data/visualize_bombing_by_year_category_city.py`)
+
+- Bombing classification analysis (`attack_data/visualize_bombing_classification.py`)
+
+- City bombardment experience profiles (`attack_data/visualize_city_bombardment_experience.py`)
+
+- RAF and USAAF comparative analysis (`attack_data/visualize_raf_usaaf_comparison.py`)
+
+- Raid frequency and bombing score relationships (`attack_data/visualize_raid_frequency_bombing_scores.py`)
+
+- Raid frequency patterns (`attack_data/visualize_raid_frequency.py`)
+
+- USAAF bombing pattern analysis (`attack_data/visualize_usaaf_bombing.py`)
+
+The complete set of generated plots is available in the `attack_data/plots` directory. While not all visualizations were deemed essential for the main analysis, they are provided as resources for researchers who wish to conduct their own investigations into specific aspects of the strategic bombing campaign.
+
 ## Data Access
 
 The complete dataset and interactive visualizations are available through a dedicated web application at https://strategic-bombing-data.streamlit.app/, enabling researchers to explore these patterns independently and conduct their own analyses.
+
+All data and code used to generate the results and visualizations in this chapter are available in the repository at https://github.com/nac-codes/thesis_bombing.
