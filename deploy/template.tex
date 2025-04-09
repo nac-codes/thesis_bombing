@@ -35,6 +35,12 @@
 \newcommand{\passthrough}[1]{#1}
 \newcommand{\pandocbounded}[1]{#1}
 
+% Define commands for advisor and reader information
+\newcommand{\advisor}[1]{\gdef\@advisor{#1}}
+\newcommand{\reader}[1]{\gdef\@reader{#1}}
+\advisor{}
+\reader{}
+
 % Basic setup for code listings
 \lstset{
     basicstyle=\ttfamily\small,
@@ -95,9 +101,10 @@
 
 $if(title)$
 \title{$title$}
-\author{$author$}
+\author{$author$\\ \vspace{0.5cm} \normalsize{Thesis Section Advisor: $advisor$} \\ \normalsize{Second Reader: $reader$}}
 \date{$date$}
 \maketitle
+\newpage
 $endif$
 
 $if(toc)$

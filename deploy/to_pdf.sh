@@ -60,6 +60,8 @@ pandoc combined_thesis.md \
     --number-sections \
     -V title="The Persistence of Precision: Challenging the Narrative of American Strategic Bombing in World War II" \
     -V author="Nicholas A. Chimicles" \
+    -V advisor="Matthew Connelly" \
+    -V reader="Adam Tooze" \
     -V date="\today" \
     -V geometry:margin=1in \
     --listings \
