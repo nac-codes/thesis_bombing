@@ -100,10 +100,32 @@
 \begin{document}
 
 $if(title)$
-\title{$title$}
-\author{$author$\\ \vspace{0.5cm} \normalsize{Thesis Section Advisor: $advisor$} \\ \normalsize{Second Reader: $reader$}}
-\date{$date$}
-\maketitle
+% Custom title page instead of \maketitle
+\begin{titlepage}
+\begin{center}
+
+\vspace*{2cm}
+{\LARGE $title$\par}
+
+\vspace{2cm}
+{\Large $author$\par}
+
+\vspace{1cm}
+{\large $date$\par}
+
+\vfill % Push the following content to the bottom
+
+{\footnotesize\textbf{Thesis Section Advisor}}\par
+{\normalsize $advisor$}\par
+
+\vspace{0.5cm}
+{\footnotesize\textbf{Second Reader}}\par
+{\normalsize $reader$}\par
+
+\vspace{2cm}
+
+\end{center}
+\end{titlepage}
 \newpage
 $endif$
 
