@@ -1,0 +1,75 @@
+=================================================================
+                 USAAF BOMBING CONCENTRATION REPORT               
+=================================================================
+
+OVERALL BOMBING CONCENTRATION
+-----------------------------------------------------------------
+Total number of bombed locations: 2239
+Total bombing tonnage: 1038043.5 tons
+
+Top 10 locations received 13.5% of all bombing
+Top 25 locations received 23.5% of all bombing
+Top 50 locations received 34.1% of all bombing
+
+Number of locations accounting for 50% of bombing: 118
+Number of locations accounting for 75% of bombing: 369
+Number of locations accounting for 90% of bombing: 745
+
+TOP 20 MOST BOMBED LOCATIONS
+-----------------------------------------------------------------
+Rank Location            Tonnage     % of Total  
+-----------------------------------------------------------------
+1    HAMBURG             20865.3     2.0         
+2    BERLIN              18567.6     1.8         
+3    PLOESTI             16597.4     1.6         
+4    VIENNA              16435.8     1.6         
+5    MERSEBURG           12837.6     1.2         
+6    COLOGNE             12691.1     1.2         
+7    LINZ                11011.9     1.1         
+8    REGENSBURG          10451.0     1.0         
+9    HAMM                10293.6     1.0         
+10   BUDAPEST            10273.0     1.0         
+11   KOBLENZ             8700.3      0.8         
+12   MUNICH              8419.6      0.8         
+13   FRANKFURT AM MAIN   8126.2      0.8         
+14   LUDWIGSHAFEN        7953.3      0.8         
+15   KASSEL              7323.9      0.7         
+16   MAGDEBURG           7010.4      0.7         
+17   WIENER NEUSTADT     6586.8      0.6         
+18   MANNHEIM            6583.3      0.6         
+19   MUNSTER             6553.7      0.6         
+20   NURNBERG            6528.4      0.6         
+
+
+BOMBING CONCENTRATION OVER TIME
+-----------------------------------------------------------------
+Quarter   Locations Top 1% Share   Top 10% Share  Total Tons  
+-----------------------------------------------------------------
+1942Q1    67        17.9           50.5           18781.6     
+1942Q2    30        19.7           49.0           5514.2      
+1942Q3    27        30.5           47.2           2096.3      
+1942Q4    44        28.2           47.9           7713.9      
+1943Q1    93        6.5            41.5           22029.0     
+1943Q2    58        12.8           38.7           7630.5      
+1943Q3    98        6.4            34.9           19001.7     
+1943Q4    146       4.5            42.0           26702.2     
+1944Q1    398       14.4           51.1           77778.3     
+1944Q2    814       12.9           47.5           203352.4    
+1944Q3    819       16.3           56.6           215379.8    
+1944Q4    562       21.4           70.7           151810.3    
+1945Q1    628       15.7           59.7           172098.2    
+1945Q2    260       11.0           42.9           74534.2     
+
+
+CONCENTRATION ANALYSIS SUMMARY
+-----------------------------------------------------------------
+Average share of bombing for top 1% of locations: 15.6%
+Average share of bombing for top 10% of locations: 48.6%
+
+Concentration trend (top 1% share): decreasing
+  Early war average (top 1%): 17.4%
+  Late war average (top 1%): 13.7%
+
+Concentration trend (top 10% share): increasing
+  Early war average (top 10%): 44.2%
+  Late war average (top 10%): 52.9%

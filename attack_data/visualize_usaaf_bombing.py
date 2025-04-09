@@ -633,7 +633,6 @@ ax2.tick_params(axis='y', colors='darkred')
 # Set x-axis labels with diagonal orientation to prevent overlap
 plt.xticks(x, top_categories_by_tonnage['CATEGORY'], rotation=45, ha='right', fontsize=12)
 plt.xlabel('Target Category', fontsize=14)
-plt.ylabel('Total Tons', fontsize=14)
 plt.title('HE vs Incendiary Bombing by Target Category (USAAF)', fontsize=18)
 
 # Create a single legend with all elements
@@ -829,6 +828,9 @@ quarterly_data = df.groupby('Quarter').agg({
 
 quarterly_data.columns = ['Quarter', 'Avg_Score', 'Avg_Tonnage', 'Avg_Incendiary', 'Raid_Count']
 quarterly_data = quarterly_data[quarterly_data['Raid_Count'] >= 10]  # Filter to quarters with enough data
+
+# Filter out Q3-Q4 1945
+quarterly_data = quarterly_data[~quarterly_data['Quarter'].astype(str).isin(['1945Q3', '1945Q4'])]
 
 # Create a 4-panel plot
 fig, axes = plt.subplots(2, 2, figsize=(16, 12))
@@ -1259,6 +1261,9 @@ quarterly_merged = pd.merge(
     how='inner'
 )
 quarterly_merged = quarterly_merged.sort_values('Quarter')
+
+# Filter out Q3-Q4 1945
+quarterly_merged = quarterly_merged[~quarterly_merged['Quarter'].astype(str).isin(['1945Q3', '1945Q4'])]
 
 # Fix column naming issues after merge
 # After merging, column names may have _x and _y suffixes

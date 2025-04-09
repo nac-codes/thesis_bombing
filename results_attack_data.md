@@ -467,6 +467,59 @@ The relationship between target type and tonnage reveals operational priorities:
 ![Tonnage vs Score Relationship](./attack_data/plots/usaaf/general/tonnage_vs_score_relationship.png)
 *Figure 3.37: Relationship between tonnage and area bombing score across different target types.*
 
+### Bombing Concentration Analysis
+
+To understand the spatial distribution of bombing effort, we analyzed the concentration of bombing tonnage across target locations over time. This analysis reveals important patterns in how the USAAF allocated its bombing resources throughout the campaign.
+
+#### Overall Bombing Concentration
+
+The analysis of bombing concentration reveals a nuanced pattern of resource allocation:
+
+- The top 10 most bombed locations received 13.5% of all bombing tonnage
+- The top 25 locations received 25.7% of all bombing tonnage
+- The top 50 locations received 38.2% of all bombing tonnage
+
+It required 118 locations to account for 50% of all bombing, 307 locations for 75%, and 745 locations for 90% of the total bombing effort. This distribution indicates a campaign that was relatively dispersed across many targets rather than exclusively focused on a small number of locations.
+
+![Bombing Concentration Lorenz Curve](./attack_data/plots/bombing_distribution/bombing_concentration_lorenz.png)
+*Figure 3.38: Lorenz curve showing the inequality in bombing distribution across target locations. The curve demonstrates a moderate degree of concentration, with the diagonal line representing perfect equality.*
+
+#### Temporal Evolution of Bombing Concentration
+
+The concentration of bombing effort evolved significantly throughout the war:
+
+![Concentration Metrics Over Time](./attack_data/plots/bombing_distribution/concentration_metrics_over_time.png)
+*Figure 3.39: Evolution of bombing concentration metrics over time, showing the share of total bombing received by the top 1% and top 10% of locations by quarter.*
+
+The temporal analysis reveals several key patterns:
+
+1. **Early War Concentration (1942-1943)**: In the early phases, bombing was more concentrated on fewer targets, with the top 1% of locations receiving up to 25% of all bombing tonnage.
+
+2. **Mid-War Expansion (1943-1944)**: As the air campaign intensified, the USAAF dramatically increased the number of locations bombed, from fewer than 200 per quarter in early 1943 to over 800 locations per quarter by mid-1944.
+
+3. **Late War Strategic Focus (1944-1945)**: While the campaign remained broadly distributed, there was a notable spike in concentration during Q4 1944, when the top 10% of locations received nearly 60% of all bombing tonnage, likely reflecting the focused effort on transportation and oil targets during this period.
+
+4. **Overall Trend**: The data shows that while the top 1% concentration decreased over the course of the war (from an average of 17.4% in the early war to 13.7% in the late war), the top 10% concentration actually increased (from 44.2% to 52.9%), suggesting a strategic refinement rather than a simple dispersal of effort.
+
+#### Top Bombed Locations
+
+The most heavily bombed locations reflect both strategic priorities and the evolution of targeting doctrine:
+
+| Rank | Location | Tonnage | % of Total |
+|------|----------|---------|------------|
+| 1 | Hamburg | 20,918.8 | 2.0% |
+| 2 | Berlin | 18,567.6 | 1.8% |
+| 3 | Cologne | 17,984.3 | 1.7% |
+| 4 | Vienna | 16,667.2 | 1.6% |
+| 5 | Ploesti | 15,826.5 | 1.5% |
+| 6 | Merseburg | 14,582.9 | 1.4% |
+| 7 | Munich | 12,305.7 | 1.2% |
+| 8 | Kassel | 9,874.3 | 0.9% |
+| 9 | Frankfurt | 9,621.8 | 0.9% |
+| 10 | Stuttgart | 9,218.4 | 0.9% |
+
+This distribution raises important questions about the relationship between bombing concentration and strategic effectiveness. The moderate degree of inequality observed in the bombing distribution may reflect both the natural Pareto distribution of industrial and urban resources in the German economy and the strategic targeting decisions of USAAF planners. The data suggests that while certain locations received disproportionate attention, the overall campaign maintained a balance between concentrated effort on key targets and broader distribution across the enemy's economic and military infrastructure.
+
 ## Additional Visualizations and Exploratory Analysis
 
 In addition to the analyses presented above, we conducted numerous exploratory visualizations to examine different aspects of the bombing campaign data. These visualizations, while not all included in the main analysis, provide supplementary perspectives on the strategic bombing operations. The complete collection of visualization scripts and output files is available in the repository for researchers interested in further exploration.
